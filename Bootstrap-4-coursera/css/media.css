@@ -1,0 +1,33 @@
+@media (min-width: 576px) { 
+	.nav-item{
+	margin-top: 2px;	
+}
+}
+
+
+@media (min-width: 768px) {
+
+}
+
+
+@media (min-width: 992px) {
+	.our-history{
+	margin: 50px 0px;
+}
+.feedback-title{
+	margin-top: 30px;
+}
+.feedback-form{
+	margin: 5px 0px 50px 0px;
+}
+.facts-figures{
+	margin: 50px 0;
+}
+
+}
+
+
+@media (min-width: 1200px) {
+
+
+}
