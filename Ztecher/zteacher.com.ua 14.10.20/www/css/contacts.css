@@ -1,0 +1,160 @@
+body{
+	background: none;
+}
+header::before {
+    background: #13243a;
+    opacity: 1;
+}
+header{
+	background: none;
+	height: auto;
+}
+#contacts{
+	background-image: url(../img/pattern.png);
+	padding: 0;
+	color: #2c3038;
+	margin-bottom:100px;
+}
+.contacts__gradient {
+    background: -webkit-gradient(linear,left top, left bottom,color-stop(0, rgba(255,255,255,0.8)), color-stop(50%, rgba(255,255,255,0.95)), to(#fff));
+    background: -o-linear-gradient(top,rgba(255,255,255,0.8) 0, rgba(255,255,255,0.95) 50%, #fff 100%);
+    background: linear-gradient(to bottom,rgba(255,255,255,0.8) 0, rgba(255,255,255,0.95) 50%, #fff 100%);
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+}
+.contacts__title{
+	margin: 0 0 25px 0;
+}
+.contacts__description{
+	margin: 0 auto;
+	text-align: center;
+}
+.contacts__phone, .contacts__email{
+	margin: 50px 0 0 50px;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
+
+}
+.phone-bg, .email-bg{
+	width: 100px;
+	height: 100px;
+	background-color: #969696;
+	border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 10px 1px #000;
+	        box-shadow: 0px 0px 10px 1px #000;
+	margin-right: 50px;
+}
+.fa-phone-alt, .fa-envelope-open-text{
+	font-size: 48px;
+	color: #000;
+}
+.fa-envelope-open-text{
+	font-size: 52px;
+}
+#contacts h3{
+	font-size: 1.5rem;
+}
+.networks-title{
+	margin: 75px 0 30px 0;
+	text-align: center;
+	font-size: 2.5rem;
+}
+#contacts .row:nth-child(5) a{
+	width: 100%;
+	height: 100%;
+}
+.telegram-bg, .instagram-bg, .facebook-bg, .tiktok-bg{
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	background-color: #000;
+	-webkit-box-shadow: 0px 0px 8px 0.5px #000;
+	        box-shadow: 0px 0px 8px 0.5px #000;
+	-webkit-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+.telegram-bg i, .instagram-bg i, .facebook-bg i{
+	font-size: 32px;
+	color: #fff;
+}
+.tiktok-img{
+	background: url(../img/tiktok.png);
+	width: 50%;
+	height: 50%;
+	background-size: cover;
+}
+.telegram-bg:hover, .instagram-bg:hover, .facebook-bg:hover, .tiktok-bg:hover{
+	-webkit-box-shadow: 0px 0px 12px 1px #000;
+	        box-shadow: 0px 0px 12px 1px #000;
+}
+@-webkit-keyframes networks-rotation{
+	0%{
+		-webkit-transform: rotate(0);
+		        transform: rotate(0);
+	}
+	10%{
+		-webkit-transform: rotate(20deg);
+		        transform: rotate(20deg);
+	}
+	80%{
+		-webkit-transform: rotate(380deg);
+		        transform: rotate(380deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
+}
+@keyframes networks-rotation{
+	0%{
+		-webkit-transform: rotate(0);
+		        transform: rotate(0);
+	}
+	10%{
+		-webkit-transform: rotate(20deg);
+		        transform: rotate(20deg);
+	}
+	80%{
+		-webkit-transform: rotate(380deg);
+		        transform: rotate(380deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes networks-rotation-back{
+	0%{
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
+	80%{
+		-webkit-transform: rotate(-20deg);
+		        transform: rotate(-20deg);
+	}
+	100%{
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+}
+@keyframes networks-rotation-back{
+	0%{
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
+	80%{
+		-webkit-transform: rotate(-20deg);
+		        transform: rotate(-20deg);
+	}
+	100%{
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+}
+.bragging{
+	margin-top: 50px;
+}

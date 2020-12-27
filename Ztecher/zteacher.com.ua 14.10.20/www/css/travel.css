@@ -1,0 +1,10 @@
+.header-wrapper{
+	background: url(../img/travel-family.jpg) center bottom no-repeat;
+	background-size: cover;
+}
+.offer {
+    margin-top: 27vh;
+}
+#travel-english{
+	padding-top: 60px;
+}

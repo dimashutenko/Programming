@@ -1,0 +1,18 @@
+.header-wrapper{
+	background: url(../img/sheldon-header.jpg) right top no-repeat;
+	background-size: cover;
+}
+.offer {
+    margin-top: 20vh;
+}
+.course-title{
+	color: #bd2726;
+	font-family: "Museo Sans Cyrl 300";
+	width: 300px;
+	margin: 0 auto;
+	font-size: 72px;
+	text-shadow: none;
+}
+.young{
+	font-size: 62px;
+}
