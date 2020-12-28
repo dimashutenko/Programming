@@ -17,7 +17,7 @@ h1,h3 {
  	text-align: center;
 }
 header{
-	margin-top: 10vh;
+	margin-top: 5vh;
 }
 h1{
 	color: #6cacc5;
@@ -40,14 +40,19 @@ h3{
 .calculator-body div{
 	color: rgba(108,172,197,1);
 	transition: all 0.3s ease-in-out;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	/*background: rgba(255,255,255,0.05);*/
 	background: rgba(108,172,197,0.1);
 	display: grid;            /* new */
   	align-items: center;      /* new */
   	justify-items: center;
 }
-.calculator-body div:hover{
+.calculator-body .output{
+	background: none;
+	justify-items: end;
+	font-size: 1.5em;
+}
+.calculator-body div:hover:not(.output){
 	background: rgba(108,172,197,0.2);
 }
 .output{
