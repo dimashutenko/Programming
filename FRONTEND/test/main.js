@@ -1,4 +1,11 @@
 jQuery(document).ready(function ($) {
+    
+    $('.here').css({"display":"none"});
+    setTimeout(function(){
+        $('.dima').addClass('animation1');
+    }, 1000);
+
+
     setInterval(function () {
         moveRight();
     }, 6000);

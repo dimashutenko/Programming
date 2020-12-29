@@ -1,5 +1,6 @@
 jQuery(document).ready(function ($) {
-    var output = document.getElementById('output'), clear_output_flag=false, buffer_1=0, current_operation='';
+    var output = document.getElementById('output'), clear_output_flag=false;
+    var buffer_1=0, buffer_2=0, current_operation='';
 
     set_output = (value) => {
         if(value === Infinity || value.toString() === 'NaN'){
@@ -31,11 +32,9 @@ jQuery(document).ready(function ($) {
         }
         else if(output.innerHTML === '0'){
             output.innerHTML=Number(value);
-            console.log('output set to '+output.innerHTML);
         }
         else{
             output.innerHTML=Number(output.innerHTML.toString()+value.toString());
-            console.log('output set to '+output.innerHTML);
         }
         
     }
@@ -56,13 +55,9 @@ jQuery(document).ready(function ($) {
     clear_buffer = (buffer) => {
         buffer=0;
     };
-    func_clear_all = () => { 
-        clear_buffer(buffer_1);
-        clear_output();
-    }
 
     document.querySelectorAll('.digit').forEach(digit_button => {
-        digit_button.addEventListener('click', function(){
+        digit_button.addEventListener('click', function(){debugger
             var digit = this.innerHTML;
             console.log(digit+' clicked');
             if (clear_output_flag==true){
@@ -90,19 +85,15 @@ jQuery(document).ready(function ($) {
         switch(current_operation){
             case '+':
                 set_output(get_buffer_1()+second_value);
-                set_buffer_1(get_output());
                 break;
             case '-':
                 set_output(get_buffer_1()-second_value);
-                set_buffer_1(get_output());
                 break;
             case '*':
                 set_output(get_buffer_1()*second_value);
-                set_buffer_1(get_output());
                 break;
             case '/':
                 set_output(parseFloat(get_buffer_1())/parseFloat(second_value));
-                set_buffer_1(get_output());
                 break;
             default:
                 console.log(`Sorry, I can't '${current_operation}'`);
