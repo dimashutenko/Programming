@@ -43,6 +43,7 @@ h3{
 	color: rgba(108,172,197,1);
 	transition: all 0.3s ease-in-out;
 	font-size: 1.2em;
+	/*background: rgba(255,255,255,0.05);*/
 	background: rgba(108,172,197,0.1);
 	display: grid;            /* new */
   	align-items: center;      /* new */
