@@ -33,6 +33,9 @@ jQuery(document).ready(function ($) {
             output.innerHTML=Number(value);
             console.log('output set to '+output.innerHTML);
         }
+        else if (value.slice(-1) === '.'){
+            output.innerHTML=value;
+        }
         else{
             output.innerHTML=Number(output.innerHTML.toString()+value.toString());
             console.log('output set to '+output.innerHTML);
@@ -51,7 +54,7 @@ jQuery(document).ready(function ($) {
         console.log('buffer_1 set to '+buffer_1);
     }
     get_buffer_1 = () => {
-        return Number(buffer_1)
+        return Number(buffer_1);
     }
     clear_buffer = (buffer) => {
         buffer=0;
@@ -84,28 +87,35 @@ jQuery(document).ready(function ($) {
         });
     });
 
+    dot_clicked = () => { 
+        console.log('dot clicked');
+        set_output(get_output()+'.');
+    };
+
     equal_clicked = () => { 
-        var second_value=get_output();
+        var second_value=Number(get_output());
         clear_output();
         switch(current_operation){
             case '+':
-                set_output(get_buffer_1()+second_value);
+                set_output(Number.parseFloat(get_buffer_1()+second_value).toPrecision(10));
                 set_buffer_1(get_output());
                 break;
             case '-':
-                set_output(get_buffer_1()-second_value);
+                set_output(Number.parseFloat(get_buffer_1()-second_value).toPrecision(10));
                 set_buffer_1(get_output());
                 break;
             case '*':
-                set_output(get_buffer_1()*second_value);
+                set_output(Number.parseFloat(get_buffer_1()*second_value).toPrecision(10));
                 set_buffer_1(get_output());
                 break;
             case '/':
-                set_output(parseFloat(get_buffer_1())/parseFloat(second_value));
+                set_output(Number.parseFloat(get_buffer_1()/second_value).toPrecision(10));
                 set_buffer_1(get_output());
                 break;
             default:
                 console.log(`Sorry, I can't '${current_operation}'`);
+                set_output(second_value);
+                set_buffer_1(second_value);
         }
     }
 
