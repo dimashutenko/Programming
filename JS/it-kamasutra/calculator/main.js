@@ -6,7 +6,7 @@ jQuery(document).ready(function ($) {
             output.innerHTML='You broke it';
 
             setTimeout(function(){
-                
+                $('.calculator-body').removeClass('fade_in');
                 $('.calculator-body').addClass('fade_away');
             }, 1000);
 
