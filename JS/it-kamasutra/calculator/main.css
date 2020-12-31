@@ -46,9 +46,6 @@ h3{
   	align-items: center;      /* new */
   	justify-items: center;
 }
-.calculator-body div:hover{
-	font-weight: 600;
-}
 .calculator-body .output{
 	background: none;
 	justify-items: end;
@@ -57,6 +54,7 @@ h3{
 .calculator-body div:hover:not(.output){
 	background: rgba(108,172,197,0.2);
 	cursor: pointer;
+	font-weight: 600;
 }
 .output{
 	grid-column: 2/5;
