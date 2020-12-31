@@ -2,7 +2,7 @@ jQuery(document).ready(function ($) {
     var output = document.getElementById('output'), clear_output_flag=false, buffer_1=0, current_operation='';
 
     set_output = (value) => {
-        if(value === Infinity || value.toString() === 'NaN'){
+        if(value === Infinity || value.toString() === 'NaN' || value.toString() === '-Infinity'){
             output.innerHTML='You broke it';
 
             setTimeout(function(){
@@ -29,12 +29,17 @@ jQuery(document).ready(function ($) {
             }, 4000);
             
         }
-        else if(output.innerHTML === '0'){
+        else if(value === '0'){
             output.innerHTML=Number(value);
             console.log('output set to '+output.innerHTML);
         }
-        else if (value.slice(-1) === '.'){
+        else if (value.toString().slice(-1) === '.'){
             output.innerHTML=value;
+            console.log('output set to '+output.innerHTML);
+        }
+        else if (value <= 0 && output.innerHTML==='0'){
+            output.innerHTML=Number(value);
+            console.log('output set to '+output.innerHTML);
         }
         else{
             output.innerHTML=Number(output.innerHTML.toString()+value.toString());
@@ -97,23 +102,22 @@ jQuery(document).ready(function ($) {
         clear_output();
         switch(current_operation){
             case '+':
-                set_output(Number.parseFloat(get_buffer_1()+second_value).toPrecision(10));
+                set_output(Number.parseFloat(get_buffer_1()+second_value).toPrecision(5));
                 set_buffer_1(get_output());
                 break;
             case '-':
-                set_output(Number.parseFloat(get_buffer_1()-second_value).toPrecision(10));
+                set_output(Number.parseFloat(get_buffer_1()-second_value).toPrecision(5));
                 set_buffer_1(get_output());
                 break;
             case '*':
-                set_output(Number.parseFloat(get_buffer_1()*second_value).toPrecision(10));
+                set_output(Number.parseFloat(get_buffer_1()*second_value).toPrecision(5));
                 set_buffer_1(get_output());
                 break;
             case '/':
-                set_output(Number.parseFloat(get_buffer_1()/second_value).toPrecision(10));
+                set_output(Number.parseFloat(get_buffer_1()/second_value).toPrecision(5));
                 set_buffer_1(get_output());
                 break;
-            default:
-                console.log(`Sorry, I can't '${current_operation}'`);
+            default: 
                 set_output(second_value);
                 set_buffer_1(second_value);
         }
