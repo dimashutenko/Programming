@@ -2,31 +2,35 @@ jQuery(document).ready(function ($) {
     var output = document.getElementById('output'), clear_output_flag=false, buffer_1=0, current_operation='';
 
     set_output = (value) => {
-        if(value === Infinity || value.toString() === 'NaN' || value.toString() === '-Infinity'){
+        if(value === 'Infinity' || value.toString() === 'NaN' || value.toString() === '-Infinity'){
             output.innerHTML='You broke it';
-
+            var pause = 1000;
             setTimeout(function(){
                 $('.calculator-body').removeClass('fade_in');
                 $('.calculator-body').addClass('fade_away');
-            }, 1000);
+            }, pause);
 
             setTimeout(function(){
                 $('#reloading').css({'display':'flex'});
                 $('#reloading').addClass('fade_in_quick');
                 $('.lds-spinner div').addClass('spinner_run');
-            }, 2000);
+            }, pause*2);
 
             setTimeout(function(){
                 $('#reloading').removeClass('fade_in_quick');
                 $('#reloading').addClass('fade_away_quick');
-            }, 4000);
+            }, pause*4);
                 
 
             setTimeout(function(){
                 clear_output();
                 $('.calculator-body').addClass('fade_in');
                 $('.calculator-body').removeClass('fade_away');
-            }, 4000);
+            }, pause*4);
+
+            setTimeout(function(){
+                $('#reloading').css({'display':'none'});
+            }, pause*5);
             
         }
         else if(value === '0'){
@@ -97,7 +101,7 @@ jQuery(document).ready(function ($) {
         set_output(get_output()+'.');
     };
 
-    equal_clicked = () => { 
+    equal_clicked = () => {
         var second_value=Number(get_output());
         clear_output();
         switch(current_operation){
@@ -113,7 +117,7 @@ jQuery(document).ready(function ($) {
                 set_output(Number.parseFloat(get_buffer_1()*second_value).toPrecision(5));
                 set_buffer_1(get_output());
                 break;
-            case '/':
+            case '/': 
                 set_output(Number.parseFloat(get_buffer_1()/second_value).toPrecision(5));
                 set_buffer_1(get_output());
                 break;
