@@ -1,5 +1,6 @@
 :root{
 	--dark-blue: rgb(5,9,36);
+	--light-white:  #f7f7f7;
 }
 .animated{
 	-webkit-animation-duration: 1s;
@@ -34,14 +35,14 @@ a, input, button, .button:hover, a:hover{
 	color: #000;
 }
 .underline{
-	border-bottom: 2px solid var(--dark-blue);
+	border-bottom: 2.5px solid var(--dark-blue);
 }
 body{
 	overflow-x:hidden;
 	letter-spacing: 0;
 	font-family: Ubuntu, sans-serif;
 	color:var(--dark-blue);
-	background: #fff;
+	background:var(--light-white);
 }
 .container{
 	max-width: 90%;
@@ -116,7 +117,6 @@ nav .nav-link {
 .navbar-nav .nav-link span{
 	font-weight: 500!important;
 }
-
 .offer{
 	margin: 30vh 35vw auto 0;
 	-webkit-box-orient: horizontal;
@@ -139,8 +139,21 @@ h2{
 	text-align: center;
 	font-weight: 900;
 }
+.hard-to-see{
+	text-transform: uppercase;
+	color: var(--dark-blue);
+	opacity: 0.03;
+	position: absolute;
+	bottom: -75px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
 section{
 	padding-top: 100px;
+}
+.go-section{
+	
 }
 .go-section .container{
 	-webkit-box-orient: horizontal;
@@ -148,6 +161,10 @@ section{
 	    -ms-flex-flow: row nowrap;
 	        flex-flow: row nowrap;
 	overflow-x: hidden;
+	background: url(../img/shocked.jpg) center center;
+	background-size: cover;
+	padding: 20px 0 0 30px;
+	
 }
 .go-section__left{
 	width: 35%;
@@ -159,13 +176,14 @@ section{
 	font-weight: 900;
 	margin-bottom: 2rem;
 	text-align: left;
+	color: var(--light-white);
 }
 .go-section__description .card{
-	background-color: rgba(43,109,205,0.1);
+	background-color: rgba(255,255,255,0.75);
 }
 .go-section__description .card-header{
 	align-items: center;
-	background-color: rgba(43,109,205,0.15);
+	background-color: rgba(255,255,255,0.5);
 	padding: .5rem 1rem;
 }
 .go-section__description .card h4{

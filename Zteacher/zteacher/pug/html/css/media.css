@@ -13,6 +13,9 @@
 	h1{
 		font-size: 62px;
 	}
+	h2{
+		font-size: 50px;
+	}
 	.go-section .container{
 		max-width: 95%;
 	}
@@ -254,6 +257,9 @@
 	}
 	h1{
 		font-size: 48px;
+	}
+	h2{
+		font-size: 40px;
 	}
 	section {
     	padding-top: 100px;
@@ -542,6 +548,9 @@
 	}
 }
 @media (max-width: 768px) {
+	.underline{
+		border-bottom: 1.5px solid var(--dark-blue);
+	}
 	.container, .go-section .container{
 		max-width: 570px;
 	}
@@ -582,6 +591,14 @@
 	h1{
 		font-size: 34px;
 	}
+	h2{
+		font-size: 30px;
+	}
+	.hard-to-see{
+		position: absolute;
+		bottom: -50px;
+		left: 0;
+	}
 	section {
     	padding-top: 80px;
 	}
@@ -589,9 +606,13 @@
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
 		    -ms-flex-flow: row wrap;
-		        flex-flow: row wrap;
+				flex-flow: row wrap;
+		padding: 20px 0 0 0;
+		border: none;
+		border-bottom-right-radius: 0;
 	}
 	.go-section__left{
+		padding: 0 10px;
 		max-width: 90%;
 		min-width: 90%;
 		-webkit-box-pack: center;
