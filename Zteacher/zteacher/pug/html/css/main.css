@@ -1,3 +1,6 @@
+:root{
+	--dark-blue: rgb(5,9,36);
+}
 .animated{
 	-webkit-animation-duration: 1s;
 	        animation-duration: 1s;
@@ -30,12 +33,15 @@ a, input, button, .button:hover, a:hover{
 	text-decoration: none;
 	color: #000;
 }
+.underline{
+	border-bottom: 2px solid var(--dark-blue);
+}
 body{
 	overflow-x:hidden;
 	letter-spacing: 0;
 	font-family: Ubuntu, sans-serif;
-	color: #000;
-	background: fff;
+	color:var(--dark-blue);
+	background: #fff;
 }
 .container{
 	max-width: 90%;
@@ -80,28 +86,30 @@ nav .nav-link {
 	font-size: 1.15rem;
 }
 .navbar-light .navbar-brand *{
-	color: rgba(5,9,36,.75);
+	color: var(--dark-blue);
 	font-weight: 700;
 }
 .navbar .active a{
-	background: rgba(0,0,0,0.1);
+	background: rgba(0,0,0,0.15);
 	padding: 8px 1rem !important;
 	margin: 0 15px;
-	color: rgba(5,9,36,1)!important;
+	color: var(--dark-blue)!important;
+	opacity: 0.75;
 }
 .top-title{
   	color: #2a84cd;
 	font-size: 22px;
 }
 .navbar-nav .nav-link {
-	color: rgba(5,9,36,.75)!important;
+	color: var(--dark-blue)!important;
 	transition: all .3s ease-in-out;
 	font-family: Ubuntu, sans-serif;
 	border-radius: 20px;
+	opacity: 0.75;
 }
 .navbar-nav .nav-link:hover {
 	color: rgba(5,9,36,1)!important;
-	background: rgba(0,0,0,0.05);
+	background: rgba(0,0,0,0.1);
 	padding: 8px 1rem !important;
 	margin: 0 10px;
 }
@@ -115,7 +123,7 @@ nav .nav-link {
 	-webkit-box-direction: normal;
 	    -ms-flex-flow: row wrap;
 			flex-flow: row wrap;
-	color:  rgba(16,14,39, 1);
+	color:  var(--dark-blue);
 }
 .offer *{
 	width: 100%;
@@ -153,11 +161,11 @@ section{
 	text-align: left;
 }
 .go-section__description .card{
-	background-color: rgba(0,0,0,0.05);
+	background-color: rgba(43,109,205,0.1);
 }
 .go-section__description .card-header{
 	align-items: center;
-	background-color: rgba(0,0,0,0.1);
+	background-color: rgba(43,109,205,0.15);
 	padding: .5rem 1rem;
 }
 .go-section__description .card h4{
@@ -278,7 +286,7 @@ a.lesson:hover::after, a.lesson:focus::after, a.lesson:visited::after {
   }
 }
 .go-section__right{
-	margin: 20px 0 0 auto;
+	margin: auto 0 auto auto;
 	width: 60%;
 	overflow-x: hidden;
 	margin-left: auto;
@@ -301,7 +309,6 @@ a.lesson:hover::after, a.lesson:focus::after, a.lesson:visited::after {
 .videoSlider-controls .carousel-control-next, .videoSlider-controls .carousel-control-prev{
 	height: 40px;
 	width: 40px;
-	border: 2px solid black;
 	position: relative;
 	margin: 10px auto 0 auto;
 	justify-content: center;
@@ -311,6 +318,10 @@ a.lesson:hover::after, a.lesson:focus::after, a.lesson:visited::after {
 }
 #videoSlider .carousel-inner{
 	padding: 0;
+	height: 100%;
+}
+#videoSlider .carousel-item{
+	height: 100%;
 }
 /*______________________products____________________*/
 #products{
