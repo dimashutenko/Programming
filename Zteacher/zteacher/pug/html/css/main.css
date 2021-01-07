@@ -49,16 +49,29 @@ body{
 }
 header{
 	height: 100vh;
-	background: url(../img/bridge1.jpg) center center;
-	background-size: cover;
+	/* background: url(../img/bridge1.jpg) center center;
+	background-size: cover; 
     -webkit-box-shadow: 0px 0px 50px rgba(14,11,27,1);
-            box-shadow: 0px 10px 50px rgba(14,11,27,1);
+			box-shadow: 0px 10px 50px rgba(14,11,27,1);
+			*/
 }
+#bgvid {
+	object-fit: cover;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+  }
 .navbar{
 	transition: all .5s ease-in-out;
-}
-.bg-dark-primary{
-	background: rgba(16,14,39, 0.95)!important; 
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	width: 100%;
+	height: 80px;
+	z-index: 1;
 }
 .bg-dark{
 	background: rgba(16,14,39, 1)!important; 
@@ -66,74 +79,38 @@ header{
 nav .nav-link {
 	font-size: 1.15rem;
 }
-nav a.telegram{
-	margin-left: 0;
+.navbar-light .navbar-brand *{
+	color: rgba(5,9,36,.75);
+	font-weight: 700;
 }
-.navigation{
-	z-index: 3;
-	cursor: default;
-	height: 80px;
-}
-.navbar-dark .navbar-toggler {
-     border-color: rgba(0,0,0,0); 
+.navbar .active a{
+	background: rgba(0,0,0,0.1);
+	padding: 8px 1rem !important;
+	margin: 0 15px;
+	color: rgba(5,9,36,1)!important;
 }
 .top-title{
   	color: #2a84cd;
 	font-size: 22px;
 }
-nav a.facebook, nav a.instagram, nav a.telegram{
-	width: 42px;
-	height: 42px;
-	border-radius: 14px;
-	background: -o-linear-gradient(315deg, rgba(42,137,205,1) 0%, rgba(42,170,221,1) 50%, rgba(37,217,241,1) 100%);
-	background: linear-gradient(135deg, rgba(42,137,205,1) 0%, rgba(42,170,221,1) 50%, rgba(37,217,241,1) 100%);
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	font-size: 30px;
-	color: #000;
-	-webkit-transition: all 0.05s ease-in-out;
-	-o-transition: all 0.05s ease-in-out;
-	transition: all 0.05s ease-in-out;
+.navbar-nav .nav-link {
+	color: rgba(5,9,36,.75)!important;
+	transition: all .3s ease-in-out;
+	font-family: Ubuntu, sans-serif;
+	border-radius: 20px;
 }
-nav a.instagram{
-	font-size: 34px;
-	margin-right: 20px;
+.navbar-nav .nav-link:hover {
+	color: rgba(5,9,36,1)!important;
+	background: rgba(0,0,0,0.05);
+	padding: 8px 1rem !important;
+	margin: 0 10px;
 }
-nav a.telegram:hover, a.instagram:hover, a.facebook:hover{
-	color: #fff;
+.navbar-nav .nav-link span{
+	font-weight: 500!important;
 }
-nav a.facebook:hover{
-  	background: #3b579d;
-}
-nav a.instagram:hover{
-	background-size: 42px 42px;
-  	background: #f09433;
-    background: -o-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-}
-nav a:hover{
-	text-decoration: none;
-}
-nav a.telegram{
-	margin-right: 20px;
-	margin-left: auto;
-	font-size: 32px;
-	border-radius: 21px;
-	padding-right: 2px;
-}
-nav a.telegram:hover{
-  	background: #35abe7;
-}
+
 .offer{
-	margin-top: 20vh;
+	margin: 30vh 35vw auto 0;
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
 	    -ms-flex-flow: row wrap;
@@ -142,10 +119,10 @@ nav a.telegram:hover{
 }
 .offer *{
 	width: 100%;
-	text-align: right;
+	text-align: center;
 }
 h1{
-	font-size: 72px;
+	font-size: 58px;
 	text-align: center;
 	font-weight: 900;
 }
@@ -155,7 +132,7 @@ h2{
 	font-weight: 900;
 }
 section{
-	padding-top: 150px;
+	padding-top: 100px;
 }
 .go-section .container{
 	-webkit-box-orient: horizontal;
@@ -173,6 +150,7 @@ section{
 	line-height: 50px;
 	font-weight: 900;
 	margin-bottom: 2rem;
+	text-align: left;
 }
 .go-section__description .card{
 	background-color: rgba(0,0,0,0.05);
@@ -939,7 +917,7 @@ a.telegram-bot{
 /*-----------------------------*/
 footer{
 	margin-top: 100px;
-	padding: 10px 5px;
+	padding: 20px 5px 10px 5px;
 	background: #100e17;
 	color: #fff;
 	-webkit-box-shadow: 0px -10px 35px rgba(14,11,27,1);
@@ -953,8 +931,8 @@ footer p{
 	line-height: 50px;
 	font-size: 18px;
 }
-footer h5{
-	margin-bottom: 1rem;
+.footer-navigation{
+	font-size: 18px;
 }
 footer a{
 	color: #fff;
@@ -963,6 +941,10 @@ footer a{
 footer a:hover{
 	color: rgb(255, 195, 49);
 }
+.footer-socials a{
+	margin: 0 10px;
+}
+
 .btn-telegram, .fa-instagram{
 	color: #fff;
 }

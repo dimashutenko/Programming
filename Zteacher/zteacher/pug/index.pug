@@ -2,11 +2,13 @@ extends main_template.pug
 
 block content
 	header#header.header
+		video#bgvid(playsinline='' autoplay='' muted='' loop='' poster='img/static-bridge.jpg')
+			source(src='img/bridge.webm' type='video/webm')
+			source(src='img/video-bridge.mp4' type='video/mp4')
 		.header-wrapper.d-flex.h-100
 			.container
-				.offer.d-flex.justify-content-end.align-items-center.animated.fadeInUp.mt-100
-					h2 Ми не просто школа,
-					h1 ми — community
+				.offer.d-flex.justify-content-end.align-items-center.animated.fadeInUp
+					
 	section.go-section
 		.container.d-flex
 			.go-section__left.flex.animated

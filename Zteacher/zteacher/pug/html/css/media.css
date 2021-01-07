@@ -423,7 +423,6 @@
 	}
 	.list__item .decription, .go-section__description{
 		font-size: 18px;
-		margin-top: 12px;
 	}
 	.list__item .title::before{
 		height: 35px;
@@ -602,7 +601,7 @@
 	.go-section__title{
 		font-size: 26px;
 		line-height: 30px;
-		width: 320px;
+		width: 100%;
 		text-align: center;
 		margin: 0 auto;
 	}
@@ -726,7 +725,6 @@
 	}
 	.list__item .decription, .go-section__description{
 		font-size: 17px;
-		margin-top: 10px;
 	}
 	.list__item .decription{
 		line-height: 1.4;
@@ -1041,9 +1039,6 @@
 	.go-section__left{
 		max-width: 100%;
 		min-width: 100%;
-	}
-	.go-section__title {
-    	width: 100%;
 	}
 	.go-section__right{
 		position: relative;
