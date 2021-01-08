@@ -118,11 +118,68 @@ $(document).ready( function() {
         player7.pauseVideo();
         //player8.pauseVideo();
     };
-
-
- 
-
     /* ----------videos--------*/
+
+
+    /* ----------secret box--------*/
+    var message_to_show = $(".secret-message")[0];
+    $(".school-advantage").on("mouseover", function (){
+        if($("#digital-approach").is(':hover')){
+            message_to_show.classList.remove('opacity-to-one');
+            message_to_show.classList.add('opacity-to-zero');
+            setTimeout(() => {
+                message_to_show.innerHTML = "Сучасні студенти потребують сучасного підходу до навчання :)";
+                message_to_show.classList.remove('opacity-to-zero');
+                message_to_show.classList.add('opacity-to-one');
+            }, 500);
+            
+            
+        } 
+        if($("#students_interests").is(':hover')){ 
+            message_to_show.classList.remove('opacity-to-one');
+            message_to_show.classList.add('opacity-to-zero');
+            setTimeout(() => {
+                message_to_show.innerHTML = `Бажання студентів знаходяться в центрі нашої уваги, ми flexible — тому і такі круті!`;
+                message_to_show.classList.remove('opacity-to-zero');
+                message_to_show.classList.add('opacity-to-one');
+            }, 500);
+            
+        } 
+        if($("#creative_teachers").is(':hover')){ 
+            message_to_show.classList.remove('opacity-to-one');
+            message_to_show.classList.add('opacity-to-zero');
+            setTimeout(() => {
+                message_to_show.innerHTML = `Навчаємо з завдоволенням, а не заставляємо "зубрити".`;
+                message_to_show.classList.remove('opacity-to-zero');
+                message_to_show.classList.add('opacity-to-one');
+            }, 500);
+            
+        }
+        if($("#horison_expansion").is(':hover')){ 
+            message_to_show.classList.remove('opacity-to-one');
+            message_to_show.classList.add('opacity-to-zero');
+            setTimeout(() => {
+                message_to_show.innerHTML = `Ми віримо, що нашою ціллю є дещо більше ніж вивчення миви.`;
+                message_to_show.classList.remove('opacity-to-zero');
+                message_to_show.classList.add('opacity-to-one');
+            }, 500);
+            
+        }
+        if($("#modern_trends").is(':hover')){ 
+            message_to_show.classList.remove('opacity-to-one');
+            message_to_show.classList.add('opacity-to-zero');
+            setTimeout(() => {
+                message_to_show.innerHTML = `Змінюється світ, разом з ним і мова. Ми проти академізму, використовуємо сленг та слідкуємо за сучасними трендами.`;
+                message_to_show.classList.remove('opacity-to-zero');
+                message_to_show.classList.add('opacity-to-one');
+            }, 500);
+            
+        }
+        
+    });
+
+
+    /* ----------secret box--------*/
 
     if($(window).width() < 960)
     {
