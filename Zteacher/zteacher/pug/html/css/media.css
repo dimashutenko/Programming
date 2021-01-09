@@ -14,21 +14,16 @@
 		font-size: 62px;
 	}
 	h2{
-		font-size: 50px;
+		
 	}
-	.go-section .container{
+	.lessons .container{
 		max-width: 95%;
 	}
-	.go-section__title{
-		font-size: 38px;
-		line-height: 40px;
-	}
-	.go-section__left{
+	.lessons__left{
 	}
 	a.lesson{
-		width: 290px;
-		padding: 10px 25px;
-		font-size: 22px;
+		width: 230px;
+		font-size: 17px;
 	}
 	a.lesson:hover, a.lesson:focus {
 	  border: 1.5px solid #000;
@@ -61,8 +56,8 @@
 	 	border: 4px solid rgba(0,0,0,0.5);
 	  }
 	}
-	.go-section__right{
-		height: 500px;
+	.lessons__right{
+		
 	}
 	/*______________________products____________________*/
 	.row-0, .row-1, .row-2, .row-3, .row-4{
@@ -139,7 +134,7 @@
 		margin-right: auto;
 		width: 48%;
 	}
-	.list__item .decription, .go-section__description{
+	.list__item .decription, .lessons__description{
 		font-size: 20px;
 		margin-top: 15px;
 	}
@@ -259,48 +254,13 @@
 		font-size: 48px;
 	}
 	h2{
-		font-size: 40px;
+		
 	}
 	section {
     	padding-top: 100px;
 	}
-	.go-section__title{
-		font-size: 28px;
-		line-height: 30px;
-	}
-	.go-section__left{
+	.lessons__left{
 		max-width: 50%;
-	}
-	.go-section__description .card h4{
-		font-size: 1rem;
-	}
-	.go-section__description .card h4:before{
-	content: '';
-	height: 30px;
-	width: 30px;
-}
-.go-section__description .card:nth-child(1) h4:before{
-	background: url(../img/emoji1.jpeg) center center no-repeat;
-	background-size: 30px 30px;
-}
-.go-section__description .card:nth-child(2) h4:before{
-	background: url(../img/emoji2.jpeg) center center no-repeat;
-	background-size: 30px 30px;
-}
-.go-section__description .card:nth-child(3) h4:before{
-	background: url(../img/emoji3.jpeg) center center no-repeat;
-	background-size: 30px 30px;
-}
-.go-section__description .card:nth-child(4) h4:before{
-	background: url(../img/emoji4.jpeg) center center no-repeat;
-	background-size: 30px 30px;
-}
-.go-section__description .card:nth-child(5) h4:before{
-	background: url(../img/emoji5.jpeg) center center no-repeat;
-	background-size: 30px 30px;
-}
-	.go-section__description p{
-		font-size: 0.9rem;
 	}
 	a.lesson{
 		width: 270px;
@@ -350,10 +310,10 @@
 	 	border: 3.5px solid rgba(0,0,0,0.5);
 	  }
 	}
-	.go-section__right{
+	.lessons__right{
 		height: 525px;
 	}
-	.go-section__right .row:first-child{
+	.lessons__right .row:first-child{
 		height: 340px;
 	}
 /*______________________products____________________*/
@@ -427,7 +387,7 @@
 	.title-1-span, .title-5-span{
 		margin-left: 48px;
 	}
-	.list__item .decription, .go-section__description{
+	.list__item .decription, .lessons__description{
 		font-size: 18px;
 	}
 	.list__item .title::before{
@@ -551,7 +511,7 @@
 	.underline{
 		border-bottom: 1.5px solid var(--dark-blue);
 	}
-	.container, .go-section .container{
+	.container, .lessons .container{
 		max-width: 570px;
 	}
 	header .container{
@@ -592,7 +552,7 @@
 		font-size: 34px;
 	}
 	h2{
-		font-size: 30px;
+		
 	}
 	.hard-to-see{
 		position: absolute;
@@ -602,7 +562,19 @@
 	section {
     	padding-top: 80px;
 	}
-	.go-section .container{
+	#lessons{
+		margin-top: 80px;
+		padding: 40px;
+	}
+	#lessons:before{
+		top: -20px;
+		left: 0;
+		height: 20px;
+	}
+	#lessons:after{
+		display: none;
+	}
+	.lessons .container{
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
 		    -ms-flex-flow: row wrap;
@@ -611,7 +583,7 @@
 		border: none;
 		border-bottom-right-radius: 0;
 	}
-	.go-section__left{
+	.lessons__left{
 		padding: 0 10px;
 		max-width: 90%;
 		min-width: 90%;
@@ -619,12 +591,14 @@
 		    -ms-flex-pack: center;
 		        justify-content: center;
 	}
-	.go-section__title{
-		font-size: 26px;
-		line-height: 30px;
+	.lessons__left .content{
+		padding: 0.5rem;
+	}
+	.lessons__title{
 		width: 100%;
 		text-align: center;
-		margin: 0 auto;
+		margin-bottom: 1rem;
+		font-size: 26px;
 	}
 	a.lesson{
 		width: 260px;
@@ -670,7 +644,7 @@
 	 	border: 3.5px solid rgba(0,0,0,0.5);
 	  }
 	}
-	.go-section__right{
+	.lessons__right{
 		width: 100%;
 		margin: 5px auto 0 auto;
 	}
@@ -744,7 +718,7 @@
 		line-height: 30px;
 		margin-top: 2%;
 	}
-	.list__item .decription, .go-section__description{
+	.list__item .decription, .lessons__description{
 		font-size: 17px;
 	}
 	.list__item .decription{
@@ -1051,22 +1025,22 @@
 		display: block;
 		margin: 0 -10px;
 	}
-	.go-section .container{
+	.lessons .container{
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
 		    -ms-flex-flow: row wrap;
 		        flex-flow: row wrap;
 	}
-	.go-section__left{
+	.lessons__left{
 		max-width: 100%;
 		min-width: 100%;
 	}
-	.go-section__right{
+	.lessons__right{
 		position: relative;
 		height: 400px;
 		margin-top: 20px;
 	}
-	.go-section__right .row:first-child{
+	.lessons__right .row:first-child{
 		height: 210px;
 	}
 	a.lesson{

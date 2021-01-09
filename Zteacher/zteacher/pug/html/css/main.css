@@ -1,6 +1,7 @@
 :root{
 	--dark-blue: rgb(5,9,36);
 	--light-white:  #f7f7f7;
+	--blue:  #5782d0;
 }
 .animated{
 	-webkit-animation-duration: 1s;
@@ -16,6 +17,7 @@
 }
 h1,h2,h3,h4,h5{
 	margin:0;
+	font-weight: 900;
 }
 ul {
 	margin: 0;
@@ -36,6 +38,9 @@ a, input, button, .button:hover, a:hover{
 }
 .underline{
 	border-bottom: 2.5px solid var(--dark-blue);
+}
+.blue{
+	color: var(--blue);
 }
 body{
 	overflow-x:hidden;
@@ -132,17 +137,14 @@ nav .nav-link {
 h1{
 	font-size: 58px;
 	text-align: center;
-	font-weight: 900;
 }
 h2{
-	font-size: 54px;
-	text-align: center;
-	font-weight: 900;
+	
 }
 .hard-to-see{
 	text-transform: uppercase;
 	color: var(--dark-blue);
-	opacity: 0.03;
+	opacity: 0.04;
 	position: absolute;
 	bottom: -75px;
 	left: 0;
@@ -152,19 +154,31 @@ h2{
 section{
 	padding-top: 100px;
 }
+#intro{
+	background-image:  url(../img/pattern2.png);
+	background-position: 0 30px;
+}
+.background-gradient-intro{
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(247,247,247,.8)),color-stop(50%,rgba(247,247,247,.9)),to(var(--light-white)));
+    background: -o-linear-gradient(top,rgba(247,247,247,.8) 0,rgba(255,255,255,.9) 50%,#fff 100%);
+    background: linear-gradient(to bottom,rgba(247,247,247,.8) 0,rgba(247,247,247,.9) 50%,var(--light-white) 100%);
+    width: 100%;
+    height: 100%;
+}
 .school-advantage {
 	margin: 20px;
 	justify-content: center;
 	display: flex;
+	color:  #5782d0;
 }
-
+.school-advantage span{
+	
+}
 .school-advantage h4{
 	text-align: center;
 	border: 2px solid #5782d0;
 	padding: 10px 20px;
 	border-radius: 20px;
-	color:  #5782d0;
-	position: relative;
 	box-shadow: 5px 5px 10px 0px rgba(87,130,208,0.5);
 	transition: all 0.3s ease-in-out;
 }
@@ -174,11 +188,11 @@ section{
 	background:  #5782d0;
 	box-shadow: none;
 }
-.secter-box{
-	height: 100px;
+.secret-box{
+	height: 125px;
 	border: 3px solid var(--dark-blue);
 }
-.secter-box h3{
+.secret-box h3{
 	color: var(--dark-blue);
 	text-align: center;
 }
@@ -204,82 +218,54 @@ section{
 .opacity-to-one{
 	animation: opacity-to-one 0.5s forwards;
 }
-.go-section{
-	
+#lessons{
+	background: url(../img/stripes.png);
+	background-size: cover;
+	position: relative;
+	margin-top: 100px;
+	padding-bottom: 80px;
 }
-.go-section .container{
+#lessons:before{
+	position: absolute;
+	content: '';
+	display: flex;
+	top: -40px;
+	left: 0;
+	height: 40px;
+	width: 100%;
+	background-color: var(--dark-blue);
+}
+#lessons:after{
+	position: absolute;
+	content: '';
+	display: flex;
+	bottom: -40px;
+	left: 0;
+	height: 40px;
+	width: 100%;
+	background-color: var(--dark-blue);
+}
+#lessons .container{
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
-	    -ms-flex-flow: row nowrap;
-	        flex-flow: row nowrap;
+	    -ms-flex-flow: row wrap;
+	        flex-flow: row wrap;
 	overflow-x: hidden;
-	background: url(../img/shocked.jpg) center center;
-	background-size: cover;
-	padding: 20px 0 0 30px;
 	
 }
-.go-section__left{
-	width: 35%;
+.lessons__left{
+	width: 30%;
 	overflow: hidden;
+	background: var(--light-white);
+	border: 8px dashed #5782d0;
 }
-.go-section__title{
-	font-size: 48px;
-	line-height: 50px;
-	font-weight: 900;
-	margin-bottom: 2rem;
-	text-align: left;
-	color: var(--light-white);
+.lessons__left .content{
+	padding: 2rem;
+	text-align: center;
+	flex-flow: row wrap;
 }
-.go-section__description .card{
-	background-color: rgba(255,255,255,0.75);
-}
-.go-section__description .card-header{
-	align-items: center;
-	background-color: rgba(255,255,255,0.5);
-	padding: .5rem 1rem;
-}
-.go-section__description .card h4{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	align-items: center;
-}
-.go-section__description .card  a:hover{
-	cursor: pointer;
-}
-.go-section__description .card h4:before{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	content: '';
-	height: 40px;
-	width: 40px;
-	margin-right: 20px;
-	align-self: center;
-}
-.go-section__description .card:nth-child(1) h4:before{
-	background: url(../img/emoji1.jpeg) center center no-repeat;
-	background-size: 40px 40px;
-}
-.go-section__description .card:nth-child(2) h4:before{
-	background: url(../img/emoji2.jpeg) center center no-repeat;
-	background-size: 40px 40px;
-}
-.go-section__description .card:nth-child(3) h4:before{
-	background: url(../img/emoji3.jpeg) center center no-repeat;
-	background-size: 40px 40px;
-}
-.go-section__description .card:nth-child(4) h4:before{
-	background: url(../img/emoji4.jpeg) center center no-repeat;
-	background-size: 40px 40px;
-}
-.go-section__description .card:nth-child(5) h4:before{
-	background: url(../img/emoji5.jpeg) center center no-repeat;
-	background-size: 40px 40px;
-}
-.go-section__description p{
-	font-size: 1.1rem;
-	margin-bottom: 0.5rem;
+.lessons__title{
+	margin-bottom: 2.5rem;
 }
 a.lesson{
 	width: 310px;
@@ -295,9 +281,9 @@ a.lesson{
 	        align-items: center;
 	color: #000;
 	margin: 60px auto 40px 40px;
-	padding: 10px 25px;
+	padding: 10px 20px;
 	border-radius: 30px;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 400;
 	cursor: pointer;
 	-webkit-box-shadow: 0px 12px 25px -4px rgba(0,0,0, 0.25);
@@ -355,20 +341,23 @@ a.lesson:hover::after, a.lesson:focus::after, a.lesson:visited::after {
  	border: 5px solid rgba(0,0,0,0.5);
   }
 }
-.go-section__right{
+#lessons a{
+	background-color: var(--light-white);
+}
+.lessons__right{
 	margin: auto 0 auto auto;
-	width: 60%;
+	width: 65%;
 	overflow-x: hidden;
 	margin-left: auto;
 	border-radius: 3%;
 }
-.go-section__right .row:first-child{
+.lessons__right .row:first-child{
 	height: 410px;
 	margin-left: 0;
 	margin-right: 0;
-	background: #000;
+	background: var(--dark-blue);
 }
-.go-section__right .col{
+.lessons__right .col{
 	padding: 0;
 }
 .videoSlider-controls{
@@ -382,6 +371,10 @@ a.lesson:hover::after, a.lesson:focus::after, a.lesson:visited::after {
 	position: relative;
 	margin: 10px auto 0 auto;
 	justify-content: center;
+	background-color: var(--light-white);
+	border: 2px solid var(--dark-blue);
+	border-radius: 50%;
+	color: var(--dark-blue);
 }
 #videoSlider{
 	height: 100%;
@@ -615,6 +608,11 @@ a.lesson:hover::after, a.lesson:focus::after, a.lesson:visited::after {
 	}
 }
 /*_____________________________________________________*/
+/* courses */
+#products .courses{
+	padding: 20px 0;
+}
+/* courses */
 #merits{
 	overflow-x: hidden;
 }
@@ -1004,6 +1002,12 @@ footer{
 	-webkit-box-shadow: 0px -10px 35px rgba(14,11,27,1);
 	        box-shadow: 0px -10px 35px rgba(14,11,27,1);
 }
+footer .links-list li{
+	padding-bottom: 10px;
+}
+footer h5 a{
+	font-weight: 500;
+}
 footer p{
 	margin-bottom: 0;
 	display: -webkit-box;
@@ -1057,7 +1061,8 @@ footer a:hover{
 	font-size: 12px;
 }
 .freepic{
-	line-height: 20px;
+	font-size: 10px;
+	line-height: 15px;
 }
 .freepic a{
 	color: #000;

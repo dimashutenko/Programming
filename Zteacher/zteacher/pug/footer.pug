@@ -3,22 +3,24 @@ footer#footer.footer.bg-dark.animated
     .row
       .footer-navigation.d-none.d-md-flex.col-4.offset-md-1.col-md-2
         //- h5 Links
-        ul.list-unstyled
+        ul.links-list
           li
-            a(href='./index.html') Головна
+            h5
+              a(href='./index.html') Головна
           li
-            a(href='./index.html#products') Курси
+             h5
+              a(href='./index.html#products') Курси
           li
-            a(href='./index.html#merits') Підхід
-          li
-            a(href='./contacts.html') Контакти
+             h5
+              a(href='./index.html#merits') Підхід
       .col-8.col-sm-5
-        h5 Контакти
+        h5 
+          a(href='./contacts.html') Контакти
         div.mt-3
-          i.fa.fa-phone.fa-lg
+          i.mr-1.fa.fa-phone.fa-lg
           a(href='tel:+380958803379')  +380 95 880 3379
           br
-          i.fa.fa-envelope.fa-lg
+          i.mr-2.fa.fa-envelope.fa-lg
           a(href='mailto:nina30111980@gmail.com')  nina30111980@gmail.com
           br
       .col-12.col-sm-4.align-self-center
@@ -41,7 +43,7 @@ footer#footer.footer.bg-dark.animated
         p.freepic.d-flex.justify-content-center
           a(href='https://www.freepik.com')
             | Vector images by www.freepik.com
-        p &copy; Copyright 2020 Zteacher Language School
+        p &copy; Copyright 2021 Zteacher Language School
   // build:js js/scripts.js
   script(src='node_modules/jquery/dist/jquery.slim.min.js')
   script(src='node_modules/popper.js/dist/umd/popper.min.js')

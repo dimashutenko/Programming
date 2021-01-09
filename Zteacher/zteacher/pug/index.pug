@@ -9,76 +9,80 @@ block content
 			.container
 				.offer.d-flex.justify-content-end.align-items-center.animated.fadeInUp
 		h2.hard-to-see #Zteacher rocks			
-	section.section
-		.container
-			.row.d-flex.justify-content-center.align-items-center
-				.col-12.col-sm-6.col-lg-4
-					.school-advantage#digital-approach
-						h4 Digital-підхід
-				.col-12.col-sm-6.col-lg-4
-					.school-advantage#students_interests
-						h4 Враховуємо інтереси студентів
-				.col-12.col-sm-6.col-lg-4
-					.school-advantage#creative_teachers
-						h4 Креативні викладачі
-				.col-12.col-sm-6.col-lg-4
-					.school-advantage#horison_expansion
-						h4 Розширення кругозору
-				.col-12.col-sm-6.col-lg-4
-					.school-advantage#modern_trends
-						h4 Сленг та сучасні тренди
-			.row
-				.col
-					.secter-box.d-flex.justify-content-center.align-items-center.w-100.rounded.mt-5
-						h3.secret-message Залюбки розповімо вам про нас, обирайте пункт!
+	section.section#intro
+		.background-gradient-intro
+			.container
+				.row.d-flex.justify-content-center.align-items-center
+					.col-12.col-sm-6.col-lg-4
+						.school-advantage.d-flex#digital-approach
+							h4 Digital-підхід
+					.col-12.col-sm-6.col-lg-4
+						.school-advantage#students_interests
+							h4 Враховуємо інтереси студентів
+					.col-12.col-sm-6.col-lg-4
+						.school-advantage#creative_teachers
+							h4 Креативні викладачі
+					.col-12.col-sm-6.col-lg-4
+						.school-advantage#horison_expansion
+							h4 Розширення кругозору
+					.col-12.col-sm-6.col-lg-4
+						.school-advantage#modern_trends
+							h4 Сленг та сучасні тренди
+				.row.d-none.d-md-flex
+					.col
+						.secret-box.d-flex.justify-content-center.align-items-center.w-100.rounded.mt-5
+							h3.secret-message Залюбки розповімо вам про нас, обирайте пункт!
 
 
-	section.go-section.fadeIn
-		.container.d-flex.justify-content-center
-			.go-section__left.flex.animated
-				.row
-					.col
-						h2.go-section__title Запрошуємо на наші уроки!
-						#accordion.go-section__description
-				
-				.row.d-none.d-lg-flex
-					a.lesson(href='https://forms.gle/Fng8uhescTHZJA5C8' target='_self') Хочу на пробний урок!
-			.go-section__right.flex.animated
-				.row
-					.col
-						#videoSlider.carousel.slide(data-ride='carousel' data-pause='hover')
-							.carousel-inner(role='listbox')
-								.carousel-item.active
-									#player1
-									// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/EPrfAAcATpo?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow=" autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								.carousel-item
-									#player2
-									// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/rBmwiuFCKDc?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								.carousel-item
-									#player3
-									// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/Q1HJWz0ZPzA?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								.carousel-item
-									#player4
-									// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/U8iV7-ryWTM?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								.carousel-item
-									#player5
-									// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/jxHRecQDBU0?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								.carousel-item
-									#player6
-									// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/VEAnSCka81c?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								.carousel-item
-									#player7
-									// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/vFX2Ynnff38?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				.row
-					.col
-						.videoSlider-controls
-							a.carousel-control-prev(href='#videoSlider' role='button' data-slide='prev')
-								i.fas.fa-angle-left
-							a.carousel-control-next(href='#videoSlider' role='button' data-slide='next')
-								i.fas.fa-angle-right
-				.row.d-flex.d-lg-none
-					a.lesson(href='https://forms.gle/Fng8uhescTHZJA5C8' target='_self') Хочу на пробний урок!
-	
+	section.section.fadeIn#lessons
+		.background-gradient-lessons
+			.container.d-flex.justify-content-center
+				.lessons__left.flex.animated
+					.row
+						.col
+							.content.d-flex.align-items-between
+								h2.lessons__title Уроки в Zteacher
+								p 
+									span.d-none.d-md-flex Краще один раз побачити ніж тисячу разів почути. Згодні? 
+									span Запрошуємо подивитись в якій атмосфері проходять наші уроки. 
+					.row.d-none.d-lg-flex
+						a.lesson(href='https://forms.gle/Fng8uhescTHZJA5C8' target='_self') Хочу на пробний урок!
+				.lessons__right.flex.align-items-center.animated
+					.row
+						.col
+							#videoSlider.carousel.slide(data-ride='carousel' data-pause='hover')
+								.carousel-inner(role='listbox')
+									.carousel-item.active
+										#player1
+										// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/EPrfAAcATpo?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow=" autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									.carousel-item
+										#player2
+										// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/rBmwiuFCKDc?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									.carousel-item
+										#player3
+										// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/Q1HJWz0ZPzA?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									.carousel-item
+										#player4
+										// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/U8iV7-ryWTM?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									.carousel-item
+										#player5
+										// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/jxHRecQDBU0?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									.carousel-item
+										#player6
+										// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/VEAnSCka81c?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									.carousel-item
+										#player7
+										// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/vFX2Ynnff38?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					.row
+						.col
+							.videoSlider-controls
+								a.carousel-control-prev(href='#videoSlider' role='button' data-slide='prev')
+									i.fas.fa-angle-left
+								a.carousel-control-next(href='#videoSlider' role='button' data-slide='next')
+									i.fas.fa-angle-right
+					.row.d-flex.d-lg-none
+						a.lesson(href='https://forms.gle/Fng8uhescTHZJA5C8' target='_self') Хочу на пробний урок!
+		
 
 
 

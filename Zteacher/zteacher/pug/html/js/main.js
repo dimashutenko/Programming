@@ -124,7 +124,7 @@ $(document).ready( function() {
     /* ----------secret box--------*/
     var message_to_show = $(".secret-message")[0];
     $(".school-advantage").on("mouseover", function (){
-        if($("#digital-approach").is(':hover')){
+        if($("#digital-approach h4").is(':hover')){
             message_to_show.classList.remove('opacity-to-one');
             message_to_show.classList.add('opacity-to-zero');
             setTimeout(() => {
@@ -135,7 +135,7 @@ $(document).ready( function() {
             
             
         } 
-        if($("#students_interests").is(':hover')){ 
+        if($("#students_interests h4").is(':hover')){ 
             message_to_show.classList.remove('opacity-to-one');
             message_to_show.classList.add('opacity-to-zero');
             setTimeout(() => {
@@ -145,7 +145,7 @@ $(document).ready( function() {
             }, 500);
             
         } 
-        if($("#creative_teachers").is(':hover')){ 
+        if($("#creative_teachers h4").is(':hover')){ 
             message_to_show.classList.remove('opacity-to-one');
             message_to_show.classList.add('opacity-to-zero');
             setTimeout(() => {
@@ -155,7 +155,7 @@ $(document).ready( function() {
             }, 500);
             
         }
-        if($("#horison_expansion").is(':hover')){ 
+        if($("#horison_expansion h4").is(':hover')){ 
             message_to_show.classList.remove('opacity-to-one');
             message_to_show.classList.add('opacity-to-zero');
             setTimeout(() => {
@@ -165,7 +165,7 @@ $(document).ready( function() {
             }, 500);
             
         }
-        if($("#modern_trends").is(':hover')){ 
+        if($("#modern_trends h4").is(':hover')){ 
             message_to_show.classList.remove('opacity-to-one');
             message_to_show.classList.add('opacity-to-zero');
             setTimeout(() => {
@@ -187,7 +187,7 @@ $(document).ready( function() {
 
 
 		$(window).scroll(function() {
-    	    $('.go-section__left').each(function(){
+    	    $('.lessons__left').each(function(){
     	        var imagePos = $(this).offset().top;
 
     	        var topOfWindow = $(window).scrollTop();
@@ -197,7 +197,7 @@ $(document).ready( function() {
     	    });
     	});
     	$(window).scroll(function() {
-    	    $('.go-section__right').each(function(){
+    	    $('.lessons__right').each(function(){
     	        var imagePos = $(this).offset().top;
 
     	        var topOfWindow = $(window).scrollTop();
@@ -207,7 +207,7 @@ $(document).ready( function() {
     	    });
     	});
     	$(window).scroll(function() {
-    	    $('.go-section__description span').each(function(){
+    	    $('.lessons__description span').each(function(){
     	        var imagePos = $(this).offset().top;
 
     	        var topOfWindow = $(window).scrollTop();
@@ -463,7 +463,7 @@ $(document).ready( function() {
 	}else{ //more tham 960px
 
 		$(window).scroll(function() {
-    	    $('.go-section__left').each(function(){
+    	    $('.lessons__left').each(function(){
     	        var imagePos = $(this).offset().top;
 
     	        var topOfWindow = $(window).scrollTop();
@@ -473,7 +473,7 @@ $(document).ready( function() {
     	    });
     	});
     	$(window).scroll(function() {
-    	    $('.go-section__right').each(function(){
+    	    $('.lessons__right').each(function(){
     	        var imagePos = $(this).offset().top;
 
     	        var topOfWindow = $(window).scrollTop();
@@ -483,7 +483,7 @@ $(document).ready( function() {
     	    });
     	});
     	$(window).scroll(function() {
-    	    $('.go-section__description span').each(function(){
+    	    $('.lessons__description span').each(function(){
     	        var imagePos = $(this).offset().top;
 
     	        var topOfWindow = $(window).scrollTop();
