@@ -879,6 +879,7 @@ footer a{
 }
 footer a:hover{
 	color: rgb(255, 195, 49);
+	text-decoration: none;
 }
 .footer-socials a{
 	margin: 0 10px;

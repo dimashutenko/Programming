@@ -25,7 +25,7 @@ body{
 	color: var(--light-white);
 	box-shadow: 10px 10px 30px 0px rgba(5, 9, 36, 0.25);
 }
-.course-info p{
+.course-info p,.course-info details{
 	font-size: 1.2rem;
 }
 .course-teachers{

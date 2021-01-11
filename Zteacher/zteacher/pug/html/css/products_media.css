@@ -14,7 +14,7 @@
 	.course-main-info p {
 		font-size: 1.25rem;
 	}
-	.course-info p ,.course-details ul{
+	.course-info p ,.course-details ul, .course-info details{
 		font-size: 1.1rem;
 	}
 	
