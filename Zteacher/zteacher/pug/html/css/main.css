@@ -1,7 +1,9 @@
 :root{
 	--dark-blue: rgb(5,9,36);
 	--light-white:  #f7f7f7;
-	--blue:  #5782d0;
+	--blue:  #007bff;
+	--green: #28a745;
+	/* #5782d0; */
 }
 .animated{
 	-webkit-animation-duration: 1s;
@@ -28,13 +30,9 @@ ul li{
 	padding: 0;
 	display: block;
 }
-a, input, button, .button, .button:active, .button:focus, span{
-	outline: none;
-}
-a, input, button, .button:hover, a:hover{
+a, input, button, .button, .button:active, .button:focus, span, summary, details{
 	outline: none;
 	text-decoration: none;
-	color: #000;
 }
 .underline{
 	border-bottom: 2.5px solid var(--dark-blue);
@@ -46,8 +44,8 @@ body{
 	overflow-x:hidden;
 	letter-spacing: 0;
 	font-family: Ubuntu, sans-serif;
-	color:var(--dark-blue);
-	background:var(--light-white);
+	color: var(--dark-blue);
+	background: var(--light-white);
 }
 .container{
 	max-width: 90%;
@@ -85,11 +83,16 @@ header{
 	height: 80px;
 	z-index: 1;
 }
+.navbar .navbar-brand:hover, .navbar .nav-item{
+	cursor: pointer;
+}
 .bg-dark{
 	background: rgba(16,14,39, 1)!important; 
 }
 nav .nav-link {
 	font-size: 1.15rem;
+	margin: 0 0.5rem;
+	padding: 8px 1rem !important;
 }
 .navbar-light .navbar-brand *{
 	color: var(--dark-blue);
@@ -98,7 +101,7 @@ nav .nav-link {
 .navbar .active a{
 	background: rgba(0,0,0,0.15);
 	padding: 8px 1rem !important;
-	margin: 0 15px;
+	margin: 0 0.5rem;
 	color: var(--dark-blue)!important;
 	opacity: 0.75;
 }
@@ -117,7 +120,7 @@ nav .nav-link {
 	color: rgba(5,9,36,1)!important;
 	background: rgba(0,0,0,0.1);
 	padding: 8px 1rem !important;
-	margin: 0 10px;
+	margin: 0 0.5rem;
 }
 .navbar-nav .nav-link span{
 	font-weight: 500!important;
@@ -169,24 +172,26 @@ section{
 	margin: 20px;
 	justify-content: center;
 	display: flex;
-	color:  #5782d0;
+	color: var(--blue);
 }
 .school-advantage span{
 	
 }
 .school-advantage h4{
 	text-align: center;
-	border: 2px solid #5782d0;
+	border: 2px solid var(--blue);
 	padding: 10px 20px;
 	border-radius: 20px;
 	box-shadow: 5px 5px 10px 0px rgba(87,130,208,0.5);
 	transition: all 0.3s ease-in-out;
+	font-weight: 500;
 }
 .school-advantage h4:hover{
-	border: 2px solid #5782d0;
+	border: 2px solid var(--blue);
 	color: var(--light-white);
-	background:  #5782d0;
+	background:  var(--blue);
 	box-shadow: none;
+	cursor: pointer;
 }
 .secret-box{
 	height: 125px;
@@ -257,7 +262,7 @@ section{
 	width: 30%;
 	overflow: hidden;
 	background: var(--light-white);
-	border: 8px dashed #5782d0;
+	border: 8px dashed var(--blue);
 }
 .lessons__left .content{
 	padding: 2rem;
@@ -268,7 +273,6 @@ section{
 	margin-bottom: 2.5rem;
 }
 a.lesson{
-	width: 310px;
 	height: 60px;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -280,14 +284,14 @@ a.lesson{
 	    -ms-flex-align: center;
 	        align-items: center;
 	color: #000;
-	margin: 60px auto 40px 40px;
+	margin-top: 60px;
 	padding: 10px 20px;
 	border-radius: 30px;
 	font-size: 20px;
 	font-weight: 400;
 	cursor: pointer;
-	-webkit-box-shadow: 0px 12px 25px -4px rgba(0,0,0, 0.25);
-	        box-shadow: 0px 12px 25px -4px rgba(0,0,0, 0.25);
+	-webkit-box-shadow: 0px 5px 20px 0 rgba(0,0,0, 0.25);
+	        box-shadow: 0px 5px 20px 0 rgba(0,0,0, 0.25);
 	-webkit-transition: all 0.3s ease-in-out 0s;
 	-o-transition: all 0.3s ease-in-out 0s;
 	transition: all 0.3s ease-in-out 0s;
@@ -394,189 +398,6 @@ a.lesson:hover::after, a.lesson:focus::after, a.lesson:visited::after {
 	margin: 0 auto;
 	width: 98%;
 }
-.row-0, .row-1, .row-2, .row-3, .row-4{
-	margin-top: 30px;
-}
-.product-bg-part{
-	width: 100%;
-	border: 2px solid #000;
-}
-.row-1 .product-bg-part, .row-3 .product-bg-part {
-	height: 250px;
-	z-index: 1;
-}
-.row-0 .product-bg-part, .row-2 .product-bg-part{
-	height: 400px;
-	z-index: 1;
-}
-.product-0, .product-5, .product-7{
-	cursor: default;
-}
-.product-0:hover .more-sheldon, .product-5:hover #more-travel, .product-7:hover .more-it{
-	background: #25d7f0;
-}
-.product-0-bg-part{
-	background: url(../img/bg-0.png) no-repeat;
-	background-size: cover;
-}
-.product-1-bg-part{
-	background: url(../img/bg-1.png) no-repeat;
-	background-size: cover;
-}
-.product-2-bg-part{
-	background: url(../img/bg-2.png) no-repeat;
-	background-size: cover;
-	-webkit-animation-delay: 0.3s;
-	        animation-delay: 0.3s;
-}
-.product-3-bg-part{
-	background: url(../img/bg-3.png) no-repeat;
-	background-size: cover;
-	-webkit-animation-delay: 0.6s;
-	        animation-delay: 0.6s;
-}
-.product-4-bg-part{
-	background: url(../img/bg-4.png) no-repeat -40px 0px;
-	background-size: cover;
-}
-.product-5-bg-part{
-	background: url(../img/bg-5.png) no-repeat;
-	background-size: cover;
-	-webkit-animation-delay: 0.3s;
-	        animation-delay: 0.3s;
-}
-.product-6-bg-part{
-	background: url(../img/bg-6.png) no-repeat 40px 0px;
-	background-size: cover;
-}
-.product-7-bg-part{
-	-webkit-animation-delay: 0.3s;
-	        animation-delay: 0.3s;
-}
-.product-8-bg-part{
-	background: url(../img/bg-8.png) no-repeat;
-	background-size: cover;
-	-webkit-animation-delay: 0.6s;
-	        animation-delay: 0.6s;
-}
-.row-0 .product-bg, .row-1 .product-bg, .row-2 .product-bg, .row-3 .product-bg{
-	position: relative;
-	height: 100%;
-	width: 100%;
-	-webkit-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-.product-0-bg:hover{
-	background: #ba9688;
-}
-.product-1-bg:hover{
-	background: #5a5e88;
-}
-.product-2-bg:hover{
-	background: #dc9758;
-}
-.product-3-bg:hover{
-	background: #dcc6b7;
-}
-.product-4-bg:hover{
-	background: #050924;
-}
-.product-4-bg:hover .product-name{
-	color: #1fbbec;
-}
-.product-4-bg:hover .product-description{
-	color: #b3d7f2;
-}
-.product-5-bg:hover{
-	background: #b7b16e;
-}
-.product-6-bg:hover{
-	background: #c76468;
-}
-.product-7-bg:hover{
-	background: #1e6485;
-}
-.product-8-bg:hover{
-	background: #934f4d;
-}
-.product-img{
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	z-index: 3;
-}
-.product-0-img{
-	background: url(../img/sheldon.png) no-repeat right bottom;
-	background-size: contain;
-}
-.product-1-img{
-	background: url(../img/Britain-flag.png) no-repeat right bottom;
-	background-size: contain;
-}
-.product-2-img{
-	background: url(../img/lion.png) no-repeat right bottom;
-	background-size: contain;
-}
-.product-3-img{
-	background: url(../img/socratus.png) no-repeat right bottom;
-	background-size: contain;
-}
-.product-4-img{
-	background: url(../img/ninateacher.png) no-repeat right bottom;
-	background-size: contain;
-}
-.product-5-img{
-	background: url(../img/travelling.png) no-repeat right bottom;
-	background-size: contain;
-}
-.product-6-img{
-	background: url(../img/discussion.png) no-repeat right bottom;
-	background-size: contain;
-}
-.product-7-img{
-	background: url(../img/it.png) no-repeat right bottom;
-	background-size: contain;
-}
-.product-8-img{
-	background: url(../img/examination.png) no-repeat right bottom;
-	background-size: contain;
-}
-.product-inner{
-	height: 100%;
-	padding: 10px 15px;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-weight: 700;
-	-webkit-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-}
-.product-name{
-	font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 28px;
-    display: inline-block;
-}
-.mb10{
-    margin-bottom: 10px;
-}
-.product-description{
-	font-size: 18px;
-	margin: 3px 0;
-	line-height: 30px;
-	font-family: 'Roboto Condensed', sans-serif;
-	font-weight: 700;
-}
-.course-price-img{
-	height: 25px;
-	width: 25px;
-}
-.product-description span.price{
-	font-size: 17px;
-}
 .more{
 	font-size: 18px;
 	margin: 12px 0 0 5px;
@@ -610,7 +431,35 @@ a.lesson:hover::after, a.lesson:focus::after, a.lesson:visited::after {
 /*_____________________________________________________*/
 /* courses */
 #products .courses{
-	padding: 20px 0;
+	padding: 2rem 0;
+}
+.courses .card{
+	margin: 0 0 2rem 0;
+	transition: all .4s ease-in-out;
+	box-shadow: 0px 10px 30px 5px rgba(5,9,36, 0.2);
+}
+.courses .card:hover{
+	transform: scale(1.02);
+	box-shadow: 0px 20px 20px 0px rgba(5,9,36, 0.3);
+}
+.courses h5{
+	transition: all .3s ease-in-out;
+}
+.courses h5 a{
+	color: var(--dark-blue);
+}
+.courses h5 *:hover{
+	text-decoration: none;
+	color: var(--blue);
+}
+.courses .card-img-top{
+	height: 270px;
+	display: flex;
+	background-size: cover;
+	background-position: center center;
+}
+.courses .card-text{
+	margin-top: 1rem;
 }
 /* courses */
 #merits{
@@ -684,13 +533,13 @@ ul.list{
 	background-size: cover;
 	height: 390px;
 }
-.list__item-pic:hover{
+/* .list__item-pic:hover{
 	-webkit-transform: scale(1.05);
 	    -ms-transform: scale(1.05);
 	        transform: scale(1.05);
 	-webkit-box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.3);
 	        box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.3);
-}
+} */
 .list__item-2-left{
 	background: url(../img/nina-pic.png) center center no-repeat;
 	margin-right: auto;
@@ -785,7 +634,7 @@ span.one-line{
 	background-size: 45px 45px;
 }
 .buttons{
-	margin: 10px auto;
+	margin: 30px auto 40px auto;
 	width: 75%;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -796,6 +645,9 @@ span.one-line{
 	        flex-flow: row nowrap;
 	-ms-flex-pack: distribute;
 	    justify-content: space-around;
+}
+.buttons a{
+	margin-top: 0;
 }
 .buttons a.lesson::after {
 	display: none;
@@ -995,12 +847,14 @@ a.telegram-bot{
 }
 /*-----------------------------*/
 footer{
-	margin-top: 100px;
+	margin-top: 125px;
 	padding: 20px 5px 10px 5px;
 	background: #100e17;
 	color: #fff;
-	-webkit-box-shadow: 0px -10px 35px rgba(14,11,27,1);
-	        box-shadow: 0px -10px 35px rgba(14,11,27,1);
+	/* -webkit-box-shadow: 0px -10px 35px rgba(14,11,27,1);
+			box-shadow: 0px -10px 35px rgba(14,11,27,1); 
+			0px -10px 20px 0px rgba(14,11,27,0.3)
+	*/
 }
 footer .links-list li{
 	padding-bottom: 10px;
@@ -1029,7 +883,9 @@ footer a:hover{
 .footer-socials a{
 	margin: 0 10px;
 }
-
+.footer-contacts{
+	flex-flow: row wrap;
+}
 .btn-telegram, .fa-instagram{
 	color: #fff;
 }

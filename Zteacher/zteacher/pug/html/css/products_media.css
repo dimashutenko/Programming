@@ -2,88 +2,20 @@
 
 }
 @media (max-width: 992px) {
-	.borderless-container{
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		    -ms-flex-flow: row wrap;
-		        flex-flow: row wrap;
-	}
-	.offer{
-		margin-top: 0;
-	}
-	.course-title{
-		font-size: 56px;
-	}
-	.more_info{
-	    font-size: 26px;
-	    padding: 8px 18px;
-	    -webkit-box-shadow: 2px 5px 18px 4px rgba(14,11,27,0.30);
-	            box-shadow: 2px 5px 18px 4px rgba(14,11,27,0.30);
-	}
-	.more_info:hover{
-		-webkit-box-shadow: 3px 8px 22px 5px rgba(14,11,27,0.25);
-		        box-shadow: 3px 8px 22px 5px rgba(14,11,27,0.25);
-	}
-	.course-title-small{
-		font-size: 28px;
-	}
-	.course-intro p{
-		font-size: 18px;
-	}
+	
 }
 @media (max-width: 768px) {
-	.small-logo{
-		width: 120px;
-		height: 100%;
-	}
-	.menu{
-		margin-left: -15px;
-	}
-	.menu__item{
-		font-size: 16px;
-	}
-	.course-title{
-		font-size: 48px;
-		opacity: 1;
-	}
-	.more_info{
-	    font-size: 22px;
-	    padding: 7px 15px;
-	    -webkit-transform: scale(1);
-	        -ms-transform: scale(1);
-	            transform: scale(1);
-	}
-	.more_info:hover{
-		-webkit-transform: scale(1);
-		    -ms-transform: scale(1);
-		        transform: scale(1);
-	}
-	.course-title-small{
-		font-size: 26px;
-	}
-	.course-intro p{
-		font-size: 16px;
-	}
-	.course-details {
-		padding: 0;
+	.course-teachers {
+		margin-top: -40px;
 	}
 }
 @media (max-width: 576px) {
-	.header-wrapper .telegram, .header-wrapper .instagram, .header-wrapper .facebook{
-		display: none;
+	
+	.course-main-info p {
+		font-size: 1.25rem;
 	}
-	header .container .offer {
-    	margin-top: 5vh;
+	.course-info p ,.course-details ul{
+		font-size: 1.1rem;
 	}
-	.course-title{
-		font-size: 38px;
-		text-shadow:none;
-	}
-	.course_more_info {
-    	margin: 35vh auto 0 auto;
-	}
-	.course-title-small{
-		font-size: 24px;
-		margin-bottom: 15px;
-	}
+	
 }

@@ -13,8 +13,8 @@ footer#footer.footer.bg-dark.animated
           li
              h5
               a(href='./index.html#merits') Підхід
-      .col-8.col-sm-5
-        h5 
+      .col-8.col-sm-5.d-none.d-md-flex.footer-contacts
+        h5.w-100
           a(href='./contacts.html') Контакти
         div.mt-3
           i.mr-1.fa.fa-phone.fa-lg
@@ -23,7 +23,7 @@ footer#footer.footer.bg-dark.animated
           i.mr-2.fa.fa-envelope.fa-lg
           a(href='mailto:nina30111980@gmail.com')  nina30111980@gmail.com
           br
-      .col-12.col-sm-4.align-self-center
+      .col-12.col-md-4.align-self-center
         .footer-socials.text-center
           a.btn.btn-social-icon.btn-instagram(href='https://www.instagram.com/zteacher_language_school')
             i.fab.fa-instagram
@@ -40,14 +40,10 @@ footer#footer.footer.bg-dark.animated
           a.developer__link.d-flex(href='https://www.linkedin.com/in/dima-shutenko/' target='_blank')
             | Dima Shutenko
             i.fab.fa-linkedin
-        p.freepic.d-flex.justify-content-center
-          a(href='https://www.freepik.com')
-            | Vector images by www.freepik.com
         p &copy; Copyright 2021 Zteacher Language School
-  // build:js js/scripts.js
   script(src='node_modules/jquery/dist/jquery.slim.min.js')
   script(src='node_modules/popper.js/dist/umd/popper.min.js')
   script(src='node_modules/bootstrap/dist/js/bootstrap.min.js')
   script(src='js/youtube.js')
   script(src='js/main.js')
-  // endbuild
+  script(src="js/contacts.js")

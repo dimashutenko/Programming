@@ -22,8 +22,8 @@
 	.lessons__left{
 	}
 	a.lesson{
-		width: 230px;
 		font-size: 17px;
+		margin: 0;
 	}
 	a.lesson:hover, a.lesson:focus {
 	  border: 1.5px solid #000;
@@ -59,24 +59,7 @@
 	.lessons__right{
 		
 	}
-	/*______________________products____________________*/
-	.row-0, .row-1, .row-2, .row-3, .row-4{
-		margin: 25px 5px 0 5px;
-	}
-	#products .col-md-4{
-		padding: 0 12.5px;
-	}
-	.product-4-bg-part {
-    	background: url(../img/bg-4.png) no-repeat -5px 100px;
-	}
-	.product-4-img {
-    	background: url(../img/ninateacher.png) no-repeat 240px bottom;
-    	background-size: 220px 295px;
-	}
-	.product-bg-part{
-		border: 1.5px solid #000;
-	}
-	/*_____________________________________________________*/
+	
 	.section__title{
 		font-size: 48px;
 	}
@@ -175,7 +158,6 @@
 		background-size: 40px 40px;
 	}
 	.buttons{
-		margin: 0px auto;
 		width: 75%;
 	}
 	a.telegram-bot{
@@ -231,25 +213,6 @@
 		height: 240px;
 		width: 600px;
 	}
-	.offer__pic{
-		height: 60px;
-		width: 50px;
-		background: url(../img/closed-lock.png) center center no-repeat;
-		background-size: 75px 75px;
-		margin-bottom: 20px;
-		-webkit-transition: all 0.1s ease-in-out;
-		-o-transition: all 0.1s ease-in-out;
-		transition: all 0.1s ease-in-out;
-	}
-	.offer__pic:hover{
-		height: 65px;
-		width: 80px;
-		background: url(../img/opened-lock.png) center center no-repeat;
-		background-size: 80px 80px;
-		margin-bottom: 15px;
-		margin-left: 20px;
-		cursor: pointer;
-	}
 	h1{
 		font-size: 48px;
 	}
@@ -263,21 +226,8 @@
 		max-width: 50%;
 	}
 	a.lesson{
-		width: 270px;
 		height: 55px;
-		margin: 40px auto 30px auto;
 		padding: 8px 23px;
-		border-radius: 30px;
-		font-size: 20px;
-		font-weight: 400;
-		cursor: pointer;
-		-webkit-box-shadow: 0px 12px 25px -4px rgba(0,0,0, 0.25);
-		        box-shadow: 0px 12px 25px -4px rgba(0,0,0, 0.25);
-		-webkit-transition: all 0.3s ease-in-out 0s;
-		-o-transition: all 0.3s ease-in-out 0s;
-		transition: all 0.3s ease-in-out 0s;
-		position: relative;
-		z-index: 1;
 	}
 	a.lesson:hover, a.lesson:focus {
 	  border: 1.5px solid #000;
@@ -316,60 +266,7 @@
 	.lessons__right .row:first-child{
 		height: 340px;
 	}
-/*______________________products____________________*/
-	.row-1, .row-2, .row-3, .row-4{
-		margin-top: 25px;
-	}
-	.row-0 .product-bg-part, .row-2 .product-bg-part{
-    	height: 300px;
-	}
-	.product-4-bg-part {
-    	background: url(../img/bg-4.png) no-repeat;
-    	background-size: cover;
-	}
-	.product-5-bg-part{
-		background: url(../img/bg-5.png) no-repeat right -90px;
-		background-size: cover;
-	}
-	.product-8-bg-part{
-		background: url(../img/bg-8.png) no-repeat -50px 0px;
-		background-size: cover;
-	}
-	.product-4-img{
-		background: url(../img/ninateacher.png) no-repeat 450px bottom;
-		background-size: contain;
-	}
-	.product-5-img{
-		background: url(../img/travelling.png) no-repeat 150px bottom;
-		background-size: contain;
-	}
-	.product-inner{
-		padding: 8px 12px;
-	}
-	.product-name{
-	    font-size: 22px;
-	}
-	.mb25{
-		margin-bottom: 25px;
-	}
-	.product-description{
-		font-size: 17px;
-		margin: 0;
-		line-height: 27px;
-	}
-	.course-price-img{
-		height: 20px;
-		width: 20px;
-	}
-	.product-description span.price{
-		font-size: 16px;
-	}
-	.more{
-		font-size: 17px;
-		padding: 4px 10px;
-		border-radius: 14px;
-	}
-/*_____________________________________________________*/
+
 	.section__title{
 		font-size: 36px;
 	}
@@ -601,17 +498,7 @@
 		font-size: 26px;
 	}
 	a.lesson{
-		width: 260px;
 		height: 50px;
-		padding: 7px 18px;
-		margin: 20px auto 30px 20px;
-		border-radius: 30px;
-		font-size: 18px;
-		-webkit-box-shadow: 0px 12px 25px -4px rgba(0,0,0, 0.25);
-		        box-shadow: 0px 12px 25px -4px rgba(0,0,0, 0.25);
-		-webkit-transition: all 0.3s ease-in-out 0s;
-		-o-transition: all 0.3s ease-in-out 0s;
-		transition: all 0.3s ease-in-out 0s;
 	}
 	a.lesson:hover, a.lesson:focus {
 	  border: 1.5px solid #000;
@@ -648,59 +535,11 @@
 		width: 100%;
 		margin: 5px auto 0 auto;
 	}
-/*______________________products____________________*/
-	.row-1, .row-2, .row-3, .row-4{
-		margin-top: 20px;
+	/* courses */
+	.courses .card-img-top{
+		height: 250px;
 	}
-	#products .col-md-4{
-		padding: 0 10px;
-	}
-	.product-3-bg-part {
-	    background: url(../img/bg-3.png) no-repeat 70px -75px;
-	    background-size: cover;
-	}
-	.product-5-bg-part{
-		background: url(../img/bg-5.png) no-repeat right 0px;
-		background-size: cover;
-	}
-	.product-8-bg-part{
-		background: url(../img/bg-8.png) no-repeat -20px 0px;
-		background-size: cover;
-	}
-	.product-3-img {
-	    background: url(../img/socratus.png) no-repeat 200px bottom;
-	    background-size: auto;
-	}
-	.product-4-img{
-		background: url(../img/ninateacher.png) no-repeat 310px bottom;
-		background-size: contain;
-	}
-	.product-5-img{
-		background: url(../img/travelling.png) no-repeat 30px bottom;
-		background-size: contain;
-	}
-	.product-inner{
-		padding: 8px 10px;
-	}
-	.mb25, .mb20{
-		margin-bottom: 20px;
-	}
-	.product-name{
-	    font-size: 20px;
-	}
-	.product-description{
-		font-size: 16px;
-		margin: 3px 0;
-		line-height: 22px;
-	}
-	.more{
-		font-size: 16px;
-		margin: 10px 0 0 5px;
-		padding: 3px 10px;
-		border-radius: 12px;
-		border: 1px solid #000;
-	}
-/*_____________________________________________________*/
+	/* courses */
 	.section__title{
 		font-size: 28px;
 	}
@@ -1044,103 +883,16 @@
 		height: 210px;
 	}
 	a.lesson{
-		margin: 40px auto 30px auto;
+		height: 45px;
 	}
-	/*______________________products____________________*/
-	#products .container-fluid{
-		width: 100%;
-		padding-left:0px;
-		padding-right:0px;
+	a.telegram-bot{
+		margin-top: 30px;
 	}
-	.row-0 .product-bg-part{
-    	height: 310px;
+	/* courses */
+	.courses .card-img-top{
+		height: 200px;
 	}
-	.row-2 .product-bg-part{
-		height: 340px;
-	}
-	.row-1, .row-2, .row-3, .row-4{
-		margin-top: 10px;
-	}
-	.row-1 .product-bg-part {
-    	height: 260px;
-	}
-	.row-3 .product-bg-part {
-    	height: 265px;
-	}
-	#products .col-md-4, #products .col-12{
-		padding: 0 5px;
-	}
-	.product-0-bg-part {
-    	background: url(../img/bg-0.png) no-repeat -85px 0px;
-    	background-size: cover;
-	}
-	.product-1-bg-part {
-    	background: url(../img/bg-1.png) no-repeat -45px 20px;
-    	background-size: cover;
-	}
-	.product-2-bg-part {
-    	background: url(../img/bg-2.png) no-repeat -120px 80px; /*-75px 40px*/
-    	background-size: cover;
-	}
-	.product-3-bg-part {
-	    background: url(../img/bg-3.png) no-repeat 26px 0px;
-	    background-size: cover;
-	}
-	.product-4-bg-part{
-		background: url(../img/bg-4.png) no-repeat -140px 35px;
-		background-size: cover;
-	}
-	.product-5-bg-part{
-		background: url(../img/bg-5.png) no-repeat right 70px;
-		background-size: cover;
-	}
-	.product-6-bg-part{
-		background: url(../img/bg-6.png) no-repeat -120px 50px;
-		background-size: cover;
-	}
-	.product-8-bg-part{
-		background: url(../img/bg-8.png) no-repeat 0px 10px;
-		background-size: cover;
-	}
-	#exams{
-		height: 170px;
-		background: url(../img/bg-8.png) no-repeat -85px 40px;
-    	background-size: cover;
-	}
-	.product-3-img {
-	    background: url(../img/socratus.png) no-repeat 0 bottom;
-	    background-size: contain;
-	}
-	.product-4-img{
-		background: url(../img/ninateacher.png) no-repeat 180px bottom;
-		background-size: 185px 250px;
-	}
-	.product-5-img{
-		background: url(../img/travelling.png) no-repeat 20px bottom;
-		background-size:  282px 180px;
-	}
-	.product-name{
-	    font-size: 18px;
-	}
-	.display-inline{
-		display: inline;
-	}
-	.product-description{
-		margin: 0;
-		font-weight: 400;
-	}
-	.product-description span.price{
-		font-size: 14px;
-	}
-	.mb25, .mb20{
-		margin-bottom: 10px;
-	}
-	.more{
-		font-size: 15px;
-		margin: 10px 0 0 2px;
-		padding: 3px 8px;
-	}
-/*_____________________________________________________*/
+	/* courses */
 	#merits .container{
 		max-width:95%;
 	}
@@ -1199,11 +951,11 @@
 	    width: 290px;
 	}
 	.list__item:nth-child(4) .title::before{
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 	.title-4-span{
 		display: block;
-		margin: -28px 0 0 44px;
+		margin: -20px 0 0 44px;
 	}
 	.list__item:nth-child(5) .title::before{
 		margin-top: 0;

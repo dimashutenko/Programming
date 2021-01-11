@@ -1,97 +1,90 @@
 extends main_template.pug
 
 block content
-	header#header.header
-		video#bgvid(playsinline='' autoplay='' muted='' loop='' poster='img/static-bridge.jpg')
-			source(src='img/bridge.webm' type='video/webm')
-			source(src='img/video-bridge.mp4' type='video/mp4')
-		.header-wrapper.d-flex.h-100
-			.container
-				.offer.d-flex.justify-content-end.align-items-center.animated.fadeInUp
-		h2.hard-to-see #Zteacher rocks			
-	section.section#intro
-		.background-gradient-intro
-			.container
-				.row.d-flex.justify-content-center.align-items-center
-					.col-12.col-sm-6.col-lg-4
-						.school-advantage.d-flex#digital-approach
-							h4 Digital-підхід
-					.col-12.col-sm-6.col-lg-4
-						.school-advantage#students_interests
-							h4 Враховуємо інтереси студентів
-					.col-12.col-sm-6.col-lg-4
-						.school-advantage#creative_teachers
-							h4 Креативні викладачі
-					.col-12.col-sm-6.col-lg-4
-						.school-advantage#horison_expansion
-							h4 Розширення кругозору
-					.col-12.col-sm-6.col-lg-4
-						.school-advantage#modern_trends
-							h4 Сленг та сучасні тренди
-				.row.d-none.d-md-flex
-					.col
-						.secret-box.d-flex.justify-content-center.align-items-center.w-100.rounded.mt-5
-							h3.secret-message Залюбки розповімо вам про нас, обирайте пункт!
+	meta(name='description' content='Zteacher Language School')
+	// Whats app description
+	meta(name='keywords' content='zteacher, English, learning')
+	meta(property='og:title' content='Get your password to the world. Study with us!')
+	meta(property='og:description' content='')
+	// bottom
+	meta(property='og:type' content='article')
+	meta(property='og:image' content='img/favicon.png')
+	meta(property='og:site_name' content='Zteacher Language School')
+	title Zteacher Language School
 
-
-	section.section.fadeIn#lessons
-		.background-gradient-lessons
-			.container.d-flex.justify-content-center
-				.lessons__left.flex.animated
-					.row
-						.col
-							.content.d-flex.align-items-between
-								h2.lessons__title Уроки в Zteacher
-								p 
-									span.d-none.d-md-flex Краще один раз побачити ніж тисячу разів почути. Згодні? 
-									span Запрошуємо подивитись в якій атмосфері проходять наші уроки. 
-					.row.d-none.d-lg-flex
-						a.lesson(href='https://forms.gle/Fng8uhescTHZJA5C8' target='_self') Хочу на пробний урок!
-				.lessons__right.flex.align-items-center.animated
-					.row
-						.col
-							#videoSlider.carousel.slide(data-ride='carousel' data-pause='hover')
-								.carousel-inner(role='listbox')
-									.carousel-item.active
-										#player1
-										// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/EPrfAAcATpo?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow=" autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-									.carousel-item
-										#player2
-										// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/rBmwiuFCKDc?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-									.carousel-item
-										#player3
-										// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/Q1HJWz0ZPzA?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-									.carousel-item
-										#player4
-										// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/U8iV7-ryWTM?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-									.carousel-item
-										#player5
-										// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/jxHRecQDBU0?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-									.carousel-item
-										#player6
-										// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/VEAnSCka81c?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-									.carousel-item
-										#player7
-										// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/vFX2Ynnff38?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					.row
-						.col
-							.videoSlider-controls
-								a.carousel-control-prev(href='#videoSlider' role='button' data-slide='prev')
-									i.fas.fa-angle-left
-								a.carousel-control-next(href='#videoSlider' role='button' data-slide='next')
-									i.fas.fa-angle-right
-					.row.d-flex.d-lg-none
-						a.lesson(href='https://forms.gle/Fng8uhescTHZJA5C8' target='_self') Хочу на пробний урок!
+	body
+		include navigation.pug
 		
+		header#header.header
+			video#bgvid(playsinline='' autoplay='' muted='' loop='' poster='img/static-bridge.jpg')
+				source(src='img/video-bridge.mp4' type='video/mp4')
+				source(src='img/bridge.webm' type='video/webm')
+			.header-wrapper.d-flex.h-100
+				.container
+					.offer.d-flex.justify-content-end.align-items-center.animated.fadeInUp
+			h2.hard-to-see #Zteacher rocks			
+		
+		
+		include intro.pug
 
 
+		section.section.animated#lessons
+			.background-gradient-lessons
+				.container.d-flex.justify-content-center
+					.lessons__left.flex.animated
+						.row
+							.col
+								.content.d-flex.align-items-between
+									h2.lessons__title Уроки в Zteacher
+									p 
+										span.d-none.d-md-flex Краще один раз побачити ніж тисячу разів почути. Згодні? 
+										span Запрошуємо подивитись в якій атмосфері проходять наші уроки. 
+						.row.d-none.d-lg-flex.justify-content-center
+							a.lesson.d-flex(href='https://forms.gle/Fng8uhescTHZJA5C8' target='_self') Хочу на пробний урок!
+					.lessons__right.flex.align-items-center.animated
+						.row
+							.col
+								#videoSlider.carousel.slide(data-ride='carousel' data-pause='hover')
+									.carousel-inner(role='listbox')
+										.carousel-item.active
+											#player1
+											// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/EPrfAAcATpo?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow=" autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										.carousel-item
+											#player2
+											// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/rBmwiuFCKDc?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										.carousel-item
+											#player3
+											// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/Q1HJWz0ZPzA?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										.carousel-item
+											#player4
+											// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/U8iV7-ryWTM?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										.carousel-item
+											#player5
+											// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/jxHRecQDBU0?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										.carousel-item
+											#player6
+											// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/VEAnSCka81c?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										.carousel-item
+											#player7
+											// <iframe class="youtube-video" width="100%" height="100%" src="https://www.youtube.com/embed/vFX2Ynnff38?enablejsapi=1&version=3&playerapiid=ytplayer" modestbranding="0"  controls="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						.row
+							.col
+								.videoSlider-controls
+									a.carousel-control-prev(href='#videoSlider' role='button' data-slide='prev')
+										i.fas.fa-angle-left
+									a.carousel-control-next(href='#videoSlider' role='button' data-slide='next')
+										i.fas.fa-angle-right
+						.row.d-flex.d-lg-none.justify-content-center
+							a.lesson.d-flex.mt-4(href='https://forms.gle/Fng8uhescTHZJA5C8' target='_self') Хочу на пробний урок!
+			
 
 
+		include products.pug
+		include approach.pug
+		include reviews.pug
 
 
-	include products.pug
-	include approach.pug
-	include reviews.pug
+		include footer.pug
 
 
-	
+		

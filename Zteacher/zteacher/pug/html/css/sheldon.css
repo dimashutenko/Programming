@@ -1,22 +1,29 @@
-
 .header-wrapper{
-	background: url(../img/sheldon-header.jpg) 0px 0px no-repeat;
-	background-size: cover;
+	background-image: url(../img/sheldon-header.jpg);
+	background-position: center top;
 }
-.offer {
-	padding-top: 17%;
+@media (max-width: 1200px) {
+	.header-wrapper{
+		background: url(../img/sheldon-header.jpg) -100px 0px no-repeat;
+		background-size: cover;
+	}
+
 }
-.course-title{
-	color: #bd2726;
-	font-family: "Museo Sans Cyrl 300";
-	width: 300px;
-	margin: 0 auto;
-	font-size: 72px;
-	text-shadow: none;
+@media (max-width: 992px) {
+	.header-wrapper{
+		background: url(../img/sheldon-header.jpg) -220px 0px no-repeat;
+		background-size: cover;
+	}
 }
-.young{
-	font-size: 62px;
+@media (max-width: 768px) {
+	.header-wrapper{
+		background: url(../img/sheldon-header.jpg) -330px 0px no-repeat;
+		background-size: cover;
+	}
 }
-#sheldon{
-	padding-top: 75px;
+@media (max-width: 576px) {
+	.header-wrapper{
+		background: url(../img/sheldon-header.jpg) 80% top no-repeat;
+		background-size: cover;
+	}
 }

@@ -1,0 +1,100 @@
+extends main_template.pug
+
+block content
+	meta(name='description' content='Курс по серіалу Young Sheldon в Zteacher Language School')
+	// Whats app description
+	meta(name='keywords' content='zteacher, English, learning')
+	meta(property='og:title' content='Young Sheldon course')
+	meta(property='og:description' content='')
+	// bottom
+	meta(property='og:type' content='article')
+	meta(property='og:image' content='img/favicon.png')
+	meta(property='og:site_name' content='Zteacher Language School')
+	link(rel='stylesheet' href='css/products.css')
+	link(rel='stylesheet' href='css/sheldon.css')
+	link(rel='stylesheet' href='css/products_media.css')
+	title Young Sheldon курс в Zteacher
+
+	body
+		include navigation.pug
+		header#header.header
+			.header-wrapper.d-flex.h-100
+
+		section.section#course-main
+			.container
+				.row
+					.col-12.col-md-7
+						.course-main-info.animated
+							h1.text-left Курс по серіалу "Young Sheldon"
+							h3.mt-3
+								span.badge.badge-pill.badge-warning.course-duration.mr-2 10 уроків
+								span.badge.badge-pill.badge-success.course-price 2500 грн
+							p.mt-4
+								span.
+									Сімейна комедія, від якої всі в захваті.
+								span.ml-1.d-none.d-lg-flex.
+									Кожному буде, з чого посміятися досхочу!
+					.col-md-5.col-lg-4.offset-lg-1
+						.course-teachers.d-flex.align-items-center.justify-content-center.animated
+							h4.mr-2.d-flex Викладачі
+							div.d-flex.teachers-img(style="background: url(img/zteacher.png) center / contain no-repeat ")
+				.row
+					.col-12.col-md-7
+						.course-info.animated
+							h3.mb-3 Про курс
+							p
+								span.
+									Ви неодмінно зможете попрактикувати вашу англійську і це ще м‘яко сказано,
+									тому що курс, який ми приготували, настільки крутий, що ви злетите
+									на новий рівень, якщо попрацюєте над ним, переглядаючи серіал
+								span.emoji.fire.ml-1
+								span.emoji.fire
+								span.emoji.fire
+								details
+										summary ще
+										span.mt-2.
+											Наші вчителі допоможуть не лише виконати вправи, а потурбуються,
+											щоб нові слова, вирази, граматичні конструкції залишаться в довгостроковій 
+											пам’яті, та активному словнику.
+							.wrapper.d-flex.justify-content-center.mt-5
+								a.btn.btn-outline-light.btn-lg(type='button' href='https://forms.gle/Fng8uhescTHZJA5C8' style='border: 2.5px solid white') Хочу на курс
+								
+					.col-12.col-md-5
+						.course-details.animated
+							h3.mb-3 Деталі
+							ul
+								li
+									span Тривалість 1-го уроку — 60хв
+								li
+									details
+										summary Включені вправи...
+										ul.ml-4
+											li
+												span до перегляду серії
+											li
+												span під час перегляду
+											li
+												span та після перегляду
+								li
+									span Ключі
+								li
+									span Інструкції
+								li
+									span Переклад українською
+						
+	
+
+				div
+
+
+		include intro.pug
+
+		include approach.pug
+		include reviews.pug
+
+
+		include footer.pug
+		script(src="js/products.js")
+
+
+		
