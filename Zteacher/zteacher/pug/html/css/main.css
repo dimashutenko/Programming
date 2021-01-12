@@ -106,7 +106,6 @@ nav .nav-link {
 	padding: 8px 1rem !important;
 	margin: 0 0.5rem;
 	color: var(--dark-blue)!important;
-	opacity: 0.75;
 }
 .top-title{
   	color: #2a84cd;
@@ -117,7 +116,6 @@ nav .nav-link {
 	transition: all .3s ease-in-out;
 	font-family: Ubuntu, sans-serif;
 	border-radius: 20px;
-	opacity: 0.75;
 }
 .navbar-nav .nav-link:hover {
 	color: rgba(5,9,36,1)!important;
