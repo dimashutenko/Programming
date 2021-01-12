@@ -1,18 +1,19 @@
-nav.navbar.sticky-top.navbar-expand-sm.align-items-center.navbar-light.animated
-      .container.align-items-bottom
+.container.nav-wrapper
+      nav.navbar.navbar-expand-sm.navbar-dark.align-items-center.animated
         a.navbar-brand.d-flex.mr-auto(href='./index.html')
-          h4.d-flex.underline Zteacher 
+          h4.underline.d-none.d-md-flex Zteacher 
           h4.ml-2.d-none.d-md-flex Language School
+          img.h-100.d-flex.d-md-none(src="img/zteacher.png", alt="Zteacher logo")
         button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarMenu')
           span.navbar-toggler-icon
         #navbarMenu.collapse.navbar-collapse
           ul.navbar-nav.w-100.justify-content-end
             li.nav-item.ml-2#home-page
-              a.nav-link(href='./index.html')
+              a.nav-link.d-flex.justify-content-center(href='./index.html')
                 span Головна
-            li.nav-item.ml-2
+            li.nav-item.d-flex.justify-content-center.ml-2
               a.nav-link(href='./index.html#products')
                 span Курси
-            li.nav-item.ml-2#contacts-page
+            li.nav-item.d-flex.justify-content-center.ml-2#contacts-page
               a.nav-link(href='./contacts.html')
                 span Контакти

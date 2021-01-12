@@ -718,152 +718,30 @@
 	.container{
 		max-width: 340px;
 	}
+	.nav-wrapper{
+		max-width:100%;
+		margin:0;
+		padding:0;
+	}
+	.navbar{
+		height: 80px;
+	}
+	.navbar *{
+		color: var(--light-white);
+	}
+	.navbar, #navbarMenu{
+		background-color: var(--dark-blue);
+	}
 	header{
 		height: 98vh;
 	}
 	header .container{
 		max-width:100%;
 	}
-	header .container .offer{
-		max-width: 320px;
-		margin-top: 10vh;
-	}
-	.offer__logo{
-		background-size: 320px 160px;
-		height: 160px;
-		width: 320px;
-	}
-	.arrow-down{
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		margin: 0 45%;
-	}
-	.center-con {
-	    display: -webkit-box;
-	    display: -ms-flexbox;
-	    display: flex;
-	    height: 100%;
-	    width: 100%;
-	    -webkit-box-align: center;
-	        -ms-flex-align: center;
-	            align-items: center;
-	    -webkit-box-pack: center;
-	        -ms-flex-pack: center;
-	            justify-content: center;
-	}
-	.round {
-	    position: absolute;
-	    width: 50px;
-	    height: 50px;
-	    border-radius: 100%;
-	    cursor: pointer;
-	}
-	.arrow {
-		left: 31%;
-		position: absolute;
-		top: 4px;
-		color: #2aaadd;
-		font-size: 20px;
-	}
-	.segunda{
-		top: 14px;
-	}
-	@-webkit-keyframes bounceAlpha {
-	  0% {
-	  	opacity: 1;
-	  	-webkit-transform: translateX(0px) scale(1);
-	  	        transform: translateX(0px) scale(1);
-	  }
-	  25%{
-	  	opacity: 0;
-	  	-webkit-transform:translateY(10px) scale(0.9);
-	  	        transform:translateY(10px) scale(0.9);
-	  }
-	  26%{
-	  	opacity: 0;
-	  	-webkit-transform:translateY(-10px) scale(0.9);
-	  	        transform:translateY(-10px) scale(0.9);
-	  }
-	  55% {
-	  	opacity: 1;
-	  	-webkit-transform: translateY(0px) scale(1);
-	  	        transform: translateY(0px) scale(1);
-	  }
-	}
-	@keyframes bounceAlpha {
-	  0% {
-	  	opacity: 1;
-	  	-webkit-transform: translateX(0px) scale(1);
-	  	        transform: translateX(0px) scale(1);
-	  }
-	  25%{
-	  	opacity: 0;
-	  	-webkit-transform:translateY(10px) scale(0.9);
-	  	        transform:translateY(10px) scale(0.9);
-	  }
-	  26%{
-	  	opacity: 0;
-	  	-webkit-transform:translateY(-10px) scale(0.9);
-	  	        transform:translateY(-10px) scale(0.9);
-	  }
-	  55% {
-	  	opacity: 1;
-	  	-webkit-transform: translateY(0px) scale(1);
-	  	        transform: translateY(0px) scale(1);
-	  }
-	}
-	.bounceAlpha {
-	    -webkit-animation-name: bounceAlpha;
-	            animation-name: bounceAlpha;
-	    -webkit-animation-duration:1.4s;
-	            animation-duration:1.4s;
-	    -webkit-animation-iteration-count:infinite;
-	            animation-iteration-count:infinite;
-	    -webkit-animation-timing-function:linear;
-	            animation-timing-function:linear;
-	}
-	.arrow.primera.bounceAlpha {
-	    -webkit-animation-name: bounceAlpha;
-	            animation-name: bounceAlpha;
-	    -webkit-animation-duration:1.4s;
-	            animation-duration:1.4s;
-	    -webkit-animation-delay:0.2s;
-	            animation-delay:0.2s;
-	    -webkit-animation-iteration-count:infinite;
-	            animation-iteration-count:infinite;
-	    -webkit-animation-timing-function:linear;
-	            animation-timing-function:linear;
-	}
-	.arrow{
-	    -webkit-animation-name: bounceAlpha;
-	            animation-name: bounceAlpha;
-	    -webkit-animation-duration: 1.4s;
-	            animation-duration: 1.4s;
-	    -webkit-animation-iteration-count: infinite;
-	            animation-iteration-count: infinite;
-	    -webkit-animation-timing-function: linear;
-	            animation-timing-function: linear;
-	}
-	.arrow.primera{
-	    -webkit-animation-name: bounceAlpha;
-	            animation-name: bounceAlpha;
-	    -webkit-animation-duration: 1.4s;
-	            animation-duration: 1.4s;
-	    -webkit-animation-delay: 0.2s;
-	            animation-delay: 0.2s;
-	    -webkit-animation-iteration-count: infinite;
-	            animation-iteration-count: infinite;
-	    -webkit-animation-timing-function: linear;
-	            animation-timing-function: linear;
-	}
 	h1{
 		font-size: 30px;
 	}
-	.offer__title span{
-		display: block;
-		margin: 0 -10px;
-	}
+	
 	.lessons .container{
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
