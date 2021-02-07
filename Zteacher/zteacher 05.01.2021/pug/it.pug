@@ -1,0 +1,104 @@
+extends main_template.pug
+
+block content
+	meta(name='description' content='')
+	// Telegram bottom
+	meta(name='keywords' content='zteacher')
+	meta(property='og:title' content='Уроки для юних ІТ-шників')
+	// Telegram middle
+	meta(property='og:description' content='')
+	// bottom
+	meta(property='og:type' content='article')
+	meta(property='og:image' content='img/it.png')
+	meta(property='og:site_name' content='Zteacher Language School')
+	link(rel='stylesheet' href='css/products.css')
+	link(rel='stylesheet' href='css/it.css')
+	link(rel='stylesheet' href='css/products_media.css')
+	title Уроки для юних ІТ-шників в Zteacher
+
+	body
+		include navigation.pug
+		header#header.header
+			.header-wrapper.d-flex.h-100
+
+		section.section#course-main
+			.container
+				.row
+					.col-12.col-md-7
+						.course-main-info.animated
+							h1.text-left
+								span.d-block Уроки для юних  
+								span ІТ-шників 
+							h3.mt-3
+								span.badge.badge-pill.badge-success.course-price від 200грн/год
+							p.mt-4
+								span.
+									Інформаційні технології уже не майбутнє.
+								br
+								span.mt-2.
+									ІТ — це вже тут і зараз.
+					.col-md-5.col-lg-4.offset-lg-1
+						.course-teachers.d-flex.align-items-center.justify-content-center.animated
+							h4.mr-2.d-flex Викладач
+							div.d-flex.teachers-img(style="background: url(img/shutenko.jfif) center / contain no-repeat;")
+				.row
+					.col-12.col-md-7
+						.course-info.animated
+							h3.mb-3 Про курс
+							p
+								span.
+									IT сфера включає в себе численну кількість захоплюючих і високооплачуваних професій,
+									багато школярів виявляють до неї інтерес. Програмістом бути нелегко. Необхідно не тільки багато знати,
+									а й постійно оновлювати свої знання. В IT сфері нові технології дуже швидко застарівають. 
+									Викладач познайомить з різним тонкощам цієї професії. 
+									Отримавши певні теоритичні знання, ми миттю починаємо використовувати їх на практиці, 
+									щоб виробити в дітей системний підхід до вирішення різних завдань. 
+								details
+										summary ще
+										span.mt-2.
+											На практичних заняттях діти вчаться створювати анімації в Scratch, консольні програми, веб-сторінки, тощо. 
+											Також вивчаються одна з найпопулярніших на сьогоднішній день мова програмування JavaScript.
+							.wrapper.d-flex.justify-content-center.mt-5
+								a.btn.btn-outline-light.btn-lg(type='button' href='https://forms.gle/Fng8uhescTHZJA5C8' style='border: 2.5px solid white') Хочу на курс
+								
+					.col-12.col-md-5
+						.course-details.animated
+							h3.mb-3 Деталі
+							ul
+								li
+									span Тривалість 1-го уроку — 60/90хв
+								li
+									span Інтерактивний підхід
+								li
+									span Практика з першого уроку
+								li
+									span Індивідуальний супровід учнів 
+								li
+									span Цікаві домашні завдання
+								li
+									span Викладач — практикуючий IT-спеціаліст (розробник сайту Zteacher)
+								li
+									details
+										summary
+											span Практичні навички
+											i.fa.fa-code.ml-2
+										ul.ml-4
+											li
+												span Scratch
+											li
+												span HTML
+											li
+												span CSS
+											li
+												span JavaScript
+						
+	
+
+				div
+
+
+		include footer.pug
+		script(src="js/products.js")
+
+
+		

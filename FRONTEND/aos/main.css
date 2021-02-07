@@ -1,0 +1,28 @@
+html {
+  border-top: 5px solid #fff;
+  background: #58DDAF;
+  color: #2a2a2a;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+}
+
+p {
+  margin: 0 auto;
+  width: 500px;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
+
+#dima div{
+  margin-top: 300px;
+  text-align: center;
+  border: 5px solid black;
+}

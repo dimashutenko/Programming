@@ -1,0 +1,88 @@
+extends main_template.pug
+
+block content
+	meta(name='description' content="Let's keep in touch!")
+	// Whats app description
+	meta(name='keywords' content='zteacher, English, learning')
+	meta(property='og:title' content='Zteacher Language School Contacts')
+	meta(property='og:description' content='')
+	// bottom
+	meta(property='og:type' content='article')
+	meta(property='og:image' content='img/favicon.png')
+	meta(property='og:site_name' content='Zteacher Language School')
+	link(rel='stylesheet' href='css/contacts.css')
+	link(rel='stylesheet' href='css/contacts_media.css')
+	title Contacts / Zteacher
+
+
+	body
+		include navigation.pug
+		header#header.header.animated.fadeIn
+			.header-wrapper
+			section#contacts.section.d-flex
+				.contacts__gradient
+					.container
+						.contacts-intro.animated.fadeInUp
+							.row
+								.col-12
+									h1.contacts__title Контакти
+							.row
+								.col-12
+									p.contacts__description
+										| Бажаєте отримати персональну консультацію або Вас щось цікавить про наші курси?
+										| Не баріться, напишіть нам.
+									p.contacts__description Ми будемо раді поспілкуватися з Вами в будь-якій ситуації!
+						.phone.animated
+							.row
+								.col-12.col-sm-9.offset-sm-3
+									.contacts__phone.d-flex.justify-content-start
+										.phone-bg.d-flex.justify-content-center.align-items-center
+											i.fas.fa-phone-alt
+										.phone-number.d-flex.justify-content-center.align-items-center
+											a(href='tel:+380958803379' style='color:#000')
+												h3 +380 95 880 3379
+						.email.animated
+							.row
+								.col-12.col-sm-9.offset-sm-3
+									.contacts__email.d-flex.justify-content-start
+										.email-bg.d-flex.justify-content-center.align-items-center
+											i.fas.fa-envelope-open-text
+										.email-text.d-flex.justify-content-center.align-items-center
+											a(href='mailto:nina30111980@gmail.com' style='color:#000')
+												h3 nina30111980@gmail.com
+						.social-networks
+							.row
+								.col-12
+									h2.networks-title.animated Ми в соціальних мережах
+							.row
+								.col-3.col-sm-2.col-xl-1.offset-sm-2.offset-xl-4
+									.social-network.networks__instagram.d-flex.justify-content-around.animated
+										.instagram-bg.d-flex.justify-content-center.align-items-center
+											a.instagram.d-flex.justify-content-center.align-items-center(href='https://www.instagram.com/english_teacher_zelinska/')
+												i#rotatable-instagram.fa.fa-instagram
+								.col-3.col-sm-2.col-xl-1
+									.social-network.networks__facebook.d-flex.justify-content-around.animated
+										.facebook-bg.d-flex.justify-content-center.align-items-center
+											a.d-flex.justify-content-center.align-items-center(href='https://www.facebook.com/nina.zelinska.96')
+												i#rotatable-facebook.fa.fa-facebook
+								.col-3.col-sm-2.col-xl-1
+									.social-network.networks__tiktok.d-flex.justify-content-around.animated
+										.tiktok-bg.d-flex.justify-content-center.align-items-center
+											a.tiktok.d-flex.justify-content-center.align-items-center.h-100.w-100(href='https://vm.tiktok.com/ZS5eAq1D/')
+												.tiktok-img
+								.col-3.col-sm-2.col-xl-1
+									.social-network.networks__telegram.d-flex.justify-content-around.animated
+										.telegram-bg.d-flex.justify-content-center.align-items-center
+											a.telegram.d-flex.justify-content-center.align-items-center(href='https://t.me/ZteacherBot')
+												i#rotatable-telegram.fab.fa-telegram-plane
+							
+							
+						.row
+							.col-12
+								p.contacts__description.bragging.animated
+									| Ми цілодобово приймаємо ваші повідомлення та намагаємось відповідати в робочий час масимально оперативнo:)
+			
+			include footer.pug
+
+
+	

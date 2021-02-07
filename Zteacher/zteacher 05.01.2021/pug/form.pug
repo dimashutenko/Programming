@@ -1,0 +1,32 @@
+extends main_template.pug
+
+block content
+	meta(name='description' content='')
+	// Telegram bottom
+	meta(name='keywords' content='zteacher')
+	meta(property='og:title' content='Форма')
+	// Telegram middle
+	meta(property='og:description' content='')
+	// bottom
+	meta(property='og:type' content='article')
+	meta(property='og:image' content='img/favicon.png')
+	meta(property='og:site_name' content='Zteacher Language School form')
+	title Zteacher Form
+
+	body
+		include navigation.pug
+		
+		section.section#form
+			.container
+				.row
+					.col-12
+						form(action="mail.php" method="post")
+							input(type="text" name="user_name" placeholder="Name") 
+							button(type="submit") Send form
+
+
+		include footer.pug
+		script(src="js/products.js")
+
+
+		

@@ -1,0 +1,29 @@
+.header-wrapper{
+	background: url(../img/travelling-bg.jpg) center center no-repeat;
+	background-size: cover;
+}
+@media (max-width: 1200px) {
+	/* .header-wrapper{
+		background: url(../img/travelling-bg.jpg) -100px 0px no-repeat;
+		background-size: cover;
+	} */
+
+}
+@media (max-width: 992px) {
+	/* .header-wrapper{
+		background: url(../img/travelling-bg.jpg) -220px 0px no-repeat;
+		background-size: cover;
+	} */
+}
+@media (max-width: 768px) {
+	/* .header-wrapper{
+		background: url(../img/travelling-bg.jpg) -330px 0px no-repeat;
+		background-size: cover;
+	} */
+}
+@media (max-width: 576px) {
+	/* .header-wrapper{
+		background: url(../img/travelling-bg.jpg) 80% top no-repeat;
+		background-size: cover;
+	} */
+}
