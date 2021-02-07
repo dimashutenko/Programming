@@ -1,0 +1,46 @@
+html {
+  border-top: 5px solid #fff;
+  background: #58DDAF;
+  color: #2a2a2a;
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+  }
+}
+
+p {
+  margin: 0 auto;
+  width: 500px;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
+
+$border_color: red;
+
+%box{
+  font-weight: 900;
+  padding: 20px;
+  border: 2px solid $border_color;
+  font-size: 20px;
+}
+
+.box1{
+  @extend %box;
+  background-color: blue;
+}
+
+.box2{
+  @extend %box;
+  background-color: green;
+}
+
+.box3{
+  @extend %box;
+  background-color:yellow;
+}
