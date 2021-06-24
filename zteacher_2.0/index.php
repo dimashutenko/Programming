@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="https://res.cloudinary.com/dxfq3iotg/raw/upload/v1569006288/BBBootstrap/choices.min.css?version=7.0.0">
@@ -32,10 +34,23 @@
         <?php 
           include ('navigation.php');
         ?>
-        <div class="header-wrapper d-flex h-100">
-          <div class="container">
-            <div class="offer d-flex justify-content-end align-items-center animated fadeInUp">
-              
+        <div class="header-wrapper d-flex">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="offer-left d-flex">
+                  <h1 class="offer__title">
+                    English - твій пароль до сучасного світу
+                  </h1>
+                  <p class="d-block w-100">
+                    Безкоштовный урок
+                  </p>
+                  <a href="#" class="btn-register">
+                    Записатися
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6 offer-right d-none d-md-flex"></div>
             </div>
           </div>
         </div>
@@ -43,15 +58,8 @@
 
 
       <?php 
-        include ('intro.php');
-
-        include ('lessons.php');
-        
-        include ('products.php');
-
         include ('approach.php');
-
-        include ('testimonials.php');
+        
 
         include ('footer.php');
       ?>
