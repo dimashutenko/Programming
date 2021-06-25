@@ -59,6 +59,7 @@
 
       <?php 
         include ('approach.php');
+        include ('courses.php');
         
 
         include ('footer.php');

@@ -4,19 +4,23 @@ $(document).ready( function() {
         target.classList.remove('opacity-to-zero');
         target.classList.remove('opacity-to-one');
     }
-
+    hide = (target) =>{
+        target.classList.add('d-none');
+        target.classList.remove('d-flex');
+    }
+    show = (target) =>{
+        target.classList.remove('d-none');
+        target.classList.add('d-flex');
+    }
 
     $('.school-advantage-speaking')[0].addEventListener("mouseenter", function( event ) {
         clear_opacity_effects( $('.approach__right')[0]);
         clear_opacity_effects( $('.approach__speaking')[0]);
         $('.approach__right')[0].classList.add('opacity-to-zero');  
         setTimeout( function(){
-                $('.approach__right')[0].classList.add('d-none');
-                $('.approach__right')[0].classList.remove('d-flex');
-                $('.approach__speaking')[0].classList.remove('d-none');
-                $('.approach__speaking')[0].classList.add('d-flex');
+                hide($('.approach__right')[0]);
+                show($('.approach__speaking')[0]);
                 $('.approach__speaking')[0].classList.add('opacity-to-one');
-                
         }, 500);
     }, false);
 
@@ -25,12 +29,53 @@ $(document).ready( function() {
         clear_opacity_effects( $('.approach__speaking')[0]);
         $('.approach__speaking')[0].classList.add('opacity-to-zero');  
         setTimeout( function(){
-                $('.approach__speaking')[0].classList.add('d-none');
-                $('.approach__speaking')[0].classList.remove('d-flex');
-                $('.approach__right')[0].classList.remove('d-none');
-                $('.approach__right')[0].classList.add('d-flex');
+                hide($('.approach__speaking')[0]);
+                show($('.approach__right')[0]);
                 $('.approach__right')[0].classList.add('opacity-to-one');
-                
+            }, 500);
+    }, false);
+    // ----------------------------------------------------------------------------------
+    $('.school-advantage-writing')[0].addEventListener("mouseenter", function( event ) { 
+        clear_opacity_effects( $('.approach__right')[0]);
+        clear_opacity_effects( $('.approach__writing')[0]);
+        $('.approach__right')[0].classList.add('opacity-to-zero');  
+        setTimeout( function(){ 
+                hide($('.approach__right')[0]);
+                show($('.approach__writing')[0]);
+                $('.approach__writing')[0].classList.add('opacity-to-one');
+        }, 500);
+    }, false);
+
+    $('.approach__writing')[0].addEventListener("mouseleave", function( event ) { 
+        clear_opacity_effects( $('.approach__right')[0]);
+        clear_opacity_effects( $('.approach__writing')[0]);
+        $('.approach__writing')[0].classList.add('opacity-to-zero');  
+        setTimeout( function(){ 
+                hide($('.approach__writing')[0]);
+                show($('.approach__right')[0]);
+                $('.approach__right')[0].classList.add('opacity-to-one');
+            }, 500);
+    }, false);
+    // ----------------------------------------------------------------------------------
+    $('.school-advantage-interest')[0].addEventListener("mouseenter", function( event ) { 
+        clear_opacity_effects( $('.approach__right')[0]);
+        clear_opacity_effects( $('.approach__interest')[0]);
+        $('.approach__right')[0].classList.add('opacity-to-zero');  
+        setTimeout( function(){ 
+                hide($('.approach__right')[0]);
+                show($('.approach__interest')[0]);
+                $('.approach__interest')[0].classList.add('opacity-to-one');
+        }, 500);
+    }, false);
+
+    $('.approach__interest')[0].addEventListener("mouseleave", function( event ) { 
+        clear_opacity_effects( $('.approach__right')[0]);
+        clear_opacity_effects( $('.approach__interest')[0]);
+        $('.approach__interest')[0].classList.add('opacity-to-zero');  
+        setTimeout( function(){ 
+                hide($('.approach__interest')[0]);
+                show($('.approach__right')[0]);
+                $('.approach__right')[0].classList.add('opacity-to-one');
             }, 500);
     }, false);
 
