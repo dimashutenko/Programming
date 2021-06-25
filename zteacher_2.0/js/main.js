@@ -1,5 +1,58 @@
 $(document).ready( function() {
 
+    clear_opacity_effects = (target) => {
+        target.classList.remove('opacity-to-zero');
+        target.classList.remove('opacity-to-one');
+    }
+
+
+    $('.school-advantage-speaking')[0].addEventListener("mouseenter", function( event ) {
+        clear_opacity_effects( $('.approach__right')[0]);
+        clear_opacity_effects( $('.approach__speaking')[0]);
+        $('.approach__right')[0].classList.add('opacity-to-zero');  
+        setTimeout( function(){
+                $('.approach__right')[0].classList.add('d-none');
+                $('.approach__right')[0].classList.remove('d-flex');
+                $('.approach__speaking')[0].classList.remove('d-none');
+                $('.approach__speaking')[0].classList.add('d-flex');
+                $('.approach__speaking')[0].classList.add('opacity-to-one');
+                
+        }, 500);
+    }, false);
+
+    $('.approach__speaking')[0].addEventListener("mouseleave", function( event ) {
+        clear_opacity_effects( $('.approach__right')[0]);
+        clear_opacity_effects( $('.approach__speaking')[0]);
+        $('.approach__speaking')[0].classList.add('opacity-to-zero');  
+        setTimeout( function(){
+                $('.approach__speaking')[0].classList.add('d-none');
+                $('.approach__speaking')[0].classList.remove('d-flex');
+                $('.approach__right')[0].classList.remove('d-none');
+                $('.approach__right')[0].classList.add('d-flex');
+                $('.approach__right')[0].classList.add('opacity-to-one');
+                
+            }, 500);
+    }, false);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   // zteacher 1.0
+
 
 /* -------Animate On Scroll Library------- */
     AOS.init({
@@ -144,81 +197,6 @@ $(document).ready( function() {
    
 
     
-
-
-    /* ----------secret box--------*/
-    var message_to_show = $(".secret-message")[0];
-    $(".school-advantage").on("mouseover", function (){
-        if($("#digital-approach h4").is(':hover')){
-            message_to_show.classList.remove('opacity-to-one');
-            message_to_show.classList.add('opacity-to-zero');
-            setTimeout(() => {
-                message_to_show.innerHTML = "Сучасні студенти потребують сучасного підходу до навчання :)";
-                message_to_show.classList.remove('opacity-to-zero');
-                message_to_show.classList.add('opacity-to-one');
-            }, 500);
-            
-            
-        } 
-        if($("#students_interests h4").is(':hover')){ 
-            message_to_show.classList.remove('opacity-to-one');
-            message_to_show.classList.add('opacity-to-zero');
-            setTimeout(() => {
-                message_to_show.innerHTML = `Бажання студентів знаходяться в центрі нашої уваги, ми flexible — тому і такі круті!`;
-                message_to_show.classList.remove('opacity-to-zero');
-                message_to_show.classList.add('opacity-to-one');
-            }, 500);
-            
-        } 
-        if($("#creative_teachers h4").is(':hover')){ 
-            message_to_show.classList.remove('opacity-to-one');
-            message_to_show.classList.add('opacity-to-zero');
-            setTimeout(() => {
-                message_to_show.innerHTML = `Навчаємо з завдоволенням, а не заставляємо "зубрити".`;
-                message_to_show.classList.remove('opacity-to-zero');
-                message_to_show.classList.add('opacity-to-one');
-            }, 500);
-            
-        }
-        if($("#horison_expansion h4").is(':hover')){ 
-            message_to_show.classList.remove('opacity-to-one');
-            message_to_show.classList.add('opacity-to-zero');
-            setTimeout(() => {
-                message_to_show.innerHTML = `Ми віримо, що нашою ціллю є дещо більше ніж вивчення миви.`;
-                message_to_show.classList.remove('opacity-to-zero');
-                message_to_show.classList.add('opacity-to-one');
-            }, 500);
-            
-        }
-        if($("#modern_trends h4").is(':hover')){ 
-            message_to_show.classList.remove('opacity-to-one');
-            message_to_show.classList.add('opacity-to-zero');
-            setTimeout(() => {
-                message_to_show.innerHTML = `Змінюється світ, разом з ним і мова. Ми проти академізму, використовуємо сленг та слідкуємо за сучасними трендами.`;
-                message_to_show.classList.remove('opacity-to-zero');
-                message_to_show.classList.add('opacity-to-one');
-            }, 500);
-            
-        }
-        
-    });
-    /* ----------secret box--------*/
-
-    // courses
-    for (let i=0; i<$('#products .course').length; i++){
-        $('#products .course')[i].classList.add('animated'); //adding .animated to all
-    }
-    // courses
-    for (let i=0; i<$('.feature-wrapper').length; i++){
-        $('.feature-wrapper')[i].classList.add('animated'); //adding .animated to all
-    }
-
-    load_features_details = (button) => {
-        button.classList.add('d-none');
-        $('#merits ul.list')[0].classList.remove('d-none');
-        console.log($('#merits ul.list').classList);
-    }
-
 
 
 

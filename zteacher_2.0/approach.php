@@ -6,24 +6,24 @@
       </div>
       <div class="col-12 col-md-6">
         <div class="approach__right justify-content-center d-flex">
-          <h2 class="approach_headline mt-5 mb-5">
+          <h2 class="approach_headline mb-5">
             Наш підхід - це цікавий контент
           </h2>
-          <div class="school-advantage">
+          <div class="school-advantage school-advantage-speaking">
             <div class="circle"><span class="percentage">90 %</span></div>
             <h3 class="school-advantage__title">Говоріння</h3>
           </div>
-          <div class="school-advantage">
+          <div class="school-advantage school-advantage-writing">
             <div class="circle"><span class="percentage">10 %</span></div>
             <h3 class="school-advantage__title">Писання</h3>
           </div>
-          <div class="school-advantage">
+          <div class="school-advantage school-advantage-interest">
             <div class="circle"><span class="percentage">100 %</span></div>
             <h3 class="school-advantage__title">Фокус на інтереси студента</h3>
           </div>
         </div>
         <div class="approach__right approach__speaking d-none justify-content-center">
-          <h2 class="approach__speaking-title mt-5 mb-3">
+          <h2 class="approach__speaking-title mb-3">
             Ви будете розмовляти!
           </h2>
           <div class="school-advantage mb-5">

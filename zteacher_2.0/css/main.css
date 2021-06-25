@@ -152,9 +152,11 @@ section{
 	padding-top: 100px;
 }
 .approach__left{
-	background: url(../img/pic2.png) no-repeat right center / cover;
+	background: url(../img/pic2.png) no-repeat center top / cover;
+	min-height: 900px;
 }
 .approach__right{
+	margin: 3rem 1rem;
 	-ms-flex-flow: row wrap;
 	    flex-flow: row wrap;
 }
@@ -164,11 +166,14 @@ h2{
 }
 .school-advantage {
 	display: flex;
-	margin: 20px;
+	margin: 20px 35%;
 	align-items: center;
 	width: 100%;
 	-ms-flex-flow: column nowrap;
 	    flex-flow: column nowrap;
+}
+.school-advantage:last-child{
+	margin: 20px 15%;
 }
 .school-advantage .circle{
 	height: 145px;
