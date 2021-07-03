@@ -87,10 +87,11 @@ $(document).ready( function() {
         closeEffect: "none"
     });
 
-    all_courses_z_index_1 = () => { debugger;
+    all_courses_z_index_1 = () => { 
         var list = $(".course_");
         for (let i=0; i<list.length; i++){
             list[i].classList.add('z-index-1');
+            list[i].classList.remove('z-index-99999');
         }
     }
         
@@ -101,7 +102,8 @@ $(document).ready( function() {
         
         $(this).addClass('transition');
 
-        $(this).parent().parent().css('z-index','99999');
+        $(this).parent().parent().removeClass('z-index-1');
+        $(this).parent().parent().addClass('z-index-99999');
     }, function(){
         
         $(this).removeClass('transition');

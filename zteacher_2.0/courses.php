@@ -5,21 +5,21 @@
         </h2>
         <div class="row">
                 <div class="col-md-4 col-xs-6 course_">
-                    <a href="#" class="fancybox" rel="ligthbox">
+                    <a href="" class="fancybox" rel="ligthbox">
                         <div class="course course-business zoom">
                             <h3 class="course-title">Бізнес Англійська</h3>
                         </div>
                     </a>
                 </div>
                 <div class=" col-md-4 col-xs-6 course_">
-                    <a href="#" class="fancybox" rel="ligthbox">
+                    <a href="" class="fancybox" rel="ligthbox">
                         <div class="course course-general zoom">
                             <h3 class="course-title">Загальна Англійська</h3>
                         </div>
                     </a>
                 </div>
                 <div class=" col-md-4 col-xs-6 course_">
-                    <a href="#" class="fancybox" rel="ligthbox">
+                    <a href="" class="fancybox" rel="ligthbox">
                         <div class="course course-schoolers zoom">
                             <h3 class="course-title">Англійська Для Школярів</h3>
                         </div>
@@ -56,7 +56,9 @@
                 <div class=" col-md-4 col-xs-6 course_">
                     <a href="#" class="fancybox" rel="ligthbox">
                         <div class="course course-exams zoom">
-                            <h3 class="course-title">Підготовка До Іспитів ДПА, ЗНО, IEITS TOEFL</h3>
+                            <div class="course-title">Підготовка До Іспитів
+                                <h5 class="course-title course-title-small">ДПА, ЗНО, IEITS, TOEFL</h5>
+                            </div>
                         </div>
                     </a>
                 </div>

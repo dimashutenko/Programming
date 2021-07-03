@@ -239,12 +239,21 @@ h2{
 	padding: 0;
 }
 .course-title{
-	font-weight: 700;
+	color: #fff;
+	line-height: 2.5rem;
+	font-weight: 600;
 	font-size: 2rem;
 	text-align: center;
 	text-align: center;
 	display: flex;
-	padding: 0 2rem;
+	padding: 0 2.5rem;
+	display: flex;
+	flex-flow: row wrap;
+}
+.course-title-small{
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+	margin-top: 2rem;
 }
 .course{
 	display: flex;
@@ -310,7 +319,6 @@ h2{
     -o-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
     position: relative;
-    z-index: 1;
 }
         
  
@@ -324,7 +332,9 @@ h2{
 .z-index-1{
 	z-index: 1;
 }
-
+.z-index-99999{
+	z-index: 99999;
+}
 
 
 
