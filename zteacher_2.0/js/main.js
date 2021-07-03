@@ -86,10 +86,22 @@ $(document).ready( function() {
         openEffect: "none",
         closeEffect: "none"
     });
+
+    all_courses_z_index_1 = () => { debugger;
+        var list = $(".course_");
+        for (let i=0; i<list.length; i++){
+            list[i].classList.add('z-index-1');
+        }
+    }
         
-    $(".zoom").hover(function(){
+    $(".zoom").hover(function(){ 
+
+        
+        all_courses_z_index_1();
         
         $(this).addClass('transition');
+
+        $(this).parent().parent().css('z-index','99999');
     }, function(){
         
         $(this).removeClass('transition');

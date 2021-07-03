@@ -20,12 +20,7 @@
         <div class="mt-3"><i class="mr-1 fa fa-phone fa-lg"></i><a href="tel:+380958803379"> +380 95 880 3379</a><br><i class="mr-2 fa fa-envelope fa-lg"></i><a href="mailto:nina30111980@gmail.com"> nina30111980@gmail.com</a><br></div>
       </div>
       <div class="col-12 col-md-4 align-self-center">
-        <div class="footer-socials text-center">
-          <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/zteacher_language_school"><i class="fab fa-instagram"></i></a>
-          <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/nina.zelinska.96"><i class="fa fa-facebook"></i></a>
-          <a class="btn btn-social-icon btn-tiktok" href="https://vm.tiktok.com/ZS5eAq1D/"><i class="fab fa-tiktok"></i></a>
-          <a class="btn btn-social-icon btn-instagram" href="https://t.me/ZteacherBot"><i class="fab fa-telegram-plane"></i></a>
-        </div>
+        
       </div>
     </div>
     <div class="row justify-content-center">

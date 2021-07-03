@@ -1,55 +1,74 @@
-<div class="section" id="courses">
-  <div class="container">
-    <h2 class="courses_headline mb-5 mt-5 text-center">
-      ГАЛЕРЕЯ КУРСІВ
-    </h2>
-    <div class="row">
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a href="#" class="fancybox" rel="ligthbox">
-                    <img  src="img/statue.jpg" class="zoom img-fluid "  alt="">
-                </a>
-                <h3 class="course-title">Бізнес Англійська</h3>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a href="https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"  class="fancybox" rel="ligthbox">
-                    <img  src="https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="zoom img-fluid"  alt="">
-                </a>
-            </div>
-            
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a href="https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="fancybox" rel="ligthbox">
-                    <img  src="https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="zoom img-fluid "  alt="">
-                </a>
-            </div>
-            
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a href="https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="fancybox" rel="ligthbox">
-                    <img  src="https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="zoom img-fluid "  alt="">
-                </a>
-            </div>
-             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a href="https://images.pexels.com/photos/1038914/pexels-photo-1038914.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                    <img  src="https://images.pexels.com/photos/1038914/pexels-photo-1038914.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="zoom img-fluid "  alt="">
-                </a>
-            </div>
-            
-             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a href="https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                    <img  src="https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="zoom img-fluid "  alt="">
-                </a>
-            </div>
-            
-             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a href="https://images.pexels.com/photos/56005/fiji-beach-sand-palm-trees-56005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="fancybox" rel="ligthbox">
-                    <img  src="https://images.pexels.com/photos/56005/fiji-beach-sand-palm-trees-56005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="zoom img-fluid "  alt="">
-                </a>
-            </div>
-            
-             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a href="https://images.pexels.com/photos/1038002/pexels-photo-1038002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="fancybox" rel="ligthbox">
-                    <img  src="https://images.pexels.com/photos/1038002/pexels-photo-1038002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="zoom img-fluid "  alt="">
-                </a>
-            </div>
-  </div>
+<div class="section mt-5" id="courses">
+    <div class="container">
+        <h2 class="courses_headline mb-5 mt-5 text-center">
+          ГАЛЕРЕЯ КУРСІВ
+        </h2>
+        <div class="row">
+                <div class="col-md-4 col-xs-6 course_">
+                    <a href="#" class="fancybox" rel="ligthbox">
+                        <div class="course course-business zoom">
+                            <h3 class="course-title">Бізнес Англійська</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-md-4 col-xs-6 course_">
+                    <a href="#" class="fancybox" rel="ligthbox">
+                        <div class="course course-general zoom">
+                            <h3 class="course-title">Загальна Англійська</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-md-4 col-xs-6 course_">
+                    <a href="#" class="fancybox" rel="ligthbox">
+                        <div class="course course-schoolers zoom">
+                            <h3 class="course-title">Англійська Для Школярів</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-xs-6 course_">
+                    <a href="#" class="fancybox" rel="ligthbox">
+                        <div class="course course-sheldon zoom">
+                            <h3 class="course-title">Курс За Серіалом Young Sheldon</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-xs-6 course_">
+                    <a href="#" class="fancybox" rel="ligthbox">
+                        <div class="course course-dash_lily zoom">
+                            <h3 class="course-title">Курс За Серіалом Dash&Lily</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-xs-6 course_">
+                    <a href="#" class="fancybox" rel="ligthbox">
+                        <div class="course course-babies zoom">
+                            <h3 class="course-title">Англійська Для Малюків</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-md-4 col-xs-6 course_">
+                    <a href="#" class="fancybox" rel="ligthbox">
+                        <div class="course course-techers zoom">
+                            <h3 class="course-title">Для Вчителів Від Засновниці Школи</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-md-4 col-xs-6 course_">
+                    <a href="#" class="fancybox" rel="ligthbox">
+                        <div class="course course-exams zoom">
+                            <h3 class="course-title">Підготовка До Іспитів ДПА, ЗНО, IEITS TOEFL</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-md-4 col-xs-6 course_">
+                    <a href="#" class="fancybox" rel="ligthbox">
+                        <div class="course course-travel zoom">
+                            <h3 class="course-title">Курс Подорожі З Легкістю</h3>
+                        </div>
+                    </a>
+                </div>                
+                
+                
+        </div>
+    </div>
 </div>
-  
