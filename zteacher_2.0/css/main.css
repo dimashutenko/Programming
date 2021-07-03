@@ -261,12 +261,12 @@ h2{
 	align-items: center;
 }
 .course-business{
-	background: url(../img/business-course.png);
+	background: url(../img/course_business.png);
 	background-size: cover;
 	background-position: center;
 }
 .course-general{
-	background: url(../img/general-course.png);
+	background: url(../img/course_general.png);
 	background-size: cover;
 	background-position: center;
 }
@@ -323,10 +323,10 @@ h2{
         
  
 .transition {
-    -webkit-transform: scale(1.2); 
-    -moz-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.25); 
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
     position: relative;
 }
 .z-index-1{
