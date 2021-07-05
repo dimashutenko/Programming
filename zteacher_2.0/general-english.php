@@ -23,7 +23,7 @@
     <meta property="og:type" content="article">
     <meta property="og:image" content="img/favicon.png">
     <meta property="og:site_name" content="Zteacher Language School">
-    <title>Zteacher Language School</title>
+    <title>General English - Zteacher Language School</title>
     <body>
 
       <?php 
@@ -38,11 +38,25 @@
         <div class="header-wrapper d-flex">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-12 col-md-6">
-                <div class="offer-left d-flex">
-                  <h1 class="offer__title">
-                    English - твій пароль до сучасного світу
-                  </h1>
+              <div class="col-md-6">
+                <div class="course-right d-flex">
+                  <h2 class="course-page-title">
+                    Загальна Англійська
+                  </h2>
+                  <p class="course-description">
+                    Кожен урок готується окремо, індивідуально для кожного студента , групи . Виходячи з його/їх інтересів. Бажання займатися з`явиться, якщо матеріал цікавий. Тому ми наполегливо готуємось до кожного уроку, заради наших студентів.
+                  </p>
+                  <p class="course-description">
+                    Занурення в мову - запорука вільного володіння. Ми вважаємо, що максимальне занурення студента в мову -  найголовніше у вивченні. Вчитель, як путівник знайомить учня з найцікавішими ресурсами, адаптованими та оригінальними, щоб спонукати студента, не полишати поле англійської навіть, коли урок закінчився.
+                  </p>
+                  <p class="course-description">
+                    Мовлення - перше! Граматика - друге! <br> Ми розуміємо, що спочатку з’явилася мова, а лише потім граматика. Тому ми не вивчаємо мову через граматику, а знайомимось з граматикою, вже розмовляючи. Тією граматикою, якою користуються носії, яку ми чуємо в фільмах та відео, на вулицях та вечірках, ділових зустрічах та курортах , а не тією, яка сухо, «бездушно» структурована в підручниках.
+                  </p>
+                  <p class="course-description">
+                    Школярі - 250 гривень/година
+                    <br>
+                    Дорослі - 300 гривень/година
+                  </p>
                   <p class="d-block w-100 free-lesson">
                     Безкоштовный урок
                   </p>
@@ -51,7 +65,11 @@
                   </a>
                 </div>
               </div>
-              <div class="col-md-6 offer-right d-none d-md-flex"></div>
+              <div class="col-12 col-md-6">
+                <div class="course-left course-left-general d-none d-md-flex">
+                  
+                </div>
+              </div>
             </div>
           </div>
         </div>

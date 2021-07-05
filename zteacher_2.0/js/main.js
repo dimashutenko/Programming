@@ -135,19 +135,19 @@ $(document).ready( function() {
 
 
     /* -------nav------- */
-    $('.navbar')[0].classList.add("fadeIn");
+    // $('.navbar')[0].classList.add("fadeIn");
     
-    if (window.location.href.includes('index.php')){
-        $('#home-page')[0].classList.add('active');
-    } else {
-        $('#home-page')[0].classList.remove('active');
-    }
+    // if (window.location.href.includes('index.php')){
+    //     $('#home-page')[0].classList.add('active');
+    // } else {
+    //     $('#home-page')[0].classList.remove('active');
+    // }
 
-    if (window.location.href.includes('contacts.php')){
-        $('#contacts-page')[0].classList.add('active');
-    } else {
-        $('#contacts-page')[0].classList.remove('active');
-    }
+    // if (window.location.href.includes('contacts.php')){
+    //     $('#contacts-page')[0].classList.add('active');
+    // } else {
+    //     $('#contacts-page')[0].classList.remove('active');
+    // }
         
     /* -------nav end------- */
 

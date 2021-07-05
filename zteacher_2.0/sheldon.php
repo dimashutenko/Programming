@@ -23,7 +23,7 @@
     <meta property="og:type" content="article">
     <meta property="og:image" content="img/favicon.png">
     <meta property="og:site_name" content="Zteacher Language School">
-    <title>Zteacher Language School</title>
+    <title>Young Sheldon - Zteacher Language School</title>
     <body>
 
       <?php 
@@ -38,11 +38,32 @@
         <div class="header-wrapper d-flex">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-12 col-md-6">
-                <div class="offer-left d-flex">
-                  <h1 class="offer__title">
-                    English - твій пароль до сучасного світу
-                  </h1>
+              <div class="col-md-6">
+                <div class="course-right d-flex">
+                  <h2 class="course-page-title">
+                    Курс За Серіалом Young Sheldon
+                  </h2>
+                  <p class="course-description">
+                    Сімейна комедія, від якої студенти будь-якого віку в захваті. Кожен зустріне в серіалі улюбленого персонажа. Кожному буде, з чого посміятися досхочу!!!
+                  </p>
+                  <p class="course-description">
+                    До курсу включені вправи: до перегляду серії, під час перегляду та після перегляду
+                  </p>
+                  <p class="course-description">
+                    Вправи на відпрацювання лексики, аудіювання та письма <br>
+                    Граматичний блок до кожної із серій<br>
+                    Переклад нових слів<br>
+                    Ключі до всіх вправ<br>
+                    Вправи різноманітні, точно не буде нудно виконувати.
+                  </p>
+                  <p class="course-description">
+                    Разом з вчителем ви пройдете курс, збагачуючи свій запас лексики врази, відпрацьовуючи граматику, прекрасно проводячи час.
+                  </p>
+                  <p class="course-description">
+                    До курсу входить десять уроків - 1год. <br>
+                    Вартість - 3000 гривень/10 занять <br>
+                    Є можливість проходити в парі або в групі, ціна, в такому випадку, буде узгоджуватися.
+                  </p>
                   <p class="d-block w-100 free-lesson">
                     Безкоштовный урок
                   </p>
@@ -51,7 +72,11 @@
                   </a>
                 </div>
               </div>
-              <div class="col-md-6 offer-right d-none d-md-flex"></div>
+              <div class="col-12 col-md-6">
+                <div class="course-left course-left-sheldon d-none d-md-flex">
+                  
+                </div>
+              </div>
             </div>
           </div>
         </div>
