@@ -14,7 +14,7 @@
           </a>
         </li>
         <li class="nav-item d-flex justify-content-center ml-2">
-          <a class="nav-link" href="./index.php#products">
+          <a class="nav-link" href="./index.php#courses">
             <span>Курси</span>
           </a>
         </li>
