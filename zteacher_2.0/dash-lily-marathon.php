@@ -23,7 +23,7 @@
     <meta property="og:type" content="article">
     <meta property="og:image" content="img/favicon.png">
     <meta property="og:site_name" content="Zteacher Language School">
-    <title>Zteacher Language School</title>
+    <title>Travel English - Zteacher Language School</title>
     <body>
 
       <?php 
@@ -38,20 +38,25 @@
         <div class="header-wrapper d-flex">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-12 col-md-6">
-                <div class="offer-left d-flex">
-                  <h1 class="offer__title">
-                    English - твій пароль до сучасного світу
-                  </h1>
-                  <p class="d-block w-100 free-lesson">
-                    Безкоштовный урок
-                  </p>
-                  <a href="#" class="btn-register">
-                    Записатися
-                  </a>
+              <div class="col-md-6">
+                <div class="course-right d-flex">
+                  <h2 class="course-page-title">
+                    Курс Подорожі З Легкістю
+                  </h2>
+                  <p class="course-description">Позбавимо вас від страху непорозумінь під час подорожей за 10 занять. Розбираємо та тренуємо найбільш важливі теми та знайомимосьз визначними місцями.</p>
+                  <p class="course-description">Судячи з інстаграм, перші ластівки полетіли до вже приймаючих готелів, в межах України. Невдовзі найсміливіші відправляться і в закордонні поїздки. У нас, для плануючих відпочивати із задоволенням, та отримати максимум від подорожей, нереально цікава пропозиція.</p>
+                  <p class="course-description">10 уроків, тривалістю 1.15 год. <br>Найцікавіші факти, про місця 10ти міст світу</p>
+                  <p class="course-description">10 тем, якими найважливіше оволодіти для вільного, впевненого спілкування під час подорожей пропрацювання лексики, конструкцій, сталих виразів. Незважаючи на курс, індивідуальний підхід до кожного студента зберігається (адаптуємо урок відповідно до інтересів та здібностей студента)</p>
+                  <p class="course-description">Можливість пройти курс з другом, та навіть групою друзів</p>
+                  <p class="free-lesson">Безкоштовный урок</p>
+                  <a href="#" class="btn-register">Записатися</a>
                 </div>
               </div>
-              <div class="col-md-6 offer-right d-none d-md-flex"></div>
+              <div class="col-12 col-md-6">
+                <div class="course-left course-left-travel d-none d-md-flex">
+                  
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -61,7 +66,6 @@
       <?php 
         include ('approach.php');
         include ('courses.php');
-        include ('additional-courses.php');
         
 
         include ('footer.php');

@@ -232,8 +232,7 @@ h2{
 .courses_headline{
 	font-weight: 700;
 }
-
-#courses .row>div{
+#courses .row>div, #additional-courses .row>div{
 	position: relative;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 	padding: 0;
@@ -304,6 +303,18 @@ h2{
 	background: url(../img/course_travel.png);
 	background-size: cover;
 	background-position: center;
+}
+.course-schoolers-speaking{
+	background: url(../img/course-schoolers-speaking.png) no-repeat center;
+	background-size: cover;
+}
+.course-it-english{
+	background: url(../img/course-it-english) no-repeat center;
+	background-size: cover;
+}
+.course-dash-lily-marathon{
+	background: url(../img/projector.png) no-repeat center;
+	background-size: cover;
 }
 .zoom {
     width: 100%;
