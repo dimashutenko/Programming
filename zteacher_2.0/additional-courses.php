@@ -25,7 +25,11 @@
                     </div>
                 </a>
             </div>
-                
+        </div>
+        <div class="row justify-content-center">
+            <div class="free-lesson-centered">
+                <?php include ('free-lesson.php'); ?>
+            </div>
         </div>
     </div>
 </div>

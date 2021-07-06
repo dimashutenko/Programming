@@ -32,9 +32,7 @@
 
       
       <header class="header" id="header" data-aos="fade-in">
-        <?php 
-          include ('navigation.php');
-        ?>
+        <?php include ('navigation.php'); ?>
         <div class="header-wrapper d-flex">
           <div class="container-fluid">
             <div class="row">
@@ -43,12 +41,7 @@
                   <h1 class="offer__title">
                     English - твій пароль до сучасного світу
                   </h1>
-                  <p class="d-block w-100 free-lesson">
-                    Безкоштовный урок
-                  </p>
-                  <a href="#" class="btn-register">
-                    Записатися
-                  </a>
+                  <?php include ('free-lesson.php'); ?>
                 </div>
               </div>
               <div class="col-md-6 offer-right d-none d-md-flex"></div>
