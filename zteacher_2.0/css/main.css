@@ -229,6 +229,9 @@ h2{
 .opacity-to-one{
 	animation: opacity-to-one 0.5s forwards;
 }
+#courses, #additional-courses{
+	margin-top: 5rem;
+}
 .courses_headline{
 	font-weight: 700;
 }

@@ -1,6 +1,6 @@
-<div class="section mt-5" id="courses">
+<div class="section" id="courses">
     <div class="container">
-        <h2 class="courses_headline mb-5 mt-5 text-center">
+        <h2 class="courses_headline mb-5 text-center">
           ГАЛЕРЕЯ КУРСІВ
         </h2>
         <div class="row">

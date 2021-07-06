@@ -1,4 +1,4 @@
-<div class="section mt-5" id="additional-courses">
+<div class="section" id="additional-courses">
     <div class="container">
         <h2 class="courses_headline mb-5 mt-5 text-center">
           ДОДАТКОВІ КУРСИ ЗА ЗАПИТОМ
