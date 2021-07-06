@@ -430,41 +430,7 @@ h2{
 }
 
 
-#lessons{
-	position: relative;
-	margin-top: 100px;
-	padding-bottom: 80px;
-	background: var(--grey)
-}
-#lessons .container{
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	    -ms-flex-flow: row wrap;
-	        flex-flow: row wrap;
-	overflow-x: hidden;
-	
-}
-.lessons__left{
-	width: 35%;
-	overflow: hidden;
-	border-left: 8px dashed var(--blue);
-	border-top: 8px dashed var(--blue);
-}
-.lessons__left .content{
-	padding: 2rem 3rem;
-	flex-flow: row wrap;
-}
-.lessons__title{
-	margin-bottom: 2.5rem;
-}
-.lessons__right{
-	width: 60%;
-	overflow-x: hidden;
-	margin-left: auto;
-	border-right: 8px dashed var(--blue);
-	border-bottom: 8px dashed var(--blue);
-	padding: 3rem 1.5rem;
-}
+
 .videos-gallery{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -515,47 +481,7 @@ h2{
 .vbox-next {
     right: 30px;
 }
-/*______________________products____________________*/
-#products{
-	overflow-x: hidden;
-}
-/*_____________________________________________________*/
-/* courses */
-#products{
-	background: #fff;
-}
-#products .courses{
-	padding: 2rem 0;
-}
-.courses .card{
-	margin: 0 0 2rem 0;
-	transition: all .4s ease-in-out;
-	box-shadow: 0px 10px 30px 5px rgba(5,9,36, 0.2);
-}
-.courses .card:hover{
-	transform: scale(1.02);
-	box-shadow: 0px 20px 20px 0px rgba(5,9,36, 0.3);
-}
-.courses h5{
-	transition: all .3s ease-in-out;
-}
-.courses h5 a{
-	color: var(--dark-blue);
-}
-.courses h5 *:hover{
-	text-decoration: none;
-	color: var(--blue);
-}
-.courses .card-img-top{
-	height: 270px;
-	display: flex;
-	background-size: cover;
-	background-position: center center;
-}
-.courses .card-text{
-	margin-top: 1rem;
-}
-/* courses */
+
 #merits{
 	overflow-x: hidden;
 	background: var(--grey);
@@ -687,17 +613,6 @@ ul.list{
 span.one-line{
 	margin: 0;
 	display: inline-block;
-}
-.buttons{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	    -ms-flex-flow: row nowrap;
-	        flex-flow: row nowrap;
-	-ms-flex-pack: distribute;
-	    justify-content: space-around;
 }
 
 #testimonials{
