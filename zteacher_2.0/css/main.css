@@ -333,17 +333,18 @@ h2{
 }
 .course-left{
 	position: relative;
+	min-height: 700px;
 }
-.course-left-business{
-	background: url(../img/statue.jpg) no-repeat center;
-	background-size: cover;
-}
-.course-left-business:after{
+.course-left:after{
 	content: "";
 	position: absolute;
 	left: 0; right: 0;
 	top: 0; bottom: 0;
 	background: rgba(203, 84, 254, 0.2);
+}
+.course-left-business{
+	background: url(../img/statue.jpg) no-repeat center;
+	background-size: cover;
 }
 .course-left-general{
 	background: url(../img/general-english.jpg) no-repeat center right;
@@ -361,17 +362,43 @@ h2{
 	background: url(../img/series.jpg) no-repeat center center;
 	background-size: cover;
 }
+.course-left-dash-lily{
+	background: url(../img/light-projector.jpg) no-repeat center right;
+	background-size: cover;
+}
+.course-left-babies{
+	background: url(../img/baby-angels.png) no-repeat center;
+	background-size: cover;
+}
+.course-left-teachers{
+	background: url(../img/teachers.jpg) no-repeat center;
+	background-size: cover;
+}
+.course-left-exams{
+	background: url(../img/exams.jpg) no-repeat center;
+	background-size: cover;
+}
+.course-left-travel{
+	background: url(../img/travel.jpg) no-repeat center;
+	background-size: cover;
+}
 
 .course-right{
 	margin: 3rem 3rem 3rem 3rem;
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: column wrap;
 }
 .course-page-title{
 	font-weight: 600;
-	font-size: 36px;
+	font-size: 2.25rem;
 	line-height: 49px;
 	margin-bottom: 1.5rem;
+}
+.course-page-subtitle{
+	font-weight: 600;
+	font-size: 1.125rem;
+	line-height: 24px;
+	margin: -1.5rem 0 1.5rem 0;
 }
 .course-description{
 	font-weight: normal;

@@ -23,7 +23,7 @@
     <meta property="og:type" content="article">
     <meta property="og:image" content="img/favicon.png">
     <meta property="og:site_name" content="Zteacher Language School">
-    <title>Business English - Zteacher Language School</title>
+    <title>Babies English - Zteacher Language School</title>
     <body>
 
       <?php 
@@ -41,21 +41,22 @@
               <div class="col-md-6">
                 <div class="course-right d-flex">
                   <h2 class="course-page-title">
-                    Бізнес Англійська
+                    Англійська Для Малюків
                   </h2>
                   <p class="course-description">
-                    На нинішньому ринку праці в Україні той, хто володіє англійською отримує вдвічі більше, відповідно на міжнародному - в десятки разів.
+                    Наші найменші студенти 5-7 років працюють, як індивідуально, так і в групах (4-5 учнів).
                   </p>
                   <p class="course-description">
-                    Не у всіх є часова можливість розпочати з загальної англійської, вивчати: сковорідка, тісто, стеля, і поступово рухатися до бізнес.
+                    Використовуємо найсучасніші інструменти, щоб діти із задоволенням вивчали мову, не помічаючи, що вони вчаться.
                   </p>
                   <p class="course-description">
-                    Тому ми звертаємо увагу на запит з вивчення бізнес англійської. 
+                    В ігровій форміпрацюємо над всіма чотирма навичками: мовлення, читання, аудіювання, письмо.
                   </p>
                   <p class="course-description">
-                    Лексика, відпрацювання її використання, багато-багато практики усного мовлення, а також написання повідомлень текстових, листів, ессе, заповнення квитанцій, анкет, подання заявок, резюме, CV - та безліч інших активностей, спрямованих на реалізацію ваших амбітних цілей.
+                    Індивідуально - 250 гривень/година <br>
+                    В групі 1200гривень/місяць
                   </p>
-                  <p class="d-block w-100 free-lesson">
+                  <p class="free-lesson">
                     Безкоштовный урок
                   </p>
                   <a href="#" class="btn-register">
@@ -64,7 +65,7 @@
                 </div>
               </div>
               <div class="col-12 col-md-6">
-                <div class="course-left course-left-business d-none d-md-flex">
+                <div class="course-left course-left-babies d-none d-md-flex">
                   
                 </div>
               </div>

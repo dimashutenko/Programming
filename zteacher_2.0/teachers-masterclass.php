@@ -23,7 +23,7 @@
     <meta property="og:type" content="article">
     <meta property="og:image" content="img/favicon.png">
     <meta property="og:site_name" content="Zteacher Language School">
-    <title>Business English - Zteacher Language School</title>
+    <title>Masterclass for Teachers - Zteacher Language School</title>
     <body>
 
       <?php 
@@ -41,30 +41,18 @@
               <div class="col-md-6">
                 <div class="course-right d-flex">
                   <h2 class="course-page-title">
-                    Бізнес Англійська
+                    Для Вчителів Від Засновниці Школи
                   </h2>
-                  <p class="course-description">
-                    На нинішньому ринку праці в Україні той, хто володіє англійською отримує вдвічі більше, відповідно на міжнародному - в десятки разів.
-                  </p>
-                  <p class="course-description">
-                    Не у всіх є часова можливість розпочати з загальної англійської, вивчати: сковорідка, тісто, стеля, і поступово рухатися до бізнес.
-                  </p>
-                  <p class="course-description">
-                    Тому ми звертаємо увагу на запит з вивчення бізнес англійської. 
-                  </p>
-                  <p class="course-description">
-                    Лексика, відпрацювання її використання, багато-багато практики усного мовлення, а також написання повідомлень текстових, листів, ессе, заповнення квитанцій, анкет, подання заявок, резюме, CV - та безліч інших активностей, спрямованих на реалізацію ваших амбітних цілей.
-                  </p>
-                  <p class="d-block w-100 free-lesson">
-                    Безкоштовный урок
-                  </p>
-                  <a href="#" class="btn-register">
-                    Записатися
-                  </a>
+                  <p class="course-description">Вебінар для вчителів по Інтернет ресурсах «Уроки, які не забуваються»<br>250 гривень</p>
+                  <p class="course-description">Розробки до 10 серій Young Sheldon <br> 300 гривень</p>
+                  <p class="course-description">Розробки до 8 серій Dash and Lily <br> 300 гривень</p>
+                  <p class="course-description">Закрита група у Facebook для обміну досвідом та обговорення актуальних тем.</p>
+                  <p class="free-lesson"> </p>
+                  <a href="#" class="btn-register">Записатися</a>
                 </div>
               </div>
               <div class="col-12 col-md-6">
-                <div class="course-left course-left-business d-none d-md-flex">
+                <div class="course-left course-left-teachers d-none d-md-flex">
                   
                 </div>
               </div>

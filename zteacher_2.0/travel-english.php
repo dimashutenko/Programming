@@ -23,7 +23,7 @@
     <meta property="og:type" content="article">
     <meta property="og:image" content="img/favicon.png">
     <meta property="og:site_name" content="Zteacher Language School">
-    <title>Business English - Zteacher Language School</title>
+    <title>Travel English - Zteacher Language School</title>
     <body>
 
       <?php 
@@ -41,30 +41,19 @@
               <div class="col-md-6">
                 <div class="course-right d-flex">
                   <h2 class="course-page-title">
-                    Бізнес Англійська
+                    Курс Подорожі З Легкістю
                   </h2>
-                  <p class="course-description">
-                    На нинішньому ринку праці в Україні той, хто володіє англійською отримує вдвічі більше, відповідно на міжнародному - в десятки разів.
-                  </p>
-                  <p class="course-description">
-                    Не у всіх є часова можливість розпочати з загальної англійської, вивчати: сковорідка, тісто, стеля, і поступово рухатися до бізнес.
-                  </p>
-                  <p class="course-description">
-                    Тому ми звертаємо увагу на запит з вивчення бізнес англійської. 
-                  </p>
-                  <p class="course-description">
-                    Лексика, відпрацювання її використання, багато-багато практики усного мовлення, а також написання повідомлень текстових, листів, ессе, заповнення квитанцій, анкет, подання заявок, резюме, CV - та безліч інших активностей, спрямованих на реалізацію ваших амбітних цілей.
-                  </p>
-                  <p class="d-block w-100 free-lesson">
-                    Безкоштовный урок
-                  </p>
-                  <a href="#" class="btn-register">
-                    Записатися
-                  </a>
+                  <p class="course-description">Позбавимо вас від страху непорозумінь під час подорожей за 10 занять. Розбираємо та тренуємо найбільш важливі теми та знайомимосьз визначними місцями.</p>
+                  <p class="course-description">Судячи з інстаграм, перші ластівки полетіли до вже приймаючих готелів, в межах України. Невдовзі найсміливіші відправляться і в закордонні поїздки. У нас, для плануючих відпочивати із задоволенням, та отримати максимум від подорожей, нереально цікава пропозиція.</p>
+                  <p class="course-description">10 уроків, тривалістю 1.15 год. <br>Найцікавіші факти, про місця 10ти міст світу</p>
+                  <p class="course-description">10 тем, якими найважливіше оволодіти для вільного, впевненого спілкування під час подорожей пропрацювання лексики, конструкцій, сталих виразів. Незважаючи на курс, індивідуальний підхід до кожного студента зберігається (адаптуємо урок відповідно до інтересів та здібностей студента)</p>
+                  <p class="course-description">Можливість пройти курс з другом, та навіть групою друзів</p>
+                  <p class="free-lesson">Безкоштовный урок</p>
+                  <a href="#" class="btn-register">Записатися</a>
                 </div>
               </div>
               <div class="col-12 col-md-6">
-                <div class="course-left course-left-business d-none d-md-flex">
+                <div class="course-left course-left-travel d-none d-md-flex">
                   
                 </div>
               </div>

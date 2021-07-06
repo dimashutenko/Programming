@@ -62,12 +62,12 @@
                   <p class="course-description">
                     Разом з вчителем ви пройдете курс, збагачуючи свій запас лексики врази, відпрацьовуючи граматику, прекрасно проводячи час.
                   </p>
-До курсу входить десять уроків - 1год.
-Вартість - 2400гривень/8 занять
-
-
-Є можливість проходити в парі або в групі, ціна, в такому випадку, буде узгоджуватися
-                  <p class="d-block w-100 free-lesson">
+                  <p class="course-description">
+                    До курсу входить десять уроків - 1год. <br>
+                    Вартість - 2400гривень/8 занять.<br>
+                    Є можливість проходити в парі або в групі, ціна, в такому випадку, буде узгоджуватися
+                  </p>
+                  <p class="free-lesson">
                     Безкоштовный урок
                   </p>
                   <a href="#" class="btn-register">
@@ -76,7 +76,7 @@
                 </div>
               </div>
               <div class="col-12 col-md-6">
-                <div class="course-left course-left-business d-none d-md-flex">
+                <div class="course-left course-left-dash-lily d-none d-md-flex">
                   
                 </div>
               </div>
