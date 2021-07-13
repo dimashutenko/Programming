@@ -232,7 +232,7 @@ h2{
 #courses, #additional-courses{
 	margin-top: 5rem;
 }
-.courses_headline{
+.headline_700{
 	font-weight: 700;
 }
 #courses .row>div, #additional-courses .row>div{
@@ -426,8 +426,37 @@ h2{
 .free-lesson-centered{
 	display: flex;
 	flex-flow: column nowrap;
-	margin-top: 4rem;
+	margin: 4rem 0rem;
 }
+#lessons-videos{
+	background: rgba(203, 84, 254, 0.2);
+}
+.body-bg{
+	background: var(--grey-100);
+	padding-bottom: 2rem;
+}
+.lesson-video-box{
+	position: relative;
+	height: 265px;
+}
+.lesson-video-title{
+	text-align: center;
+}
+.lesson-video-play-btn{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../img/youtube-video-red.png) no-repeat center;
+	width: 100%;
+	height: 100%;
+	margin: 6rem;
+	
+}
+.lesson-video-play-btn:hover{
+	cursor: pointer;
+}
+
+
 
 
 

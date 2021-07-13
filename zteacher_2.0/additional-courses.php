@@ -1,6 +1,6 @@
 <div class="section" id="additional-courses">
     <div class="container">
-        <h2 class="courses_headline mb-5 mt-5 text-center">
+        <h2 class="headline_700 mb-5 mt-5 text-center">
           ДОДАТКОВІ КУРСИ ЗА ЗАПИТОМ
         </h2>
         <div class="row">

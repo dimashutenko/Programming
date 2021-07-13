@@ -55,7 +55,7 @@
         include ('approach.php');
         include ('courses.php');
         include ('additional-courses.php');
-        
+        include ('lessons-videos.php');
 
         include ('footer.php');
       ?>

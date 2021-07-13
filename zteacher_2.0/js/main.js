@@ -1,5 +1,6 @@
 $(document).ready( function() {
 
+// ---------------------------------approach start------------------------------------------------
     clear_opacity_effects = (target) => {
         target.classList.remove('opacity-to-zero');
         target.classList.remove('opacity-to-one');
@@ -78,10 +79,10 @@ $(document).ready( function() {
                 $('.approach__right')[0].classList.add('opacity-to-one');
             }, 500);
     }, false);
+// ---------------------------------approach end------------------------------------------------
 
 
-
-// ---------------------------------gallery------------------------------------------------
+// ---------------------------------gallery start------------------------------------------------
     $(".fancybox").fancybox({
         openEffect: "none",
         closeEffect: "none"
@@ -108,7 +109,7 @@ $(document).ready( function() {
         
         $(this).removeClass('transition');
     });
-// ---------------------------------gallery------------------------------------------------
+// ---------------------------------gallery end------------------------------------------------
 
 
 

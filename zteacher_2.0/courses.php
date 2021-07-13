@@ -1,6 +1,6 @@
 <div class="section" id="courses">
     <div class="container">
-        <h2 class="courses_headline mb-5 text-center">
+        <h2 class="headline_700 mb-5 text-center">
           ГАЛЕРЕЯ КУРСІВ
         </h2>
         <div class="row">
