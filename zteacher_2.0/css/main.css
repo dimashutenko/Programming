@@ -438,15 +438,6 @@ h2{
 	background: var(--grey-100);
 	padding-bottom: 2rem;
 }
-.lesson-video-box{
-	position: relative;
-	height: 265px;
-}
-.lesson-video-title{
-	text-align: center;
-}
-
-
 
 .videos-gallery{
 	width: 100%;
@@ -454,6 +445,7 @@ h2{
 	grid-template-columns: repeat(3, 1fr);
   	grid-gap: 2rem;
   	grid-auto-rows: minmax(200px, auto);
+  	margin: 2rem 0;
 }
 .videos-gallery .gallery-video{
 	background-size: cover;
@@ -461,29 +453,54 @@ h2{
 	height: 100%;
 	position: relative;
 }
-.videos-gallery a:nth-child(1) .gallery-video{
+.children-videos-gallery a:nth-child(1) .gallery-video{
 	background-image: url(../img/chip.png);
 }
-.videos-gallery a:nth-child(2) .gallery-video{
+.children-videos-gallery a:nth-child(2) .gallery-video{
 	background-image: url(../img/mona_lisa_lesson.png);
 }
-.videos-gallery a:nth-child(3) .gallery-video{
-	background-image: url(../img/pisses-off-lesson.jpeg);
+.children-videos-gallery a:nth-child(3) .gallery-video{
+	
 }
-.videos-gallery a:nth-child(4) .gallery-video{
+.children-videos-gallery a:nth-child(4) .gallery-video{
 	background-image: url(../img/how_do_you_feel.png);
 }
-.videos-gallery a:nth-child(5) .gallery-video{
-	background-image: url(../img/blank.png);
+.children-videos-gallery a:nth-child(5) .gallery-video{
+	background: url(../img/talk.png) no-repeat center;
+	background-size: contain;
 }
-.videos-gallery a:nth-child(6) .gallery-video{
+.children-videos-gallery a:nth-child(6) .gallery-video{
 	background-image: url(../img/exercises.png);
 }
-.videos-gallery a:nth-child(7) .gallery-video{
+.children-videos-gallery a:nth-child(7) .gallery-video{
+	
+}
+.children-videos-gallery a:nth-child(8) .gallery-video{
+	
+}
+.older-videos-gallery a:nth-child(1) .gallery-video{
+	
+}
+.older-videos-gallery a:nth-child(2) .gallery-video{
+	
+}
+.older-videos-gallery a:nth-child(3) .gallery-video{
+	background-image: url(../img/pisses-off-lesson.jpeg);
+}
+.older-videos-gallery a:nth-child(4) .gallery-video{
+	
+}
+.older-videos-gallery a:nth-child(5) .gallery-video{
+	
+}
+.older-videos-gallery a:nth-child(6) .gallery-video{
+	
+}
+.older-videos-gallery a:nth-child(7) .gallery-video{
 	background-image: url(../img/eating_sounds.png);
 }
-.videos-gallery a:nth-child(8) .gallery-video{
-	background-image: url(../img/blank.png);
+.older-videos-gallery a:nth-child(8) .gallery-video{
+	
 }
 .videos-gallery .gallery-video i{
 	position: absolute;
@@ -506,11 +523,14 @@ h2{
     font-size: 3rem;
     margin-left: -1.5rem;
     margin-top: -1.5rem;
+    transition: all .3s ease-in-out;
 }
 .bi-youtube{
 	color: red;
 }
-
+.bi-youtube:hover{
+	color:#C31A1E;
+}
 #merits{
 	overflow-x: hidden;
 	background: var(--grey);
