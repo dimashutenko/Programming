@@ -82,7 +82,7 @@ $(document).ready( function() {
 // ---------------------------------approach end------------------------------------------------
 
 
-// ---------------------------------gallery start------------------------------------------------
+// --------------------------------- courses gallery start------------------------------------------------
     $(".fancybox").fancybox({
         openEffect: "none",
         closeEffect: "none"
@@ -109,11 +109,17 @@ $(document).ready( function() {
         
         $(this).removeClass('transition');
     });
-// ---------------------------------gallery end------------------------------------------------
+// ---------------------------------courses gallery end------------------------------------------------
 
 
 
-
+/* -------videos gallery------- */
+    $('.venobox').venobox({
+        bgcolor: '#000',
+        spinColor: '#000',
+        spinner: 'three-bounce'
+    });
+/* -------videos gallery end------- */
 
 
 

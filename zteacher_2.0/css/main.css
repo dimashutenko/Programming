@@ -431,6 +431,9 @@ h2{
 #lessons-videos{
 	background: rgba(203, 84, 254, 0.2);
 }
+#lessons-videos h2{
+	padding: 2rem 0rem;
+}
 .body-bg{
 	background: var(--grey-100);
 	padding-bottom: 2rem;
@@ -442,29 +445,15 @@ h2{
 .lesson-video-title{
 	text-align: center;
 }
-.lesson-video-play-btn{
-	position: absolute;
-	top: 0;
-	left: 0;
-	background: url(../img/youtube-video-red.png) no-repeat center;
-	width: 100%;
-	height: 100%;
-	margin: 6rem;
-	
-}
-.lesson-video-play-btn:hover{
-	cursor: pointer;
-}
-
-
 
 
 
 .videos-gallery{
+	width: 100%;
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-  	grid-gap: 1rem;
-  	grid-auto-rows: minmax(180px, auto);
+	grid-template-columns: repeat(3, 1fr);
+  	grid-gap: 2rem;
+  	grid-auto-rows: minmax(200px, auto);
 }
 .videos-gallery .gallery-video{
 	background-size: cover;
@@ -510,6 +499,20 @@ h2{
 .vbox-next {
     right: 30px;
 }
+.gallery-video-play-btn{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../img/youtube-video-red.png) no-repeat center;
+	width: 100%;
+	height: 100%;
+	margin: 6rem;
+	
+}
+.gallery-video-play-btn:hover{
+	cursor: pointer;
+}
+
 
 #merits{
 	overflow-x: hidden;

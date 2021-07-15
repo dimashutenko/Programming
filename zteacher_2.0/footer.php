@@ -37,7 +37,8 @@
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="https://res.cloudinary.com/dxfq3iotg/raw/upload/v1569006273/BBBootstrap/choices.min.js?version=7.0.0"></script>
   <script src="js/venobox.min.js" type="text/javascript"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>  <!-- gallery -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>  <!-- courses gallery -->
+  <script src="js/mklb.js"></script> <!-- videos gallery -->
   <script src="js/aos.js"></script>
   <script src="js/main.js"></script>
   <script src="js/contacts.js"></script>

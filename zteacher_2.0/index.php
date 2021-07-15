@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="https://res.cloudinary.com/dxfq3iotg/raw/upload/v1569006288/BBBootstrap/choices.min.css?version=7.0.0">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen"> <!-- gallery -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen"> <!-- courses gallery -->
+    <link type="text/css" rel="stylesheet" href="css/mklb.css" /> <!-- videos gallery -->
     <link rel="stylesheet" href="css/venobox.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
