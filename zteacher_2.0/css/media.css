@@ -106,6 +106,10 @@
 	header .container{
 		max-width:100%;
 	}
+	.small-logo{
+		height: 100%;
+		width: auto;
+	}
 	header .container .offer{
 		max-width: 760px;
 	}
@@ -291,7 +295,7 @@
 	.videos-gallery{
 		grid-template-columns: 1fr;
 	  	grid-gap: 1rem;
-	  	grid-auto-rows: minmax(150px, auto);
+	  	grid-auto-rows: minmax(190px, auto);
 	}
 	/* courses */
 	.courses .card-img-top{
