@@ -39,6 +39,9 @@ a, a:hover, input, button, .button, .button:active, .button:focus, span, summary
 	outline: none;
 	text-decoration: none;
 }
+.line-breaker{
+	display: inline-block;
+}
 body{
 	/*overflow-x: hidden;
 	letter-spacing: 0;*/
@@ -118,9 +121,9 @@ nav .nav-link {
 	    -ms-flex-flow: column nowrap;
 	        flex-flow: column nowrap;
 }
-.offer__title{
+/*.offer__title{
 	margin-bottom: 0rem;
-}
+}*/
 .offer-left p{
 	font-size: 1.15rem;
 }
@@ -146,11 +149,11 @@ nav .nav-link {
 }
 .offer-right{
 	background: url(../img/pic1.png) no-repeat left center / cover;
-	width: auto;
 	height: 750px;
 }
 h1{
 	font-size: 3rem;
+	line-height: 4rem;
 }
 section{
 	padding-top: 100px;
@@ -431,6 +434,7 @@ h2{
 	display: flex;
 	flex-flow: column nowrap;
 	margin: 4rem 0rem;
+	align-items: center;
 }
 #lessons-videos{
 	background: rgba(203, 84, 254, 0.2);

@@ -280,7 +280,17 @@ $(document).ready( function() {
 
 
 
-    if($(window).width() < 960)
+    if($(window).width() < 576)
+    {
+        
+        Array.from($('.js-line-breaker')).forEach(element =>{
+            element.innerHTML="<br>"; //adding new line to every .js-line-breaker
+        });
+        
+
+
+    }
+    else if($(window).width() < 960)
     {
 
         

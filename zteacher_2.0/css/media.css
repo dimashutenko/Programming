@@ -435,18 +435,21 @@
 	header .container{
 		max-width:100%;
 	}
+	.offer-left{
+		margin: 0;
+	}
 	h1{
-		font-size: 30px;
+		text-align: center;
+		margin:10% 0 35% 0;
+	}
+	.btn-register{
+		width: 343px;
+		font-size: 16px;
 	}
 	h4 {
     	font-size: 1.2rem;
 	}
-	#intro {
-    	padding-top: 30px;
-    }
-	.secret-message{
-		font-size: 1rem;
-	}
+	
 	.lessons .container{
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
@@ -456,55 +459,6 @@
 	.lessons__left{
 		max-width: 100%;
 		min-width: 100%;
-	}
-	/* courses */
-	.courses .card-img-top{
-		height: 200px;
-	}
-	/* courses */
-	#merits .container{
-		max-width:95%;
-	}
-	.feature-wrapper{
-		padding: 2rem 1rem;
-	}
-	.list__item{
-		margin-top: 15px;
-	}
-	.list__item .decription{
-		line-height: 1.3;
-	}
-	.section__img{
-		width: 320px;
-		-webkit-box-shadow: 0px 7px 16px 5px rgba(0,0,0,0.3);
-		        box-shadow: 0px 7px 16px 5px rgba(0,0,0,0.3);
-	}
-	.list__item:first-child .title::before{
-		margin-top: 10px;
-	}
-	.list__item-1-right {
-    	background-size: 320px 201px;
-    	height: 201px;
-    	width: 320px;
-    	margin: 0 auto;
-	}
-	.list__item-2-left {
-    	background-size: 250px 250px;
-    	height: 250px;
-    	width: 250px;
-    	margin: 0 auto;
-	}
-	
-	.list__item-3-right {
-	    background-size: 320px 320px;
-	    height: 270px;
-	    width: 290px;
-	}
-	
-	.list__item-5-left {
-	    background-size: 300px 309px;
-	    height: 309px;
-	    width: 300px;
 	}
 	
 	.buttons{

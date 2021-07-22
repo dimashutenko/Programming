@@ -40,7 +40,7 @@
               <div class="col-12 col-md-6">
                 <div class="offer-left d-flex">
                   <h1 class="offer__title">
-                    English - твій пароль до сучасного світу
+                    English - твій пароль <span class="js-line-breaker">1</span> до сучасного світу
                   </h1>
                   <?php include ('free-lesson.php'); ?>
                 </div>
