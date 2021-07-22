@@ -92,14 +92,10 @@ header{
 }
 .navbar-brand img{
 	height: 90px;
-	width: 225px;
+	/*width: 225px;*/
 	position: absolute;
 	top: 0;
 	left: 0;
-}
-.navbar .small-logo{
-	height: 60%;
-	width: auto;
 }
 .navbar .navbar-brand:hover, .navbar .nav-item{
 	cursor: pointer;

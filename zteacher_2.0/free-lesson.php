@@ -1,4 +1,4 @@
-<div class="d-none d-md-flex">
+<div class="d-none d-md-block">
   <p class="free-lesson">
     Безкоштовный урок
   </p>

@@ -3,7 +3,7 @@
   <nav class="navbar navbar-expand-sm navbar-dark align-items-start" data-aos="fade-in">
     <a class="navbar-brand d-flex mr-auto" href="./index.php">
       <img class="w-100 d-none d-md-flex" src="img/zteacher.png" alt="Zteacher logo">
-      <img class="d-flex d-md-none small-logo" src="img/zteacher.jpg" alt="Zteacher small logo">
+      <img class="d-flex d-md-none small-logo" src="img/zteacher-small-transparent.png" alt="Zteacher small logo">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbarMenu">
