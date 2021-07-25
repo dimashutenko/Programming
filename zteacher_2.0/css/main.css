@@ -103,8 +103,8 @@ header{
 nav .nav-link {
 	font-size: 1rem;
 	margin: 0 0.5rem;
-	padding: 0.5rem 1rem !important;
-	color: #fff !important;
+	padding: 0.5rem 1rem;
+	color: #F5F5F5 !important;
 }
 .navbar-nav .nav-link span{
 	transition: all 0.3s ease-in-out;

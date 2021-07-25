@@ -286,6 +286,15 @@ $(document).ready( function() {
         Array.from($('.js-line-breaker')).forEach(element =>{
             element.innerHTML="<br>"; //adding new line to every .js-line-breaker
         });
+
+        
+        $( ".navbar-toggler" ).change(function() {
+            if ($(".navbar-toggler")[0].classList.contains("collapsed")){
+                $(".navbar-toggler-icon").css("display","inline-block");
+            } else{
+                $(".navbar-toggler-icon").css("display","none");
+            }
+        });
         
 
 

@@ -5,25 +5,28 @@
       <img class="w-100 d-none d-md-flex" src="img/zteacher.png" alt="Zteacher logo">
       <img class="d-flex d-md-none small-logo" src="img/zteacher-small-transparent.png" alt="Zteacher small logo">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"><span class="navbar-toggler-icon"></span></button>
+    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"> <!-- .collapsed added for X-->
+      <span class="navbar-toggler-icon"></span>
+      <i class="bi bi-x close-icon py-1"></i>
+    </button>
     <div class="collapse navbar-collapse" id="navbarMenu">
       <ul class="navbar-nav w-100 justify-content-end">
-        <li class="nav-item ml-2" id="home-page">
-          <a class="nav-link d-flex justify-content-center" href="./index.php#approach">
+        <li class="nav-item" id="home-page">
+          <a class="nav-link" href="./index.php#approach">
             <span>Підхід</span>
           </a>
         </li>
-        <li class="nav-item d-flex justify-content-center ml-2">
+        <li class="nav-item">
           <a class="nav-link" href="./index.php#courses">
             <span>Курси</span>
           </a>
         </li>
-        <li class="nav-item d-flex justify-content-center ml-2">
+        <li class="nav-item">
           <a class="nav-link" href="./index.php#reviews">
             <span>Відгуки</span>
           </a>
         </li>
-        <li class="nav-item d-flex justify-content-center ml-2" id="contacts-page">
+        <li class="nav-item" id="contacts-page">
           <a class="nav-link" href="./contacts.php">
             <span>Контакти</span>
           </a>

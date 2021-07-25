@@ -33,8 +33,7 @@
     </div>
   </div>
   <script src="js/jQuery_v3.5.1.js"></script>
-  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script> <!-- popper.js + Bootstrap 5 -->
   <script src="https://res.cloudinary.com/dxfq3iotg/raw/upload/v1569006273/BBBootstrap/choices.min.js?version=7.0.0"></script>
   <script src="js/venobox.min.js" type="text/javascript"></script> <!-- videos gallery -->
   <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>  <!-- courses gallery -->

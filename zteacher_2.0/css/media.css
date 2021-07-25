@@ -423,12 +423,21 @@
 	.navbar-toggler {
 		border: none; 
 	}
-	.navbar *{
-		color: #828492;
-	}
-	.navbar-nav .nav-link span {
-		font-weight: 400!important;
-	}
+	.navbar-toggler .close-icon{
+        display: none;
+    }
+    .navbar-toggler.collapsed .navbar-toggler-icon {
+       	display: inline-block;
+    }
+    .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+       	display: none;
+    }
+    .navbar-toggler[aria-expanded="false"] .close-icon{
+    	display: none;
+    }
+    .navbar-toggler[aria-expanded="true"] .close-icon{
+    	display: block;
+    }
 	.navbar, #navbarMenu{
 		background-color: var(--dark-blue);
 	}
@@ -436,6 +445,17 @@
 	    background-image: url(../img/Menu.png);
 	    width: 43px;
 	    height: 43px;
+	}
+	.navbar-dark .close-icon{
+		font-size: 40px
+	}
+	.navbar-nav .nav-link {
+		margin: 0;
+	    padding: 1rem 1rem;
+	    border-bottom: 2px solid #22ADE4;
+	}
+	.navbar-nav .nav-link span{
+		font-weight: 700;
 	}
 	header{
 		height: 100vh;
