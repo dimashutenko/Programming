@@ -1,6 +1,6 @@
 <div class="section" id="lessons-videos">
-    <h2 class="headline_700 text-center body-bg">
-          ЯК ПРОХОДЯТЬ УРОКИ З ДІТЬМИ
+    <h2 class="section-headline headline_700 body-bg">
+          ЯК ПРОХОДЯТЬ УРОКИ <span class="js-line-breaker"></span> З ДІТЬМИ
     </h2>
     <div class="container">
         <div class="row">

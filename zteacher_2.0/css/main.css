@@ -155,6 +155,12 @@ h1{
 section{
 	padding-top: 100px;
 }
+.section-headline{
+	text-align: center;
+	font-size: 2.25rem;
+	font-weight: 600;
+	margin-bottom: 3rem;
+}
 .approach__left{
 	background: url(../img/pic2.png) no-repeat center top / cover;
 	min-height: 900px;
@@ -207,6 +213,9 @@ h2{
 	line-height: 49px;
 	text-align: center;
 }
+.school-advantage-mobile-description{
+	display: none;
+}
 .approach__text{
 	font-weight: 400;
 	text-align: center;
@@ -234,7 +243,7 @@ h2{
 	animation: opacity-to-one 0.5s forwards;
 }
 #courses, #additional-courses{
-	margin-top: 5rem;
+	padding-top: 5rem;
 }
 .headline_700{
 	font-weight: 700;
