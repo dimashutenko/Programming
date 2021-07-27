@@ -4,15 +4,7 @@
     <div class="row">
       <div class="footer-navigation d-none d-md-flex col-4 offset-md-1 col-md-2">
         <ul class="links-list">
-          <li>
-            <h5><a href="./index.php">Головна</a></h5>
-          </li>
-          <li>
-            <h5><a href="./index.php#products">Курси</a></h5>
-          </li>
-          <li>
-            <h5><a href="./index.php#merits">Підхід</a></h5>
-          </li>
+          <?php include ('navigation.php'); ?>
         </ul>
       </div>
       <div class="col-8 col-sm-5 d-none d-md-flex footer-contacts">

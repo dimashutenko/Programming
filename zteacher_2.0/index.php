@@ -27,9 +27,7 @@
     <title>Zteacher Language School</title>
     <body>
 
-      <?php 
-        include ('trial_lesson_modal.php'); // запись на пробный modal
-      ?>
+      <?php include ('trial_lesson_modal.php'); // запись на пробный modal ?>
 
       
       <header class="header" id="header" data-aos="fade-in">
