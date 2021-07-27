@@ -412,11 +412,14 @@
 		padding:0;
 	}
 	.navbar{
+		position: fixed; /* Set the navbar to fixed position */
+		top: 0; /* Position the navbar at the top of the page */
+		width: 100%; /* Full width */
 		height: 80px;
-		padding: 0 0.5rem;
+		padding: 1rem 0.5rem;
 	}
 	.navbar .small-logo{
-		height: 90%;
+		height: 145%;
 		width: auto;
 		margin-top: -10px;
 	}
@@ -459,7 +462,7 @@
 	}
 	header{
 		height: 100vh;
-		margin-top: 1rem
+		margin-top: 5rem
 	}
 	header .container{
 		max-width:100%;
@@ -475,28 +478,10 @@
 		width: 343px;
 		font-size: 16px;
 	}
-
 	h4 {
     	font-size: 1.2rem;
 	}
 	
-	.lessons .container{
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		    -ms-flex-flow: row wrap;
-		        flex-flow: row wrap;
-	}
-	.lessons__left{
-		max-width: 100%;
-		min-width: 100%;
-	}
-	
-	.buttons{
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		    -ms-flex-flow: row wrap;
-		        flex-flow: row wrap;
-	}
 	/*--------slider--------*/
 	.carousel-inner{
 		padding: 0 5% 10% 5%;

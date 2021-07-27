@@ -2,12 +2,15 @@
   <div class="container-fluid">
     <div class="row h-100">
       <div class="col-md-6">
-        <div class="approach__left h-100"></div>
+        <div class="approach__left h-100 d-none d-md-block"></div>
       </div>
       <div class="col-12 col-md-6">
         <div class="approach__right justify-content-center d-flex">
-          <h2 class="approach_headline mb-5">
+          <h2 class="approach_headline mb-5 d-none d-md-block">
             Наш підхід - це цікавий контент
+          </h2>
+          <h2 class="approach_headline mb-5 d-block d-md-none">
+            Підхід
           </h2>
           <div class="school-advantage school-advantage-speaking">
             <div class="circle"><span class="percentage">90 %</span></div>

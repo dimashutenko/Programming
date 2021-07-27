@@ -29,9 +29,8 @@
 
       <?php include ('trial_lesson_modal.php'); // запись на пробный modal ?>
 
-      
+      <?php include ('navigation.php'); ?>
       <header class="header" id="header" data-aos="fade-in">
-        <?php include ('navigation.php'); ?>
         <div class="header-wrapper d-flex">
           <div class="container-fluid">
             <div class="row">
