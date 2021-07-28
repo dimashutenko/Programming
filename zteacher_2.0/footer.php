@@ -4,7 +4,7 @@
     <div class="row">
       <div class="footer-navigation d-none d-md-flex col-4 offset-md-1 col-md-2">
         <ul class="links-list">
-          <?php include ('navigation.php'); ?>
+          navigation
         </ul>
       </div>
       <div class="col-8 col-sm-5 d-none d-md-flex footer-contacts">

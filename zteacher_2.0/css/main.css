@@ -48,7 +48,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	color: #fff;
 	background: var(--grey-100);
-	padding-top: 3rem;
+	padding-top: 10vh;
 }
 /*.container{
 	max-width: 90%;
@@ -118,9 +118,6 @@ nav .nav-link {
 	    -ms-flex-flow: column nowrap;
 	        flex-flow: column nowrap;
 }
-/*.offer__title{
-	margin-bottom: 0rem;
-}*/
 .offer-left p{
 	font-size: 1.15rem;
 }
@@ -409,7 +406,9 @@ h2{
 	background: url(../img/travel.jpg) no-repeat center;
 	background-size: cover;
 }
-
+.mobile-course-img{
+	display: none;
+}
 .course-right{
 	margin: 3rem 3rem 3rem 3rem;
 	display: flex;
@@ -458,7 +457,7 @@ h2{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
   	grid-gap: 2rem;
-  	grid-auto-rows: minmax(200px, auto);
+  	grid-auto-rows: minmax(210px, auto);
   	margin: 2rem 0;
 }
 .videos-gallery .gallery-video{
@@ -550,8 +549,16 @@ h2{
 .bi-youtube:hover{
 	color:#C31A1E;
 }
-
-
+#contacts{
+	background-color: rgba(0, 0, 0, 1);
+	position: relative;
+}
+#contacts: after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(203, 84, 254, 0.7);
+}
 
 
 

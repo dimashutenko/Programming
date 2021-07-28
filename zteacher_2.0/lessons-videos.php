@@ -1,6 +1,9 @@
 <div class="section" id="lessons-videos">
-    <h2 class="section-headline headline_700 body-bg">
+    <h2 class="section-headline headline_700 body-bg d-none d-md-block">
           ЯК ПРОХОДЯТЬ УРОКИ <span class="js-line-breaker"></span> З ДІТЬМИ
+    </h2>
+    <h2 class="section-headline headline_700 body-bg d-block d-md-none">
+          Як проходять уроки <span class="js-line-breaker"></span> з дітьми
     </h2>
     <div class="container">
         <div class="row">
@@ -32,8 +35,11 @@
             </div>
         </div>
     </div>
-    <h2 class="headline_700 text-center body-bg">
-          ЯК ПРОХОДЯТЬ УРОКИ З ПІДЛІТКАМИ І ДОРОСЛИМИ
+    <h2 class="section-headline headline_700 body-bg d-none d-md-block">
+          ЯК ПРОХОДЯТЬ УРОКИ <span class="js-line-breaker"></span>З ПІДЛІТКАМИ І ДОРОСЛИМИ
+    </h2>
+    <h2 class="section-headline headline_700 body-bg d-block d-md-none">
+          Як проходять уроки <span class="js-line-breaker"></span> з підлітками і дорослими
     </h2>
     <div class="container">
         <div class="row">
