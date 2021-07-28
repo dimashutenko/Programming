@@ -20,8 +20,13 @@
       <?php include ('navigation.php'); ?>
       
       <section class="section" id="contacts">
-        <div class="container">11111111111
-          
+        <div class="container">
+          <div class="contacts__socials">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="fab fa-tiktok"></i>
+            <i class="bi bi-telegram"></i>
+          </div>
         </div>
       </section>
 

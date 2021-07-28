@@ -553,6 +553,8 @@ h2{
 	background-color: rgba(256, 256, 256, 1);
 	position: relative;
 	color: #000;
+	padding: 0;
+	margin-top: 7rem;
 }
 #contacts:after{
 	content: "";
@@ -564,8 +566,13 @@ h2{
 	background: rgba(203, 84, 254, 0.7);
 	opacity: 0.2;
 }
-
-
+#contacts .container{
+	padding: 105px 0;
+	align-items: center;
+}
+.contacts__socials{
+	display: flex;
+}
 
 
 /*zteacher 1.0*/
