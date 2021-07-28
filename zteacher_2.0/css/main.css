@@ -550,14 +550,19 @@ h2{
 	color:#C31A1E;
 }
 #contacts{
-	background-color: rgba(0, 0, 0, 1);
+	background-color: rgba(256, 256, 256, 1);
 	position: relative;
+	color: #000;
 }
-#contacts: after{
+#contacts:after{
+	content: "";
+	width: 100%;
+	height: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
 	background: rgba(203, 84, 254, 0.7);
+	opacity: 0.2;
 }
 
 
