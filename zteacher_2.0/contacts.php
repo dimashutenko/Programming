@@ -22,10 +22,10 @@
       <section class="section" id="contacts">
         <div class="container">
           <div class="contacts__socials">
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-instagram"></i>
-            <i class="fab fa-tiktok"></i>
-            <i class="bi bi-telegram"></i>
+            <a href="#" class="contacts__social"><i class="fab fa-facebook-square"></i></a>
+            <a href="#" class="contacts__social"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="contacts__social"><i class="fab fa-tiktok"></i></a>
+            <a href="#" class="contacts__social"><i class="fab fa-telegram-plane"></i></a>
           </div>
         </div>
       </section>

@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
 <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
 <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
