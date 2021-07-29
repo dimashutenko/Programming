@@ -2,12 +2,12 @@
   <p class="free-lesson">
     Безкоштовный урок
   </p>
-  <a href="#" class="btn-register">
+  <a href="#" class="btn-general btn-register">
     Записатися
   </a>
 </div> 
 <div class="d-flex d-md-none">
-  <a href="#" class="btn-register">
+  <a href="#" class="btn-general btn-register">
     Записатися на безкоштовний урок
   </a>
 </div>

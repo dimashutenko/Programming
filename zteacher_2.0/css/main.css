@@ -121,14 +121,19 @@ nav .nav-link {
 .offer-left p{
 	font-size: 1.15rem;
 }
-.btn-register{
+.free-lesson{
+	margin: 4rem 0 1.25rem 0;
+	color: #C2B1BD;
+}
+.free-lesson-centered{
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: flex-start;
+	flex-flow: column nowrap;
+	margin: 4rem 0rem;
+	align-items: center;
+}
+.btn-general{
 	padding: 10px 20px;
 	height: 53px;
-	width: 188px;
 	border-radius: 11px;
 	background: #F5F5F5;
 	position: static;
@@ -137,6 +142,9 @@ nav .nav-link {
 	line-height: 33px;
 	color: #3540D4;
 	transition: all 0.3s ease-in-out;
+}
+.btn-register{
+	width: 188px;
 }
 .btn-register:hover{
 	box-shadow: 7px 7px 4px 0px #9ACDF9;
@@ -431,16 +439,6 @@ h2{
 	font-size: 0.9rem;
 	line-height: 1.25rem;
 }
-.free-lesson{
-	margin-top: 4rem;
-	color: #C2B1BD;
-}
-.free-lesson-centered{
-	display: flex;
-	flex-flow: column nowrap;
-	margin: 4rem 0rem;
-	align-items: center;
-}
 #lessons-videos{
 	background: rgba(203, 84, 254, 0.2);
 }
@@ -555,19 +553,11 @@ h2{
 	padding: 0;
 	margin-top: 7rem;
 }
-/*#contacts:after{
-	content: "";
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background: rgba(203, 84, 254, 0.7);
-	opacity: 0.2;
-	z-index: 0;
-}*/
 #contacts .container{
 	padding: 105px 0;
+	display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 .contacts__socials{
 	display: flex;
@@ -586,8 +576,40 @@ h2{
 	transition: all .3s ease-in-out;
 }
 .contacts__socials i:hover{
-	color: var(--violet-100);
+	color: var(--blue-100);
 }
+#contacts p{
+	margin: 0rem 0 3rem 0;
+	display: flex;
+	text-align: center;
+	font-size: 1.25rem;
+	color: var(--blue-100);
+}
+#contacts .btn-general{
+	background-color: #f8e7ff;
+	box-shadow: 7px 7px 4px 0px #9ACDF9;
+}
+#contacts .btn-general:hover{
+	animation: button-pressed .3s forwards;
+}
+@keyframes button-pressed{
+	0%{
+		transform: translate(0, 0);
+		box-shadow: 7px 7px 4px 0px #9ACDF9;
+	}
+	100%{
+		transform: translate(0, 5px);
+		box-shadow: 1px 1px 1px 0px #9ACDF9;
+	}
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -827,18 +849,6 @@ footer a:hover{
 .footer-contacts{
 	flex-flow: row wrap;
 }
-/*.btn-telegram, .fa-instagram{
-	color: #fff;
-}
-.btn-tiktok{
-	background: #fff;
-}
-.btn-tiktok:hover{
-	background: #d3d3d3;
-}
-.fa-tiktok{
-	color: #000;
-}*/
 .developer{
 	line-height: 25px;
 }

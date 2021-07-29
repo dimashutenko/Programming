@@ -27,6 +27,10 @@
             <a href="#" class="contacts__social"><i class="fab fa-tiktok"></i></a>
             <a href="#" class="contacts__social"><i class="fab fa-telegram-plane"></i></a>
           </div>
+          <a href="#" class=""><p class="">Наші інтерактивності в Instagram</p></a>
+          <a href="#" class="btn-general">
+            Дізнатися більше
+          </a>
         </div>
       </section>
 

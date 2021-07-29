@@ -292,7 +292,11 @@ $(document).ready( function() {
             }, 500);
     }, false);
 // ---------------------------------approach end------------------------------------------------
-
+// ---------------------------------btn------------------------------------------------
+    document.querySelector("#contacts")[0].querySelector(".btn-general")[0].addEventListener("mouseleave", function(){
+        this.css("animation","button-pressed .3s backwards");
+    })
+// ---------------------------------btn end------------------------------------------------
 	
 
 
