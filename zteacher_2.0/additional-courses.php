@@ -1,7 +1,10 @@
 <div class="section" id="additional-courses">
     <div class="container">
-        <h2 class="section-headline headline_700">
+        <h2 class="section-headline headline_700 d-none d-md-block">
           ДОДАТКОВІ КУРСИ ЗА ЗАПИТОМ
+        </h2>
+        <h2 class="section-headline headline_700 d-block d-md-none">
+          Додаткові курси за запитом
         </h2>
         <div class="row">
             <div class="col-lg-4 col-md-6">

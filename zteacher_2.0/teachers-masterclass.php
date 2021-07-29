@@ -24,9 +24,8 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="course-right d-flex">
-                  <h2 class="course-page-title">
-                    Для Вчителів Від Засновниці Школи
-                  </h2>
+                  <h2 class="course-page-title">Для Вчителів Від Засновниці Школи</h2>
+                  <div class="mobile-course-img course-left-teachers"></div>
                   <p class="course-description">Вебінар для вчителів по Інтернет ресурсах «Уроки, які не забуваються»<br>250 гривень</p>
                   <p class="course-description">Розробки до 10 серій Young Sheldon <br> 300 гривень</p>
                   <p class="course-description">Розробки до 8 серій Dash and Lily <br> 300 гривень</p>
@@ -45,10 +44,7 @@
       </header>
 
 
-      <?php 
-        include ('approach.php');
-        include ('courses.php');
-        
+      <?php         
 
         include ('footer.php');
       ?>

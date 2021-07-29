@@ -15,15 +15,10 @@
     <title>Babies English - Zteacher Language School</title>
     <body>
 
-      <?php 
-        include ('trial_lesson_modal.php'); // запись на пробный modal
-      ?>
+      <?php include ('trial_lesson_modal.php'); // запись на пробный modal ?>
 
-      
+      <?php include ('navigation.php'); ?>
       <header class="header" id="header" data-aos="fade-in">
-        <?php 
-          include ('navigation.php');
-        ?>
         <div class="header-wrapper d-flex">
           <div class="container-fluid">
             <div class="row">
@@ -32,6 +27,7 @@
                   <h2 class="course-page-title">
                     Англійська Для Малюків
                   </h2>
+                  <div class="mobile-course-img course-left-babies"></div>
                   <p class="course-description">
                     Наші найменші студенти 5-7 років працюють, як індивідуально, так і в групах (4-5 учнів).
                   </p>
@@ -43,7 +39,7 @@
                   </p>
                   <p class="course-description">
                     Індивідуально - 250 гривень/година <br>
-                    В групі 1200гривень/місяць
+                    В групі 1200 гривень/місяць
                   </p>
                   <?php include ('free-lesson.php'); ?>
                 </div>
@@ -59,10 +55,7 @@
       </header>
 
 
-      <?php 
-        include ('approach.php');
-        include ('courses.php');
-        
+      <?php             
 
         include ('footer.php');
       ?>

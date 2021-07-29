@@ -27,6 +27,7 @@
                   <h2 class="course-page-title">
                     Загальна Англійська
                   </h2>
+                  <div class="mobile-course-img course-left-general"></div>
                   <p class="course-description">
                     Кожен урок готується окремо, індивідуально для кожного студента , групи . Виходячи з його/їх інтересів. Бажання займатися з`явиться, якщо матеріал цікавий. Тому ми наполегливо готуємось до кожного уроку, заради наших студентів.
                   </p>
@@ -55,10 +56,7 @@
       </header>
 
 
-      <?php 
-        include ('approach.php');
-        include ('courses.php');
-        
+      <?php         
 
         include ('footer.php');
       ?>

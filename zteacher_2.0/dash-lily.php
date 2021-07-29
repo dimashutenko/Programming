@@ -27,6 +27,7 @@
                   <h2 class="course-page-title">
                     Курс За Серіалом Dash & Lily
                   </h2>
+                  <div class="mobile-course-img course-left-dash-lily"></div>
                   <p class="course-description">
                     Dash & Lily - романтичний, комедійний, телевізійний серіал.
                   </p>
@@ -65,10 +66,7 @@
       </header>
 
 
-      <?php 
-        include ('approach.php');
-        include ('courses.php');
-        
+      <?php             
 
         include ('footer.php');
       ?>

@@ -27,6 +27,7 @@
                   <h2 class="course-page-title">
                     Англійська Для Школярів
                   </h2>
+                  <div class="mobile-course-img course-left-schoolers"></div>
                   <p class="course-description">
                     Як ми працюємо з школярами! <br>
                     Ми беремо за основу підручник, маємо його на увазі, як програму дій, якоюсь мірою. Чому не в повному обсязі?
@@ -58,10 +59,7 @@
       </header>
 
 
-      <?php 
-        include ('approach.php');
-        include ('courses.php');
-        
+      <?php         
 
         include ('footer.php');
       ?>

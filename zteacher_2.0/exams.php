@@ -24,8 +24,8 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="course-right d-flex">
-                  <h2 class="course-page-title">Підготовка До Іспитів</h2 >
-                  <h4 class="course-page-subtitle">ДПА, ЗНО, IEITS, TOEFL</h4>
+                  <h2 class="course-page-title">Підготовка До Іспитів</h2>
+                  <div class="mobile-course-img course-left-exams"></div>
                   <p class="course-description">Наші студенти, які готуються до складання ЗНО та міжнародних іспитів досягають своєї мети.</p>
                   <p class="course-description">Ми ставимо за мету не лише найкращий результат при складанні, але й вільне володіння мовою після підготовки.</p>
                   <p class="course-description">Адже тренуватися проходити тести не є нашою ціллю при підготовці, а вивчення мови у всій багатогранності плюс тренування складання іспиту - наша мета.</p>
@@ -44,9 +44,6 @@
 
 
       <?php 
-        include ('approach.php');
-        include ('courses.php');
-        
 
         include ('footer.php');
       ?>

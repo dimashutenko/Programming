@@ -25,8 +25,9 @@
               <div class="col-md-6">
                 <div class="course-right d-flex">
                   <h2 class="course-page-title">
-                    Курс Подорожі З Легкістю
+                    IT
                   </h2>
+                  <div class="mobile-course-img course-left-it"></div>
                   <p class="course-description">Позбавимо вас від страху непорозумінь під час подорожей за 10 занять. Розбираємо та тренуємо найбільш важливі теми та знайомимосьз визначними місцями.</p>
                   <p class="course-description">Судячи з інстаграм, перші ластівки полетіли до вже приймаючих готелів, в межах України. Невдовзі найсміливіші відправляться і в закордонні поїздки. У нас, для плануючих відпочивати із задоволенням, та отримати максимум від подорожей, нереально цікава пропозиція.</p>
                   <p class="course-description">10 уроків, тривалістю 1.15 год. <br>Найцікавіші факти, про місця 10ти міст світу</p>
@@ -36,7 +37,7 @@
                 </div>
               </div>
               <div class="col-12 col-md-6">
-                <div class="course-left course-left-travel d-none d-md-flex">
+                <div class="course-left course-left-it d-none d-md-flex">
                   
                 </div>
               </div>
@@ -46,10 +47,7 @@
       </header>
 
 
-      <?php 
-        include ('approach.php');
-        include ('courses.php');
-        
+      <?php         
 
         include ('footer.php');
       ?>

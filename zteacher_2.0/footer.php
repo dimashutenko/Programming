@@ -1,7 +1,7 @@
 
 <footer class="footer bg-dark" id="footer">
   <div class="container">
-    <div class="row">
+    <!-- <div class="row">
       <div class="footer-navigation d-none d-md-flex col-4 offset-md-1 col-md-2">
         <ul class="links-list">
           navigation
@@ -22,7 +22,7 @@
         </p>
         <p>&copy; Copyright 2021 Zteacher Language School</p>
       </div>
-    </div>
+    </div> -->
   </div>
   <script src="js/jQuery_v3.5.1.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script> <!-- popper.js + Bootstrap 5 -->

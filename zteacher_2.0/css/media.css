@@ -351,10 +351,11 @@
 		margin-top: 2rem;
 	}
 	.course-page-title{
-		font-size: 1.5rem;
-		line-height: 2rem;
+		font-size: 1.25rem;
+		line-height: 1.75rem;
 		margin-bottom: 1rem;
 		text-align: center;
+		padding: 0 1rem;
 	}
 	.course-right{
 		margin: 0rem;
@@ -364,6 +365,9 @@
 		height: 170px;
 		width: 100%;
 		margin-bottom: 1rem
+	}
+	.course-left-babies{
+		background: url(../img/baby-angels.png) no-repeat 0 -50px /cover;
 	}
 	.contacts__socials{
 		flex-flow: column nowrap;

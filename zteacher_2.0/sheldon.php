@@ -27,6 +27,7 @@
                   <h2 class="course-page-title">
                     Курс За Серіалом Young Sheldon
                   </h2>
+                  <div class="mobile-course-img course-left-sheldon"></div>
                   <p class="course-description">
                     Сімейна комедія, від якої студенти будь-якого віку в захваті. Кожен зустріне в серіалі улюбленого персонажа. Кожному буде, з чого посміятися досхочу!!!
                   </p>
@@ -62,10 +63,7 @@
       </header>
 
 
-      <?php 
-        include ('approach.php');
-        include ('courses.php');
-        
+      <?php         
 
         include ('footer.php');
       ?>
