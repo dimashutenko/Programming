@@ -72,6 +72,32 @@
 	    grid-auto-rows: minmax(200px, auto);
 	    margin: 0rem 0 2rem 0;
 	}
+	#contacts{
+		margin: 6rem 0;
+	}
+	#contacts .container{
+		padding: 3rem 0;
+	}
+	.contacts__socials a{
+		margin: 3rem;
+		width: auto;
+		height: auto;
+	}
+	.contacts__socials i{
+		font-size: 1.75rem;
+	}
+	#contacts p{
+		margin: 1rem 0 2rem 0;
+		font-size: 1rem;	
+	}
+	#contacts .btn-general{
+		padding: 0.75rem 1rem;
+		height: auto;
+		font-size: 1rem;
+		line-height: 1.25rem;
+	}
+
+
 	/*--------slider--------*/
 	.author-img{
 		width: 75px;
@@ -241,6 +267,9 @@
 	    padding: 1.5rem 1rem;
 	    border-bottom: 2px solid #22ADE4;
 	}
+	.navbar-nav .nav-item:last-child .nav-link{
+		border-bottom: none;
+	}
 	.navbar-nav .nav-link span{
 		font-weight: 700;
 	}
@@ -336,7 +365,24 @@
 		width: 100%;
 		margin-bottom: 1rem
 	}
-
+	.contacts__socials{
+		flex-flow: column nowrap;
+	}
+	.contacts__socials a{
+		margin: 2rem;
+	}
+	.contacts__socials i{
+		font-size: 2rem;
+	}
+	#contacts p{
+		font-size: 0.75rem;	
+	}
+	#contacts .btn-general{
+		padding: 0.75rem 1rem;
+		height: auto;
+		font-size: 1rem;
+		line-height: 1.25rem;
+	}
 
 
 
