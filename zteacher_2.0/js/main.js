@@ -211,92 +211,106 @@ $(document).ready( function() {
 
 
     }else{ //more tham 960px
-        
+
         // ---------------------------------approach start------------------------------------------------
-    clear_opacity_effects = (target) => {
-        target.classList.remove('opacity-to-zero');
-        target.classList.remove('opacity-to-one');
-    }
-    hide = (target) =>{
-        target.classList.add('d-none');
-        target.classList.remove('d-flex');
-    }
-    show = (target) =>{
-        target.classList.remove('d-none');
-        target.classList.add('d-flex');
-    }
+        try{
+            clear_opacity_effects = (target) => {
+                target.classList.remove('opacity-to-zero');
+                target.classList.remove('opacity-to-one');
+            }
+            hide = (target) =>{
+                target.classList.add('d-none');
+                target.classList.remove('d-flex');
+            }
+            show = (target) =>{
+                target.classList.remove('d-none');
+                target.classList.add('d-flex');
+            }
 
-    $('.school-advantage-speaking')[0].addEventListener("mouseenter", function( event ) {
-        clear_opacity_effects( $('.approach__right')[0]);
-        clear_opacity_effects( $('.approach__speaking')[0]);
-        $('.approach__right')[0].classList.add('opacity-to-zero');  
-        setTimeout( function(){
-                hide($('.approach__right')[0]);
-                show($('.approach__speaking')[0]);
-                $('.approach__speaking')[0].classList.add('opacity-to-one');
-        }, 500);
-    }, false);
+            $('.school-advantage-speaking')[0].addEventListener("mouseenter", function( event ) {
+                clear_opacity_effects( $('.approach__right')[0]);
+                clear_opacity_effects( $('.approach__speaking')[0]);
+                $('.approach__right')[0].classList.add('opacity-to-zero');  
+                setTimeout( function(){
+                        hide($('.approach__right')[0]);
+                        show($('.approach__speaking')[0]);
+                        $('.approach__speaking')[0].classList.add('opacity-to-one');
+                }, 500);
+            }, false);
 
-    $('.approach__speaking')[0].addEventListener("mouseleave", function( event ) {
-        clear_opacity_effects( $('.approach__right')[0]);
-        clear_opacity_effects( $('.approach__speaking')[0]);
-        $('.approach__speaking')[0].classList.add('opacity-to-zero');  
-        setTimeout( function(){
-                hide($('.approach__speaking')[0]);
-                show($('.approach__right')[0]);
-                $('.approach__right')[0].classList.add('opacity-to-one');
-            }, 500);
-    }, false);
-    // ----------------------------------------------------------------------------------
-    $('.school-advantage-writing')[0].addEventListener("mouseenter", function( event ) { 
-        clear_opacity_effects( $('.approach__right')[0]);
-        clear_opacity_effects( $('.approach__writing')[0]);
-        $('.approach__right')[0].classList.add('opacity-to-zero');  
-        setTimeout( function(){ 
-                hide($('.approach__right')[0]);
-                show($('.approach__writing')[0]);
-                $('.approach__writing')[0].classList.add('opacity-to-one');
-        }, 500);
-    }, false);
+            $('.approach__speaking')[0].addEventListener("mouseleave", function( event ) {
+                clear_opacity_effects( $('.approach__right')[0]);
+                clear_opacity_effects( $('.approach__speaking')[0]);
+                $('.approach__speaking')[0].classList.add('opacity-to-zero');  
+                setTimeout( function(){
+                        hide($('.approach__speaking')[0]);
+                        show($('.approach__right')[0]);
+                        $('.approach__right')[0].classList.add('opacity-to-one');
+                    }, 500);
+            }, false);
+            // ----------------------------------------------------------------------------------
+            $('.school-advantage-writing')[0].addEventListener("mouseenter", function( event ) { 
+                clear_opacity_effects( $('.approach__right')[0]);
+                clear_opacity_effects( $('.approach__writing')[0]);
+                $('.approach__right')[0].classList.add('opacity-to-zero');  
+                setTimeout( function(){ 
+                        hide($('.approach__right')[0]);
+                        show($('.approach__writing')[0]);
+                        $('.approach__writing')[0].classList.add('opacity-to-one');
+                }, 500);
+            }, false);
 
-    $('.approach__writing')[0].addEventListener("mouseleave", function( event ) { 
-        clear_opacity_effects( $('.approach__right')[0]);
-        clear_opacity_effects( $('.approach__writing')[0]);
-        $('.approach__writing')[0].classList.add('opacity-to-zero');  
-        setTimeout( function(){ 
-                hide($('.approach__writing')[0]);
-                show($('.approach__right')[0]);
-                $('.approach__right')[0].classList.add('opacity-to-one');
-            }, 500);
-    }, false);
-    // ----------------------------------------------------------------------------------
-    $('.school-advantage-interest')[0].addEventListener("mouseenter", function( event ) { 
-        clear_opacity_effects( $('.approach__right')[0]);
-        clear_opacity_effects( $('.approach__interest')[0]);
-        $('.approach__right')[0].classList.add('opacity-to-zero');  
-        setTimeout( function(){ 
-                hide($('.approach__right')[0]);
-                show($('.approach__interest')[0]);
-                $('.approach__interest')[0].classList.add('opacity-to-one');
-        }, 500);
-    }, false);
+            $('.approach__writing')[0].addEventListener("mouseleave", function( event ) { 
+                clear_opacity_effects( $('.approach__right')[0]);
+                clear_opacity_effects( $('.approach__writing')[0]);
+                $('.approach__writing')[0].classList.add('opacity-to-zero');  
+                setTimeout( function(){ 
+                        hide($('.approach__writing')[0]);
+                        show($('.approach__right')[0]);
+                        $('.approach__right')[0].classList.add('opacity-to-one');
+                    }, 500);
+            }, false);
+            // ----------------------------------------------------------------------------------
+            $('.school-advantage-interest')[0].addEventListener("mouseenter", function( event ) { 
+                clear_opacity_effects( $('.approach__right')[0]);
+                clear_opacity_effects( $('.approach__interest')[0]);
+                $('.approach__right')[0].classList.add('opacity-to-zero');  
+                setTimeout( function(){ 
+                        hide($('.approach__right')[0]);
+                        show($('.approach__interest')[0]);
+                        $('.approach__interest')[0].classList.add('opacity-to-one');
+                }, 500);
+            }, false);
 
-    $('.approach__interest')[0].addEventListener("mouseleave", function( event ) { 
-        clear_opacity_effects( $('.approach__right')[0]);
-        clear_opacity_effects( $('.approach__interest')[0]);
-        $('.approach__interest')[0].classList.add('opacity-to-zero');  
-        setTimeout( function(){ 
-                hide($('.approach__interest')[0]);
-                show($('.approach__right')[0]);
-                $('.approach__right')[0].classList.add('opacity-to-one');
-            }, 500);
-    }, false);
-// ---------------------------------approach end------------------------------------------------
-// ---------------------------------btn------------------------------------------------
-    document.querySelector("#contacts")[0].querySelector(".btn-general")[0].addEventListener("mouseleave", function(){
-        this.css("animation","button-pressed .3s backwards");
-    })
-// ---------------------------------btn end------------------------------------------------
+            $('.approach__interest')[0].addEventListener("mouseleave", function( event ) { 
+                clear_opacity_effects( $('.approach__right')[0]);
+                clear_opacity_effects( $('.approach__interest')[0]);
+                $('.approach__interest')[0].classList.add('opacity-to-zero');  
+                setTimeout( function(){ 
+                        hide($('.approach__interest')[0]);
+                        show($('.approach__right')[0]);
+                        $('.approach__right')[0].classList.add('opacity-to-one');
+                    }, 500);
+            }, false);
+        } catch (error){
+            console.log(error);
+        }
+        // ---------------------------------approach end------------------------------------------------
+
+        // try{
+        
+        // // ---------------------------------btn------------------------------------------------
+        //     Array.from($("#contacts .btn-general")).forEach(element =>{
+        //         element.addEventListener("mouseleave", function(){
+        //             console.log(element);
+        //         $(this).css("animation","button-pressed .3s backwards");
+        //     });
+        // });
+
+        // } catch (error){
+        //     console.log(error);
+        // }
+        // ---------------------------------btn end------------------------------------------------
 	
 
 

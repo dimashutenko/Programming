@@ -554,7 +554,7 @@ h2{
 	margin-top: 7rem;
 }
 #contacts .container{
-	padding: 105px 0;
+	padding: 4rem 0;
 	display: flex;
     flex-flow: column;
     align-items: center;
@@ -590,7 +590,12 @@ h2{
 	box-shadow: 7px 7px 4px 0px #9ACDF9;
 }
 #contacts .btn-general:hover{
-	animation: button-pressed .3s forwards;
+	box-shadow: 1px 1px 1px 1px #9ACDF9;
+	transform: translateY(4px);
+}
+#contacts .btn-general:active{
+	transform: translateY(5px);
+	botder: 1px solid #9ACDF9;
 }
 @keyframes button-pressed{
 	0%{
