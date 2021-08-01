@@ -537,6 +537,35 @@ h2{
 .bi-youtube:hover{
 	color:#C31A1E;
 }
+/*__________________________________testimonials__________________________________*/
+
+.testimonials-wrapper{
+	overflow-x: hidden; /*or overflow-x:scroll */
+  	display: flex;
+}
+main {
+  overflow-x: hidden; /*or overflow-x:scroll */
+  display: flex;
+}
+section {
+  min-width: 50vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4ch;
+}
+h1 {
+  margin: 0;
+}
+section:nth-child(even) {
+  background-color: teal;
+  color: white;
+}
+
+
+
+/*__________________________________contacts__________________________________*/
 #contacts{
 	background-color: #f8e7ff;
 	color: #000;

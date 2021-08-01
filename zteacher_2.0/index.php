@@ -42,7 +42,7 @@
         include ('courses.php');
         include ('additional-courses.php');
         include ('lessons-videos.php');
-
+        include ('testimonials.php');
         include ('footer.php');
       ?>
 

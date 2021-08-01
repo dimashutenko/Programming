@@ -311,9 +311,15 @@ $(document).ready( function() {
         //     console.log(error);
         // }
         // ---------------------------------btn end------------------------------------------------
-	
+	   
+        // ---------------------------------testimonials start--------------------------------------
+        const scrollContainer = document.querySelector("main");
 
-
+        scrollContainer.addEventListener("wheel", (evt) => {
+            evt.preventDefault();
+            scrollContainer.scrollLeft += evt.deltaY;
+        });
+        // ---------------------------------testimonials end--------------------------------------
 	};
 
 
