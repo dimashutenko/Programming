@@ -313,7 +313,7 @@ $(document).ready( function() {
         // ---------------------------------btn end------------------------------------------------
 	   
         // ---------------------------------testimonials start--------------------------------------
-        const scrollContainer = document.querySelector("main");
+        const scrollContainer = $(".testimonials-wrapper")[0];
 
         scrollContainer.addEventListener("wheel", (evt) => {
             evt.preventDefault();
