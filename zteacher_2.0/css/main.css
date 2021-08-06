@@ -543,28 +543,53 @@ h2{
 	overflow-x: hidden; /*or overflow-x:scroll */
   	display: flex;
   	flex-flow: row nowrap;
+  	margin-bottom: 2rem;
 }
 .testimonials_bg{
-	min-height: 450px;
+	min-height: 575px;
 	min-width: 50vw;
-	margin-left: 3vw;
-	background: url(../img/testimonials.png) no-repeat left center /contain;
+	background: url(../img/testimonials.png) no-repeat left center /cover;
+	position: relative;
+	margin-right: 5rem;
+}
+.testimonials_bg:after{
+	position: absolute;
+	display: flex;
+	content: "";
+	bottom: 7%;
+	left: 5%;
+	width: 200px;
+	height: 4px;
+	background: #ff32b9;
 }
 .testimonial{
-	min-width: 37vw;
+	min-width: 25vw;
 	margin-left: -8vw;
 	margin-right: 15vw;
+	position: relative;
+	display: flex;
+	flex-flow: column nowrap;
+	align-self: center;
 }
 .testimonial__text{
 	font-size: 0.75rem;
 }
 .testimonial__author{
+	position: relative;
 	margin-top: 2rem;
 	font-size: 1rem;
 	font-weight: 700;
-	padding-bottom: 1rem;
-	display: inline-block;
-	border-bottom: 4px solid #FF32B9;
+	display: inline-flex;
+}
+.testimonial__author:after{
+	position: absolute;
+	content: "";
+	display: flex;
+	background: #FF32B9;
+	width: 175px;
+	height: 4px;
+	top: 2rem;
+	left: 0;
 }
 
 /*__________________________________contacts__________________________________*/
@@ -649,50 +674,6 @@ h2{
 	background: url(../img/julia.jpg) center center no-repeat;
 	background-size: cover;
 }
-#author2{
-	background: url(../img/avatar-man.png) center center no-repeat;
-	background-size: cover;
-}
-#author3{
-	background: url(../img/avatar-man.png) center center no-repeat;
-	background-size: cover;
-}
-#author4{
-	background: url(../img/avatar-woman.jpg) center center no-repeat;
-	background-size: cover;
-}
-#author5{
-	background: url(../img/avatar-woman.jpg) center center no-repeat;
-	background-size: cover;
-}
-#author6{
-	background: url(../img/avatar-woman.jpg) center center no-repeat;
-	background-size: cover;
-}
-#author7{
-	background: url(../img/avatar-man.png) center center no-repeat;
-	background-size: cover;
-}
-#author8{
-	background: url(../img/avatar-woman.jpg) center center no-repeat;
-	background-size: cover;
-}
-#author9{
-	background: url(../img/avatar-woman.jpg) center center no-repeat;
-	background-size: cover;
-}
-#author10{
-	background: url(../img/avatar-woman.jpg) center center no-repeat;
-	background-size: cover;
-}
-#author11{
-	background: url(../img/avatar-woman.jpg) center center no-repeat;
-	background-size: cover;
-}
-#author12{
-	background: url(../img/avatar-woman.jpg) center center no-repeat;
-	background-size: cover;
-}
 #author13{
 	background: url(../img/incognito.jpg) center center no-repeat;
 	background-size: cover;
@@ -768,10 +749,19 @@ h2{
 }
 /*-----------------------------*/
 footer{
-	margin-top: 125px;
-	padding: 20px 5px 10px 5px;
-	background: var(--dark-blue);
+	margin-top: 7rem;
+	padding: 3rem 1rem 2rem 1rem;
 	color: #fff;
+}
+footer .contacts__socials i{
+	font-size: 3rem;
+	color: #fff;
+}
+footer .black-slogan{
+	font-size: 3rem;
+	line-height: 4rem;
+	font-weight: 900;
+	text-transform: uppercase;
 }
 footer .links-list li{
 	padding-bottom: 10px;
@@ -780,15 +770,11 @@ footer h5 a{
 	font-weight: 500;
 }
 footer p{
-	margin-bottom: 0;
-	display: -webkit-box;
-	display: -ms-flexbox;
+	font-size: 1rem;
 	display: flex;
-	line-height: 50px;
-	font-size: 18px;
 }
 .footer-navigation{
-	font-size: 18px;
+	font-size: 1.25rem;
 }
 footer a{
 	color: #fff;
@@ -798,27 +784,18 @@ footer a:hover{
 	color: rgb(255, 195, 49);
 	text-decoration: none;
 }
-.footer-socials a{
-	margin: 0 10px;
-}
-.footer-contacts{
-	flex-flow: row wrap;
-}
-.developer{
-	line-height: 25px;
-}
 .developer__link{                   
 	color: #fff;
-	margin-left: 5px;
+	margin-left: 0.5rem;
 	-webkit-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
 .developer__link:hover{
-	color: #ffc331;
+	color: var(--blue-60);
 	text-decoration:none;
 }
 .developer__link i{
 	margin-left: 4px;
-	font-size: 12px;
+	font-size: 0.75rem;
 }

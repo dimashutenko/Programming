@@ -22,7 +22,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./index.php#reviews">
+          <a class="nav-link" href="./index.php#testimonials">
             <span>Відгуки</span>
           </a>
         </li>

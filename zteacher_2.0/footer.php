@@ -1,28 +1,34 @@
 
 <footer class="footer bg-dark" id="footer">
   <div class="container">
-    <!-- <div class="row">
-      <div class="footer-navigation d-none d-md-flex col-4 offset-md-1 col-md-2">
-        <ul class="links-list">
-          navigation
-        </ul>
+    <div class="row">
+      <div class="col-lg-6">
+        <span class="black-slogan">Get Your password to the world - </span>
+        <span class="black-slogan">Study English with us!</span>
       </div>
-      <div class="col-8 col-sm-5 d-none d-md-flex footer-contacts">
-        <h5 class="w-100"><a href="./contacts.php">Контакти</a></h5>
-        <div class="mt-3"><i class="mr-1 fa fa-phone fa-lg"></i><a href="tel:+380958803379"> +380 95 880 3379</a><br><i class="mr-2 fa fa-envelope fa-lg"></i><a href="mailto:nina30111980@gmail.com"> nina30111980@gmail.com</a><br></div>
-      </div>
-      <div class="col-12 col-md-4 align-self-center">
-        
+      <div class="col-lg-6"></div>
+    </div>
+    <div class="row">
+      <div class="col mt-5 mb-5">
+        <?php include ('socials.php'); ?>
       </div>
     </div>
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <p class="developer d-flex justify-content-center mt-4">Powered by
+    <div class="row mt-5">
+      <div class="col-lg-9">
+        <ul class="footer-navigation">
+          <li class="footer-navigation-link">Підхід</li>
+          <li class="footer-navigation-link">Курси</li>
+          <li class="footer-navigation-link">Відгуки</li>
+          <li class="footer-navigation-link">Контакти</li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <p>&copy; Zteacher Language School 2021</p>
+        <p class="developer">Разробка - 
           <a class="developer__link d-flex" href="https://www.linkedin.com/in/dima-shutenko/" target="_blank">Dima Shutenko<i class="fab fa-linkedin"></i></a>
         </p>
-        <p>&copy; Copyright 2021 Zteacher Language School</p>
       </div>
-    </div> -->
+    </div>
   </div>
   <script src="js/jQuery_v3.5.1.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script> <!-- popper.js + Bootstrap 5 -->
