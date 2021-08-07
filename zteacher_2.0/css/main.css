@@ -661,13 +661,6 @@ h2{
 
 
 
-
-
-
-
-/*zteacher 1.0*/
-
-
 /*-------carousel-----------*/
 
 #author1{
@@ -753,36 +746,38 @@ footer{
 	padding: 3rem 1rem 2rem 1rem;
 	color: #fff;
 }
-footer .contacts__socials i{
-	font-size: 3rem;
-	color: #fff;
-}
 footer .black-slogan{
 	font-size: 3rem;
 	line-height: 4rem;
 	font-weight: 900;
 	text-transform: uppercase;
 }
-footer .links-list li{
-	padding-bottom: 10px;
+footer .contacts__socials i{
+	font-size: 3rem;
+	color: #fff;
 }
-footer h5 a{
-	font-weight: 500;
+.footer-navigation{
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: -2rem;
+}
+.footer-navigation li{
+	font-size: 1.25rem;
+	display: flex;
+	width: 50%;
+	padding: 2rem;
+}
+footer a span{
+	color: #fff;
+	transition: all .3s ease-in-out;
+}
+footer a:hover span{
+	color: var(--violet-90);
+	text-decoration: none;
 }
 footer p{
 	font-size: 1rem;
 	display: flex;
-}
-.footer-navigation{
-	font-size: 1.25rem;
-}
-footer a{
-	color: #fff;
-	transition: all .3s ease-in-out;
-}
-footer a:hover{
-	color: rgb(255, 195, 49);
-	text-decoration: none;
 }
 .developer__link{                   
 	color: #fff;

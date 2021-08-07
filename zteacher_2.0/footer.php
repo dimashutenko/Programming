@@ -6,7 +6,16 @@
         <span class="black-slogan">Get Your password to the world - </span>
         <span class="black-slogan">Study English with us!</span>
       </div>
-      <div class="col-lg-6"></div>
+      <div class="col-lg-6 offset-xl-1 col-xl-5 d-flex align-items-center justify-content-center">
+        <ul class="footer-navigation">
+          <li class="footer-navigation-link"><a href="./index.php#approach"><span>Підхід</span></a></li>
+          <li class="footer-navigation-link"><a href="./index.php#courses"><span>Курси</span></a></li>
+          <li class="footer-navigation-link"><a href="./index.php#testimonials"><span>Відгуки</span></a></li>
+          <li class="footer-navigation-link"><a href="./contacts.php"><span>Контакти</span></a></li>
+          <li class="footer-navigation-link"><a href="#"><span>Link</span></a></li>
+          <li class="footer-navigation-link"><a href="docs/document.docx"><span>Договір оферти</span></a></li>
+        </ul>
+      </div>
     </div>
     <div class="row">
       <div class="col mt-5 mb-5">
@@ -14,17 +23,12 @@
       </div>
     </div>
     <div class="row mt-5">
-      <div class="col-lg-9">
-        <ul class="footer-navigation">
-          <li class="footer-navigation-link">Підхід</li>
-          <li class="footer-navigation-link">Курси</li>
-          <li class="footer-navigation-link">Відгуки</li>
-          <li class="footer-navigation-link">Контакти</li>
-        </ul>
+      <div class="col-lg-8 col-xl-9">
+
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-4 col-xl-3">
         <p>&copy; Zteacher Language School 2021</p>
-        <p class="developer">Разробка - 
+        <p class="developer">Розробка - 
           <a class="developer__link d-flex" href="https://www.linkedin.com/in/dima-shutenko/" target="_blank">Dima Shutenko<i class="fab fa-linkedin"></i></a>
         </p>
       </div>
