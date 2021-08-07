@@ -17,7 +17,7 @@
 
 	.testimonials_bg{
 		min-height: 450px;
-		min-width: 60vw;
+		min-width: 58vw;
 		background: url(../img/testimonials.png) no-repeat left bottom /contain;
 		margin-right: 3rem;
 	}
@@ -48,10 +48,6 @@
 	footer{
 		margin-top: 6rem;
 		padding: 3rem 1rem 2rem 1rem;
-	}
-	footer .black-slogan{
-		font-size: 2rem;
-		line-height: 3rem;
 	}
 	footer .contacts__socials i{
 		font-size: 2.5rem;
@@ -140,7 +136,7 @@
 	.contacts__socials i{
 		font-size: 1.75rem;
 	}
-	#contacts p{
+	.instagram-link{
 		margin: 1rem 0 2rem 0;
 		font-size: 1rem;	
 	}
@@ -313,7 +309,8 @@
 		margin-bottom: 1.5rem
 	}
 	.section-headline{
-		font-size: 1.75rem
+		font-size: 1.75rem;
+		margin-top: 1rem;
 	}
 	.school-advantage .circle{
 		height: 75px;
@@ -394,7 +391,7 @@
 		min-height: 200px;
 		min-width: 100vw;
 		background: url(../img/testimonials.png) no-repeat center bottom /contain;
-		margin: 3rem 0 2rem 0;
+		margin: 2rem 0;
 	}
 	.testimonials_bg:after{
 		position: absolute;
@@ -471,7 +468,7 @@
 	.contacts__socials i{
 		font-size: 2rem;
 	}
-	#contacts p{
+	.instagram-link{
 		font-size: 0.75rem;	
 	}
 	#contacts .btn-general{

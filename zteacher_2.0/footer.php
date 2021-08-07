@@ -2,11 +2,11 @@
 <footer class="footer bg-dark" id="footer">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-5">
         <span class="black-slogan">Get Your password to the world - </span>
         <span class="black-slogan">Study English with us!</span>
       </div>
-      <div class="col-lg-6 offset-xl-1 col-xl-5 d-flex align-items-center justify-content-center">
+      <div class="col-lg-6 offset-xl-1 col-xl-6 d-flex align-items-center justify-content-center">
         <ul class="footer-navigation">
           <li class="footer-navigation-link"><a href="./index.php#approach"><span>Підхід</span></a></li>
           <li class="footer-navigation-link"><a href="./index.php#courses"><span>Курси</span></a></li>
@@ -23,11 +23,11 @@
       </div>
     </div>
     <div class="row mt-5">
-      <div class="col-lg-8 col-xl-9">
+      <div class="col-lg-8 col-xl-8">
 
       </div>
-      <div class="col-lg-4 col-xl-3">
-        <p>&copy; Zteacher Language School 2021</p>
+      <div class="col-lg-4 col-xl-4 ">
+        <p class="ml-auto">&copy; Zteacher Language School 2021</p>
         <p class="developer">Розробка - 
           <a class="developer__link d-flex" href="https://www.linkedin.com/in/dima-shutenko/" target="_blank">Dima Shutenko<i class="fab fa-linkedin"></i></a>
         </p>

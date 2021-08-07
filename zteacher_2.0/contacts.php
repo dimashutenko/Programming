@@ -22,7 +22,9 @@
       <section class="section" id="contacts">
         <div class="container">
           <?php include ('socials.php'); ?>
-          <a href="https://www.instagram.com/zteacher_language_school/" class=""><p class="">Наші інтерактивності в Instagram</p></a>
+          <a href="https://www.instagram.com/zteacher_language_school/" class="instagram-link">
+            <p class="">Наші інтерактивності в Instagram</p>
+          </a>
           <a href="#" class="btn-general">
             Дізнатися більше
           </a>
