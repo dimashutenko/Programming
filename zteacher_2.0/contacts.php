@@ -25,9 +25,9 @@
           <a href="https://www.instagram.com/zteacher_language_school/" class="instagram-link">
             <p class="">Наші інтерактивності в Instagram</p>
           </a>
-          <a href="#" class="btn-general">
+          <button href="#trial-lesson-modal" class="btn-general" type="button" data-toggle="modal" data-target="#trial-lesson-modal">
             Дізнатися більше
-          </a>
+          </button>
         </div>
       </section>
 

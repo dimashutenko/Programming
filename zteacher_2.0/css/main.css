@@ -134,6 +134,7 @@ nav .nav-link {
 .btn-general{
 	padding: 10px 20px;
 	height: 53px;
+	border: none;
 	border-radius: 11px;
 	background: #F5F5F5;
 	position: static;
@@ -557,8 +558,8 @@ h2{
 	display: flex;
 	content: "";
 	bottom: 7%;
-	left: 5%;
-	width: 200px;
+	left: 3%;
+	width: 175px;
 	height: 4px;
 	background: #ff32b9;
 }
@@ -806,7 +807,7 @@ footer p{
 }
 #contacts .btn-general:active{
 	transform: translateY(5px);
-	botder: 1px solid #9ACDF9;
+	border: 1px solid #9ACDF9;
 }
 @keyframes button-pressed{
 	0%{

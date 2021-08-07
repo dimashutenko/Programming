@@ -2,12 +2,12 @@
   <p class="free-lesson">
     Безкоштовный урок
   </p>
-  <a href="#" class="btn-general btn-register">
+  <button class="btn-general btn-register" type="button" data-toggle="modal" data-target="#trial-lesson-modal">
     Записатися
-  </a>
+  </button>
 </div> 
 <div class="d-flex d-md-none">
-  <a href="#" class="btn-general btn-register">
+  <button class="btn-general btn-register" type="button" data-toggle="modal" data-target="#trial-lesson-modal">
     Записатися на безкоштовний урок
-  </a>
+  </button>
 </div>

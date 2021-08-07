@@ -14,7 +14,52 @@
     <meta property="og:site_name" content="Zteacher Language School">
     <title>Zteacher Language School</title>
     <body>
-
+      <div class="modal" tabindex="-1" id="contact-modal" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Зворотній зв'язок</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form role="form" method="POST" action="./php/mail.php">
+                    <input type="hidden" name="_token" value="">
+                    <div class="form-group">
+                        <label class="control-label">Ім'я</label>
+                        <div>
+                            <input type="text" class="form-control input-lg" name="user_name" placeholder="введіть ваше ім'я">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">E-Mail адреса</label>
+                        <div>
+                            <input type="email" class="form-control input-lg" name="user_email" placeholder="введіть ваш email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="remember"> Remember Me
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <button type="submit" class="btn btn-success">Надіслати</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#contact-modal">
+          Launch modal
+        </button>
       <?php include ('trial_lesson_modal.php'); // запись на пробный modal ?>
 
       <?php include ('navigation.php'); ?>

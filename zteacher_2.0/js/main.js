@@ -1,6 +1,6 @@
 $(document).ready( function() {
 
-
+    //$('#trial-lesson-modal').modal('show');
 
 // --------------------------------- courses gallery start------------------------------------------------
     $(".fancybox").fancybox({
