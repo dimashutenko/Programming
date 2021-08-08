@@ -3,7 +3,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h4 class="modal-title">Запис на пробний урок</h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -35,7 +35,7 @@
           
           <h5 class="mb-2 mt-3">Як з вами зв'язатись? *</h5>
           <div class="">
-            <div class="btn-group" data-toggle="buttons">
+            <div class="btn-group" data-bs-toggle="buttons">
               <label class="btn btn-outline-secondary mr-1">
                 <input type="radio" name="radio_options" class="radio_communication" id="radio_viber" onclick="display_user_choice(this.id)"> <span class="d-none d-md-inline">Viber</span><i class="d-inline d-md-none fab fa-viber"></i>
               </label>

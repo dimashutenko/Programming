@@ -1,6 +1,6 @@
 $(document).ready( function() {
 
-    //$('#trial-lesson-modal').modal('show');
+
 
 // --------------------------------- courses gallery start------------------------------------------------
     $(".fancybox").fancybox({
@@ -297,28 +297,18 @@ $(document).ready( function() {
         }
         // ---------------------------------approach end------------------------------------------------
 
-        // try{
-        
-        // // ---------------------------------btn------------------------------------------------
-        //     Array.from($("#contacts .btn-general")).forEach(element =>{
-        //         element.addEventListener("mouseleave", function(){
-        //             console.log(element);
-        //         $(this).css("animation","button-pressed .3s backwards");
-        //     });
-        // });
-
-        // } catch (error){
-        //     console.log(error);
-        // }
-        // ---------------------------------btn end------------------------------------------------
 	   
         // ---------------------------------testimonials start--------------------------------------
-        const scrollContainer = $(".testimonials-wrapper")[0];
+        try{
+            const scrollContainer = $(".testimonials-wrapper")[0];
 
-        scrollContainer.addEventListener("wheel", (evt) => {
-            evt.preventDefault();
-            scrollContainer.scrollLeft += evt.deltaY;
-        });
+            scrollContainer.addEventListener("wheel", (evt) => {
+                evt.preventDefault();
+                scrollContainer.scrollLeft += evt.deltaY;
+            });
+        } catch (error){
+            console.log(error);
+        }
         // ---------------------------------testimonials end--------------------------------------
 	};
 
