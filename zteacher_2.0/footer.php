@@ -12,7 +12,7 @@
           <li class="footer-navigation-link"><a href="./index.php#courses"><span>Курси</span></a></li>
           <li class="footer-navigation-link"><a href="./index.php#testimonials"><span>Відгуки</span></a></li>
           <li class="footer-navigation-link"><a href="./contacts.php"><span>Контакти</span></a></li>
-          <li class="footer-navigation-link"><a href="#"><span>Link</span></a></li>
+          <li class="footer-navigation-link"><a type="button" data-bs-toggle="modal" data-bs-target="#trial-lesson-modal"><span>Безкоштовний урок</span></a></li>
           <li class="footer-navigation-link"><a href="docs/document.docx"><span>Договір оферти</span></a></li>
         </ul>
       </div>
