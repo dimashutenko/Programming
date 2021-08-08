@@ -73,8 +73,10 @@ body{
     max-width: 800px;
     margin: 0 auto;
     color: var(--blue-100);
-    background: var(--pale-pink);
 } 
+.modal-content{
+	background: var(--pale-pink);
+}
 .modal-header{
 	padding-top: 3rem;
 	border: none;
@@ -105,6 +107,7 @@ body{
 #trial-lesson-modal input.special-input{
 	display: flex;
 	width: 35%;
+	background: var(--pale-pink);
 }
 /*.form-control.is-valid, .was-validated .form-control:valid{
 	border-color: var(--blue-100);
@@ -123,14 +126,25 @@ body{
 }
 #trial-lesson-modal .choices{
 	margin-bottom: 0;
-	width: 35%;
+	min-width: 35%;
 }
 #trial-lesson-modal .choices .choices__inner{
 	border: 1px solid var(--blue-100);
+	background: var(--pale-pink);
+}
+#trial-lesson-modal .choices .choices__input{
+	background: var(--pale-pink);
+}
+#trial-lesson-modal .choices[data-type*=select-multiple] .choices__button, .choices[data-type*=text] .choices__button{
+	border-left: 1px solid var(--blue-100);
+	background-image:  url(../img/lil-cross.png);
 }
 #trial-lesson-modal .choices .choices__list--multiple .choices__item{
 	color: var(--blue-100);
 	border: 0.75px solid var(--blue-100);
+}
+#trial-lesson-modal .choices .choices__list--dropdown{
+	word-break: normal;
 }
 #trial-lesson-modal .choices .choices__item{
 	font-size: 0.75rem;
@@ -142,7 +156,7 @@ body{
 .form-check-input:checked{
 	background-color:  var(--blue-100);
 }
-#trial-lesson-modal button:last-child{
+#trial-lesson-modal button[type="submit"]{
 	margin-top: 3rem;
 }
 /*----------------------modal----------------------*/

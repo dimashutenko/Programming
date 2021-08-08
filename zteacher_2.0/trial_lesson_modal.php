@@ -27,7 +27,7 @@
           <div class="form-group">
             <div>
               <label for="form-input-user-course" class="special-label">Курс</label>
-              <select id="choices-multiple-remove-button" placeholder="Виберіть з переліку" name="products-select[]" multiple>
+              <select id="choices-multiple-remove-button" placeholder="" name="products-select[]" multiple>
                 <option value="Загальна англійська">Загальна англійська</option>
                 <option value="Розмовна англійська">Розмовна англійська</option>
                 <option value="Підготовка до іспитів">Підготовка до іспитів</option>
@@ -45,17 +45,17 @@
           <div class="form-group">
             <div>
               <label for="form-input-user-messanger" class="special-label">Зв’язатись через ?</label>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="form-check-input-messanger" id="user-viber" name="user_viber">
-                <label class="form-check-label" for="user-viber">Viber</label>
+              <div class="">
+                <input class="" type="radio" name="form-check-input-messanger" id="user-viber" name="user_viber">
+                <label class="" for="user-viber" style="margin-right: 1rem;">Viber</label>
               </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="form-check-input-messanger" id="user-telegram" name="user_telegram">
-                <label class="form-check-label" for="user-telegram">Telegram</label>
+              <div class="">
+                <input class="" type="radio" name="form-check-input-messanger" id="user-telegram" name="user_telegram">
+                <label class="" for="user-telegram" style="margin-right: 1rem;">Telegram</label>
               </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="form-check-input-messanger" id="user-whatsapp" name="user_whatsapp">
-                <label class="form-check-label" for="user-whatsapp">WhatsApp</label>
+              <div class="">
+                <input class="" type="radio" name="form-check-input-messanger" id="user-whatsapp" name="user_whatsapp">
+                <label class="" for="user-whatsapp" style="margin-right: 1rem;">WhatsApp</label>
               </div>
             </div>
           </div>
