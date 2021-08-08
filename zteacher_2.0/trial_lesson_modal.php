@@ -60,15 +60,15 @@
             </div>
           </div>
           <div class="form-group">
-            <div class="justify-content-center align-items-center">
+            <div class="justify-content-center align-items-center flex-wrap">
               <input type="checkbox" class="input" id="user_agreement" checked="true" required="true" name="user_write">
               <label class="label" for="user_agreement" style="margin-left: 0.5rem;">Згода на обробку персональних даних *</label>
-              <div class="invalid-feedback w-100"> Ви маєте поговдитись, щоб ми обробили вашу заявку </div>
+              <div class="invalid-feedback w-100 justify-content-center"> Ви маєте поговдитись, щоб ми обробили вашу заявку </div>
             </div>
           </div>
           <div class="form-group">
               <div class="justify-content-center">
-                  <button type="submit" class="btn btn-primary">Надіслати</button>
+                  <button type="submit" class="btn btn-primary btn-general">Надіслати</button>
               </div>
           </div>
         </form>
