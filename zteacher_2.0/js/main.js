@@ -61,7 +61,6 @@ $(document).ready( function() {
 /* -------Animate On Scroll Library end------- */
 
 
-   
 
 
 /* -------videos gallery------- */
@@ -72,7 +71,7 @@ $(document).ready( function() {
     });
 /* -------videos gallery end------- */
 
-    /* -------modal------- */
+/* ----------------------------modal-------------------------------------------*/
     const number_of_courses = $('#products .course').length;
     var multipleCancelButton = new Choices('#choices-multiple-remove-button', {
      removeItemButton: true,
@@ -82,42 +81,6 @@ $(document).ready( function() {
     });
 
     let stop_form_validation = true;
-
-    display_user_choice=(trigger_id)=>{ 
-        for (let i=0; i<$('.input-for-user-contact').length; i++){
-            $('.input-for-user-contact')[i].classList.add('d-none'); // to all
-            $('.input-for-user-contact')[i].required=false;
-        };
-        stop_form_validation = false;
-        try{
-            $('#communication-method-not-chosen')[0].classList.remove('d-flex');
-        } catch (error){
-            console.log(error);
-        }
-        switch (trigger_id){ 
-            case 'radio_viber':
-                 $('#user_viber')[0].classList.remove('d-none');
-                 $('#user_viber')[0].required=true;
-                 break;
-            case 'radio_telegram':
-                 $('#user_telegram')[0].classList.remove('d-none');
-                 $('#user_telegram')[0].required=true;
-                 break;
-            case 'radio_whatsapp':
-                 $('#user_whatsapp')[0].classList.remove('d-none');
-                 $('#user_whatsapp')[0].required=true;
-                 break;
-            case 'radio_phone':
-                 $('#user_phone')[0].classList.remove('d-none');
-                 $('#user_phone')[0].required=true;
-                 break;
-            case 'radio_email':
-                 $('#user_email')[0].classList.remove('d-none');
-                 $('#user_email')[0].required=true;
-                 break;
-        };
-    };
-
     
     
     (function() { 
@@ -131,8 +94,6 @@ $(document).ready( function() {
             if(stop_form_validation == true){
                 event.preventDefault();
                 event.stopPropagation();
-                $('#communication-method-not-chosen')[0].classList.add('d-flex');
-                console.log('validation prevented');
             }
             if (form.checkValidity() === false  || stop_form_validation == true) {
               event.preventDefault();
@@ -176,7 +137,7 @@ $(document).ready( function() {
 
 
 
-    /* -------modal end------- */
+/* ----------------------------modal end-------------------------------------------*/
 
 
    

@@ -12,22 +12,22 @@
           <input type="hidden" name="_token" value="">
           <div class="form-group">
             <div>
-              <label for="form-input-user-name" class="">Ім'я *</label>
-              <input type="text" class="form-control" id="form-input-user-name" name="user_name" placeholder="" required="true">
-              <div class="invalid-feedback">Будь ласка, введіть ваше ім'я</div>
+              <label for="form-input-user-name" class="special-label">Ім'я *</label>
+              <input type="text" class="form-control special-input" id="form-input-user-name" name="user_name" placeholder="" required="true">
+              <!-- <div class="invalid-feedback">Будь ласка, введіть ваше ім'я</div> -->
             </div>
           </div>
           <div class="form-group">
             <div>
-              <label for="form-input-user-phone" class="">Телефон *</label>
-              <input type="text" class="form-control" id="form-input-user-phone" name="user_name" placeholder="" required="true">
-              <div class="invalid-feedback">Будь ласка, введіть ваш телефон</div>
+              <label for="form-input-user-phone" class="special-label">Телефон *</label>
+              <input type="text" class="form-control special-input" id="form-input-user-phone" name="user_name" placeholder="" required="true">
+              <!-- <div class="invalid-feedback">Будь ласка, введіть ваш телефон</div> -->
             </div>
           </div>
           <div class="form-group">
             <div>
-              <label for="form-input-user-course" class="">Курс</label>
-              <select id="choices-multiple-remove-button" placeholder="" name="products-select[]" multiple>
+              <label for="form-input-user-course" class="special-label">Курс</label>
+              <select id="choices-multiple-remove-button" placeholder="Виберіть з переліку" name="products-select[]" multiple>
                 <option value="Загальна англійська">Загальна англійська</option>
                 <option value="Розмовна англійська">Розмовна англійська</option>
                 <option value="Підготовка до іспитів">Підготовка до іспитів</option>
@@ -40,56 +40,42 @@
                 <option value="Гарячі дискусії">Гарячі дискусії</option>
                 <option value="Курс з математики та логіки для дітей">Курс з математики та логіки для дітей</option>
               </select>
-              <div class="invalid-feedback"></div>
             </div>
           </div>
-          
-          <h5 class="mb-2 mt-3">Як з вами зв'язатись? *</h5>
-          <div class="">
-            <div class="btn-group" data-bs-toggle="buttons">
-              <label class="btn btn-outline-secondary mr-1">
-                <input type="radio" name="radio_options" class="radio_communication" id="radio_viber" onclick="display_user_choice(this.id)"> <span class="d-none d-md-inline">Viber</span><i class="d-inline d-md-none fab fa-viber"></i>
-              </label>
-                        <label class="btn btn-outline-secondary mr-1">
-                          <input type="radio" name="radio_options" class="radio_communication" id="radio_telegram" onclick="display_user_choice(this.id)"> <span class="d-none d-md-inline">Telegram</span><i class="d-inline d-md-none fab fa-telegram-plane"></i>
-                        </label>
-                        <label class="btn btn-outline-secondary mr-1">
-                          <input type="radio" name="radio_options" class="radio_communication" id="radio_whatsapp" onclick="display_user_choice(this.id)"> <span class="d-none d-md-inline">WhatsApp</span> <i class="d-inline d-md-none fab fa-whatsapp"></i>
-                        </label>
-                        <label class="btn btn-outline-secondary">
-                          <input type="radio" name="radio_options" class="radio_communication" id="radio_email" onclick="display_user_choice(this.id)"> 
-                          <i class="fas fa-envelope"></i>
-                        </label>
-                      </div>
-                      <div class="invalid-feedback" id="communication-method-not-chosen">
-                        Будь ласка, виберіть спосіб зв'язку
-                      </div>
-                    </div>
-
-                    
-                    <div class="form-group mt-2">
-                      <input type="text" class="form-control input-for-user-contact d-none" id="user_telegram" name="user_telegram" placeholder="Ваш номер телефону або акаунт в Telegram *">
-                      <input type="text" class="form-control input-for-user-contact d-none" id="user_viber" name="user_viber" placeholder="Ваш номер телефону або акаунт у Viber *">
-                      <input type="text" class="form-control input-for-user-contact d-none" id="user_whatsapp" name="user_whatsapp" placeholder="Ваш номер телефону або акаунт в WhatsApp *">
-                      <input type="email" class="form-control input-for-user-contact d-none" id="user_email" name="user_email" placeholder="Ваш email *">
-                      <div class="invalid-feedback"> Введіть контактні дані, будь ласка </div>
-                    </div>
-
-                    <div class="checkbox mt-1">
-                      <input type="checkbox" class="input" id="user_agreement" checked="true" required="true" name="user_write">
-                      <label class="label mb-0" for="user_agreement">Згода на обробку персональних даних *</label>
-                      <div class="invalid-feedback"> Ви маєте поговдитись, щоб ми обробили вашу заявку </div>
-                    </div>
-                    <div class="form-group mt-4">
-                        <div>
-                            <button type="submit" class="btn btn-primary">Надіслати</button>
-                        </div>
-                    </div>
-                </form>
+          <div class="form-group">
+            <div>
+              <label for="form-input-user-messanger" class="special-label">Зв’язатись через ?</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="form-check-input-messanger" id="user-viber" name="user_viber">
+                <label class="form-check-label" for="user-viber">Viber</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="form-check-input-messanger" id="user-telegram" name="user_telegram">
+                <label class="form-check-label" for="user-telegram">Telegram</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="form-check-input-messanger" id="user-whatsapp" name="user_whatsapp">
+                <label class="form-check-label" for="user-whatsapp">WhatsApp</label>
+              </div>
             </div>
           </div>
-        </div>
+          <div class="form-group">
+            <div class="justify-content-center align-items-center">
+              <input type="checkbox" class="input" id="user_agreement" checked="true" required="true" name="user_write">
+              <label class="label" for="user_agreement" style="margin-left: 0.5rem;">Згода на обробку персональних даних *</label>
+              <div class="invalid-feedback w-100"> Ви маєте поговдитись, щоб ми обробили вашу заявку </div>
+            </div>
+          </div>
+          <div class="form-group">
+              <div class="justify-content-center">
+                  <button type="submit" class="btn btn-primary">Надіслати</button>
+              </div>
+          </div>
+        </form>
       </div>
+    </div>
+  </div>
+</div>
       
 
       

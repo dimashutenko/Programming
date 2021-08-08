@@ -50,10 +50,8 @@ body{
 	padding-top: 10vh;
 }
 /*----------------------modal----------------------*/
-#trial-lesson-modal *{
-	background: var(--pale-pink);
-	font-weight: 400;
-	
+#trial-lesson-modal{
+	font-weight: 400;	
 }
 #trial-lesson-modal .modal-header{
 	position: relative;
@@ -75,6 +73,7 @@ body{
     max-width: 800px;
     margin: 0 auto;
     color: var(--blue-100);
+    background: var(--pale-pink);
 } 
 .modal-header{
 	padding-top: 3rem;
@@ -96,14 +95,14 @@ body{
 	display: flex;
 	flex-flow: row nowrap;
 }
-#trial-lesson-modal label{
+#trial-lesson-modal label.special-label{
 	display: flex;
 	width: 30%;
 	justify-content: flex-end;
 	align-items: center;
 	padding-right: 1rem;
 }
-#trial-lesson-modal input{
+#trial-lesson-modal input.special-input{
 	display: flex;
 	width: 35%;
 }
@@ -135,6 +134,16 @@ body{
 }
 #trial-lesson-modal .choices .choices__item{
 	font-size: 0.75rem;
+	background: var(--pale-pink);
+}
+#trial-lesson-modal .form-check-label{
+	padding-right: 1rem;
+}
+.form-check-input:checked{
+	background-color:  var(--blue-100);
+}
+#trial-lesson-modal button:last-child{
+	margin-top: 3rem;
 }
 /*----------------------modal----------------------*/
 header{
