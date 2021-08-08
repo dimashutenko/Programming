@@ -133,6 +133,9 @@ body{
 	color: var(--blue-100);
 	border: 0.75px solid var(--blue-100);
 }
+#trial-lesson-modal .choices .choices__item{
+	font-size: 0.75rem;
+}
 /*----------------------modal----------------------*/
 header{
 	/*margin-top: 3rem;*/
