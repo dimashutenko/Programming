@@ -51,14 +51,18 @@ body{
 }
 /*----------------------modal----------------------*/
 #trial-lesson-modal *{
-	color: var(--violet-100);
 	background: var(--pale-pink);
+	font-weight: 400;
+	
 }
 #trial-lesson-modal .modal-header{
 	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.modal-title{
+	color: var(--blue-100);
 }
 #trial-lesson-modal .modal-title{
 	display: flex;
@@ -68,9 +72,67 @@ body{
 	height: 100%;
 }
 .modal-dialog {
-    max-width: 500px;
+    max-width: 800px;
     margin: 0 auto;
+    color: var(--blue-100);
 } 
+.modal-header{
+	padding-top: 3rem;
+	border: none;
+}
+.modal-header h4{
+	font-weight: 600;
+	margin-top: 2rem;
+}
+.modal-header button {
+	border: none;
+	font-size: 3rem;
+	color: var(--blue-100);
+}
+.form-group{
+	margin-bottom: 1rem;
+}
+.form-group>div{
+	display: flex;
+	flex-flow: row nowrap;
+}
+#trial-lesson-modal label{
+	display: flex;
+	width: 30%;
+	justify-content: flex-end;
+	align-items: center;
+	padding-right: 1rem;
+}
+#trial-lesson-modal input{
+	display: flex;
+	width: 35%;
+}
+/*.form-control.is-valid, .was-validated .form-control:valid{
+	border-color: var(--blue-100);
+}*/
+.was-validated :invalid~.invalid-feedback{
+	display: flex;
+	align-items: center;
+	color: #dc3545;
+}
+#trial-lesson-modal .invalid-feedback{
+	width: 35%;
+	padding-left: 1rem;
+}
+.form-control{
+	border: 1px solid var(--blue-100);
+}
+#trial-lesson-modal .choices{
+	margin-bottom: 0;
+	width: 35%;
+}
+#trial-lesson-modal .choices .choices__inner{
+	border: 1px solid var(--blue-100);
+}
+#trial-lesson-modal .choices .choices__list--multiple .choices__item{
+	color: var(--blue-100);
+	border: 0.75px solid var(--blue-100);
+}
 /*----------------------modal----------------------*/
 header{
 	/*margin-top: 3rem;*/
