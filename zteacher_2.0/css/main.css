@@ -69,31 +69,48 @@ body{
 	width: 100%;
 	height: 100%;
 }
-.modal-dialog {
+#trial-lesson-modal .modal-dialog {
     max-width: 800px;
     margin: 0 auto;
     color: var(--blue-100);
+    position: static;
 } 
-.modal-content{
+#trial-lesson-modal .modal-content{
+	position: static;
+}
+#trial-lesson-modal .modal-content:before{
+	position: absolute;
+	display: flex;
+	content: "Your password to the world: #Zteacher";
+	top: 30%;
+	left: 3%;
+	font-size: 1.5rem;
+	font-weight: 600;
+	transform: rotate(-90deg);
+	background: -webkit-linear-gradient(#FFFFFF, #BE35D4);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+#trial-lesson-modal .modal-content{
 	background: var(--pale-pink);
 }
-.modal-header{
+#trial-lesson-modal .modal-header{
 	padding-top: 3rem;
 	border: none;
 }
-.modal-header h4{
+#trial-lesson-modal .modal-header h4{
 	font-weight: 600;
 	margin-top: 2rem;
 }
-.modal-header button {
+#trial-lesson-modal .modal-header button {
 	border: none;
 	font-size: 3rem;
 	color: var(--blue-100);
 }
-.form-group{
+#trial-lesson-modal .form-group{
 	margin-bottom: 1rem;
 }
-.form-group>div{
+#trial-lesson-modal .form-group>div{
 	display: flex;
 	flex-flow: row nowrap;
 }
