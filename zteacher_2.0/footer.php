@@ -28,7 +28,10 @@
       </div>
       <div class="col-lg-4 col-xl-4 ">
         <p class="ml-auto">&copy; Zteacher Language School 2021</p>
-        <p class="developer">Розробка - 
+        <p class="developer">Web-design: 
+          <a class="developer__link d-flex" href="https://www.facebook.com/yulia.kharchenko.18/" target="_blank">Yuliya Kharchenko</a>
+        </p>
+        <p class="developer">Розробка: 
           <a class="developer__link d-flex" href="https://www.linkedin.com/in/dima-shutenko/" target="_blank">Dima Shutenko<i class="fab fa-linkedin"></i></a>
         </p>
       </div>

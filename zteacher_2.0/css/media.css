@@ -284,7 +284,7 @@
 		font-weight: 700;
 	}
 	header{
-		height: 100vh;
+		height: 80vh;
 	}
 	header .container{
 		max-width:100%;
@@ -310,7 +310,7 @@
 	}
 	.section-headline{
 		font-size: 1.75rem;
-		margin-top: 1rem;
+		margin-top: 1.5rem;
 	}
 	.school-advantage .circle{
 		height: 75px;
