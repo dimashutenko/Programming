@@ -1,5 +1,5 @@
 <div class="section" id="approach">
-  <div class="container-fluid">
+  <div class="container">
     <div class="row h-100">
       <div class="col-md-6">
         <div class="approach__left h-100 d-none d-md-block"></div>

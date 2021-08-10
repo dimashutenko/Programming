@@ -20,7 +20,7 @@
       <?php include ('navigation.php'); ?>
       <header class="header" id="header" data-aos="fade-in">
         <div class="header-wrapper d-flex">
-          <div class="container-fluid">
+          <div class="container">
             <div class="row">
               <div class="col-12 col-md-6">
                 <div class="offer-left d-flex">

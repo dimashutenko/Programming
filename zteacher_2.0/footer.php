@@ -2,11 +2,10 @@
 <footer class="footer bg-dark" id="footer">
   <div class="container">
     <div class="row">
-      <div class="col-lg-5">
-        <span class="black-slogan">Get Your password to the world - </span>
-        <span class="black-slogan">Study English with us!</span>
+      <div class="col-lg-5 footer-logo d-flex align-items-center">
+        <img class="w-50 d-flex" src="img/zteacher.png" alt="Zteacher logo">
       </div>
-      <div class="col-lg-6 offset-xl-1 col-xl-6 d-flex align-items-center justify-content-center">
+      <div class="col-lg-7 col-xl-7 d-flex align-items-center justify-content-center">
         <ul class="footer-navigation">
           <li class="footer-navigation-link"><a href="./index.php#approach"><span>Підхід</span></a></li>
           <li class="footer-navigation-link"><a href="./index.php#courses"><span>Курси</span></a></li>
@@ -22,11 +21,12 @@
         <?php include ('socials.php'); ?>
       </div>
     </div>
-    <div class="row mt-5">
-      <div class="col-lg-8 col-xl-8">
-
+    <div class="row">
+      <div class="col-lg-7">
+        <span class="black-slogan">Get Your password to the world,</span>
+        <span class="black-slogan">Study English with us!</span>
       </div>
-      <div class="col-lg-4 col-xl-4 ">
+      <div class="offset-lg-1 col-lg-4 credits">
         <p class="ml-auto">&copy; Zteacher Language School 2021</p>
         <p class="developer">Web-design: 
           <a class="developer__link d-flex" href="https://www.facebook.com/yulia.kharchenko.18/" target="_blank">Yuliya Kharchenko</a>

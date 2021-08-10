@@ -189,24 +189,18 @@
 	h2{
 		
 	}
-	.secret-message{
-		font-size: 1.2rem;
-	}
-	.hard-to-see{
-		position: absolute;
-		bottom: -50px;
-		left: 0;
-	}
 	section {
     	padding-top: 80px;
+	}
+	.navbar-nav .nav-link span{
+		padding-bottom: 0;
+		border-bottom: none;
 	}
 	.videos-gallery{
 		grid-template-columns: 1fr;
 	  	grid-gap: 1rem;
 	  	grid-auto-rows: minmax(190px, auto);
 	}
-	
-	
 	
 
 	.emoji{
@@ -329,8 +323,9 @@
 	}
 	.school-advantage__title{
 		font-size: 1.25rem;
-		line-height: 2.5rem;
+		line-height: 1.75rem;
 		font-weight: 700;
+		margin-top: 0.5rem
 	}
 	.approach__text{
 		font-size: 1rem;
@@ -430,6 +425,9 @@
 		margin-top: 5rem;
 		padding: 2rem 0.5rem;
 	}
+	.footer-logo{
+		justify-content: center;
+	}
 	footer .black-slogan{
 		font-size: 1.5rem;
 		line-height: 2rem;
@@ -444,11 +442,21 @@
 		font-size: 2rem;
 	}
 	.footer-navigation li{
-		font-size: 1rem;
-		padding: 1.5rem 0;
+		font-size: 0.9rem;
+		padding: 1rem 0;
 	}
 	footer p{
 		font-size: 0.75rem
+	}
+	footer .black-slogan:first-child{
+		margin-top: 0rem;
+	}
+	footer .contacts__socials a{
+		margin: 0.5rem 1.75rem;
+	}
+	footer .credits{
+		margin-top: 2rem;
+		justify-content: center;
 	}
 	.developer__link{
 		margin-left: 3px;

@@ -187,7 +187,7 @@ body{
 }
 /*----------------------modal----------------------*/
 header{
-	/*margin-top: 3rem;*/
+	margin-top: 1rem;
 }
 .navbar{
 	transition: all .5s ease-in-out;
@@ -222,12 +222,20 @@ nav .nav-link {
 }
 .navbar-nav .nav-link span{
 	transition: all 0.3s ease-in-out;
+	padding-bottom: 0.5rem;
+	border-bottom: 2px solid var(--violet-90);
 }
 .navbar-nav .nav-link:hover span{
 	color: var(--violet-90);
+	border-bottom: 2px solid #fff;
+	
+}
+.header-wrapper .row{
+	position: relative;
+	height: 750px;
 }
 .offer-left{
-	margin: 30% 0 0 20%;
+	margin-top: 25%;
 	    -ms-flex-flow: column nowrap;
 	        flex-flow: column nowrap;
 }
@@ -265,7 +273,11 @@ nav .nav-link {
 }
 .offer-right{
 	background: url(../img/pic1.png) no-repeat left center / cover;
+	position: absolute;
+	left: 50%;
+	top: 0;
 	height: 750px;
+	width: 55%;
 }
 h1{
 	font-size: 3rem;
@@ -280,9 +292,16 @@ section{
 	font-weight: 600;
 	margin-bottom: 3rem;
 }
+#approach .container{
+	position: relative;
+}
 .approach__left{
 	background: url(../img/pic2.png) no-repeat center top / cover;
-	min-height: 900px;
+	min-height: 710px;
+	position: absolute;
+	top: 0;
+	left: -7%;
+	width: 57%;
 }
 .approach__right{
 	margin: 3rem 1rem;
@@ -295,41 +314,38 @@ h2{
 }
 .school-advantage {
 	display: flex;
-	margin: 20px 35%;
+	margin: 20px 10%;
 	align-items: center;
 	width: 100%;
 	-ms-flex-flow: column nowrap;
 	    flex-flow: column nowrap;
 }
-.school-advantage:last-child{
-	margin: 20px 15%;
-}
 .school-advantage .circle{
-	height: 145px;
-	width: 145px;
+	height: 100px;
+	width: 100px;
 	border-radius: 50%;
 	background: #AFFDFD;
 	position: relative;
 	display: flex;
 }
 .school-advantage .circle span{
-	font-size: 2.25rem;
+	font-size: 1.5rem;
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	margin-left: -40px;
-	margin-top: -26px;
+	margin-left: -30px;
+	margin-top: -18px;
 	text-align: center;
 	color: #000;
 }
 .school-advantage:last-child .circle span{
-	margin-left: -50px;
+	margin-left: -38px;
 }
 .school-advantage__title{
 	display: flex;
 	font-weight: normal;
-	font-size: 2.25rem;
-	line-height: 49px;
+	font-size: 1.75rem;
+	line-height: 3rem;
 	text-align: center;
 }
 .school-advantage-mobile-description{
@@ -840,6 +856,9 @@ footer .contacts__socials i{
 	width: 50%;
 	padding: 2rem;
 }
+.footer-navigation li:last-child, .footer-navigation li:nth-child(n-1){
+	padding-bottom: 0rem;
+}
 footer a span{
 	color: #fff;
 	transition: all .3s ease-in-out;
@@ -851,6 +870,12 @@ footer a:hover span{
 footer p{
 	font-size: 1rem;
 	display: flex;
+}
+footer .black-slogan:first-child{
+	margin-top: 3rem;
+}
+footer .credits{
+	margin-top: 0.5rem;
 }
 .developer__link{                   
 	color: #fff;
