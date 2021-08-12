@@ -77,7 +77,7 @@
 		
 	}
 	section {
-    	padding-top: 100px;
+    	padding-top: 75px;
 	}
 	.section-headline{
 		margin-bottom: 2rem
@@ -86,7 +86,6 @@
 	    grid-auto-rows: minmax(200px, auto);
 	    margin: 0rem 0 2rem 0;
 	}
-
 	.testimonials-wrapper {
 	    overflow-x: hidden;
 	    display: flex;
@@ -189,9 +188,6 @@
 	h2{
 		
 	}
-	section {
-    	padding-top: 80px;
-	}
 	.videos-gallery{
 		grid-template-columns: 1fr;
 	  	grid-gap: 1rem;
@@ -207,7 +203,7 @@
 		width: 17px;
 	}
 
-
+}
 
 @media (max-width: 576px) {
 	.container{
@@ -272,7 +268,7 @@
 		color: var(--white);
 	}
 	header{
-		height: 85vh;
+		height: 80vh;
 	}
 	header .container{
 		max-width:100%;
@@ -289,6 +285,9 @@
 	.btn-register{
 		width: 343px;
 		font-size: 16px;
+	}
+	section{
+		padding-top: 50px;
 	}
 	.approach__right{
 		margin-top: 0
@@ -455,9 +454,6 @@
 	.developer__link i{
 		font-size: 8px;
 	}
-}
-
-
 	#contacts .contacts__socials{
 		flex-flow: column nowrap;
 	}

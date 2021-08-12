@@ -1,4 +1,4 @@
-<div class="section" id="additional-courses">
+<section class="section" id="additional-courses">
     <div class="container">
         <h2 class="section-headline headline_700 d-none d-md-block">
           ДОДАТКОВІ КУРСИ ЗА ЗАПИТОМ
@@ -35,4 +35,4 @@
             </div>
         </div>
     </div>
-</div>
+</section>

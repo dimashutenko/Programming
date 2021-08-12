@@ -401,9 +401,6 @@ h2{
 .opacity-to-one{
 	animation: opacity-to-one 0.5s forwards;
 }
-#courses, #additional-courses{
-	padding-top: 5rem;
-}
 .headline_700{
 	font-weight: 700;
 }

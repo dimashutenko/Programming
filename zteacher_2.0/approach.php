@@ -1,4 +1,4 @@
-<div class="section" id="approach">
+<section class="section" id="approach">
   <div class="container">
     <div class="row h-100">
       <div class="col-md-6">
@@ -96,5 +96,4 @@
       </div>
     </div>
   </div>
-</div>
-  
+</section>

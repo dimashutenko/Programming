@@ -1,4 +1,4 @@
-<div class="section" id="courses">
+<section class="section" id="courses">
     <div class="container">
         <h2 class="section-headline headline_700 d-none d-md-block">
           ГАЛЕРЕЯ КУРСІВ
@@ -74,4 +74,4 @@
             </div>                
         </div>
     </div>
-</div>
+</section>
