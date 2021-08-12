@@ -192,17 +192,12 @@
 	section {
     	padding-top: 80px;
 	}
-	.navbar-nav .nav-link span{
-		padding-bottom: 0;
-		border-bottom: none;
-	}
 	.videos-gallery{
 		grid-template-columns: 1fr;
 	  	grid-gap: 1rem;
 	  	grid-auto-rows: minmax(190px, auto);
 	}
 	
-
 	.emoji{
 		height: 20px;
 		width: 20px;
@@ -211,9 +206,6 @@
 		background-size: 17px 22px;
 		width: 17px;
 	}
-
-	
-
 
 
 
@@ -276,6 +268,8 @@
 	}
 	.navbar-nav .nav-link span{
 		font-weight: 700;
+		padding-bottom: 0;
+		border-bottom: none;
 	}
 	header{
 		height: 80vh;
@@ -297,14 +291,11 @@
 		font-size: 16px;
 	}
 	.approach__right{
-
-	}
-	.section-headline{
-		margin-bottom: 1.5rem
+		margin-top: 0
 	}
 	.section-headline{
 		font-size: 1.75rem;
-		margin-top: 1.5rem;
+		margin: 2rem 0 1.5rem 0;
 	}
 	.school-advantage .circle{
 		height: 75px;
