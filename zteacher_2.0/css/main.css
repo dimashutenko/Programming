@@ -294,6 +294,9 @@ section{
 	font-weight: 600;
 	margin-bottom: 3rem;
 }
+#approach{
+	padding-top: 0;
+}
 #approach .container{
 	position: relative;
 }

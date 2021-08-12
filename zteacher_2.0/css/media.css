@@ -2,9 +2,6 @@
 	.container{
 		max-width: 990px;
 	}
-	header .container{
-		max-width: 100%;
-	}
 	h2{
 		
 	}
@@ -43,8 +40,6 @@
 	}
 
 
-
-
 	footer{
 		margin-top: 6rem;
 		padding: 3rem 1rem 2rem 1rem;
@@ -62,9 +57,6 @@
 @media (max-width: 992px) {
 	.container{
 		max-width: 760px;
-	}
-	header .container{
-		max-width:100%;
 	}
 	.small-logo{
 		height: 100%;
@@ -119,8 +111,6 @@
 	}
 
 
-
-
 	#contacts{
 		margin: 6rem 0;
 	}
@@ -145,9 +135,6 @@
 		font-size: 1rem;
 		line-height: 1.25rem;
 	}
-
-
-	
 
 	.emoji{
 		height: 22px;
@@ -179,9 +166,6 @@
 	.underline{
 		border-bottom: 1.5px solid var(--dark-blue);
 	}
-	header .container{
-		max-width:100%;
-	}
 	h1{
 		font-size: 34px;
 	}
@@ -206,9 +190,6 @@
 }
 
 @media (max-width: 576px) {
-	.container{
-		max-width: 340px;
-	}
 	.nav-wrapper{
 		margin:0;
 		padding:0;
@@ -267,11 +248,8 @@
 		border-bottom: none;
 		color: var(--white);
 	}
-	header{
+	.header-index{
 		height: 80vh;
-	}
-	header .container{
-		max-width:100%;
 	}
 	.offer-left{
 		margin: 0;
@@ -286,7 +264,7 @@
 		width: 343px;
 		font-size: 16px;
 	}
-	section{
+	section, #approach{
 		padding-top: 50px;
 	}
 	.approach__right{
