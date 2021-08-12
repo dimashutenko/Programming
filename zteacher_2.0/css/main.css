@@ -20,8 +20,10 @@
 	--violet-40: #4EE6FD;
 	--violet-20: #49E6FC;
 	--violet-10: #AFFDFD;
+	--pale-violet: rgba(203, 84, 254, 0.2);
 	--pale-pink: #f8e7ff;
 	--white: #F5F5F5;
+
 }
 h1,h2,h3,h4,h5{
 	margin:0;
@@ -433,61 +435,40 @@ h2{
 	align-items: center;
 }
 .course-business{
-	background: url(../img/course_business.png);
-	background-size: cover;
-	background-position: center;
+	background: url(../img/course_business.png) no-repeat center /cover;
 }
 .course-general{
-	background: url(../img/course_general.png);
-	background-size: cover;
-	background-position: center;
+	background: url(../img/course_general.png) no-repeat center /cover;
 }
 .course-schoolers{
-	background: url(../img/course-schoolers.png);
-	background-size: cover;
-	background-position: center;
+	background: url(../img/course-schoolers.png) no-repeat center /cover;
 }
 .course-sheldon{
-	background: url(../img/course-sheldon.png);
-	background-size: cover;
-	background-position: center;
+	background: url(../img/course-sheldon.png) no-repeat center /cover;
 }
 .course-dash_lily{
-	background: url(../img/course_dash_lily.png);
-	background-size: cover;
-	background-position: center;
+	background: url(../img/course_dash_lily.png) no-repeat center /cover;
 }
 .course-babies{
-	background: url(../img/course_babies.png);
-	background-size: cover;
-	background-position: center;
+	background: url(../img/course_babies.png) no-repeat center /cover;
 }
 .course-teachers{
-	background: url(../img/course_teachers.png);
-	background-size: cover;
-	background-position: center;
+	background: url(../img/course_teachers.png) no-repeat center /cover;
 }
 .course-exams{
-	background: url(../img/course_exams.png);
-	background-size: cover;
-	background-position: center;
+	background: url(../img/course_exams.png) no-repeat center /cover;
 }
 .course-travel{
-	background: url(../img/course_travel.png);
-	background-size: cover;
-	background-position: center;
+	background: url(../img/course_travel.png) no-repeat center /cover;
 }
 .course-schoolers-speaking{
-	background: url(../img/course-schoolers-speaking.png) no-repeat center;
-	background-size: cover;
+	background: url(../img/course-schoolers-speaking.png) no-repeat center /cover;
 }
 .course-it-english{
-	background: url(../img/course-it-english) no-repeat center;
-	background-size: cover;
+	background: url(../img/course-it-english) no-repeat center /cover;
 }
 .course-dash-lily-marathon{
-	background: url(../img/projector.png) no-repeat center;
-	background-size: cover;
+	background: url(../img/projector.png) no-repeat center /cover;
 }
 .zoom {
     width: 100%;
@@ -504,6 +485,19 @@ h2{
     -o-transform: scale(1.25);
     transform: scale(1.25);
     position: relative;
+}
+.transition:after{
+	content: "";
+	position: absolute;
+	left: 0; right: 0;
+	top: 0; bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--pale-violet);
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
 }
 .z-index-1{
 	z-index: 1;
@@ -524,7 +518,7 @@ h2{
 	position: absolute;
 	left: 0; right: 0;
 	top: 0; bottom: 0;
-	background: rgba(203, 84, 254, 0.2);
+	background: var(--pale-violet);
 }
 .mobile-course-img{
 	position: relative;
@@ -540,7 +534,7 @@ h2{
 	position: absolute;
 	left: 0; right: 0;
 	top: 0; bottom: 0;
-	background: rgba(203, 84, 254, 0.2);
+	background: var(--pale-violet);
 }
 .course-left-schoolers{
 	background: url(../img/schoolers-english.jpg) no-repeat center /cover;
@@ -592,7 +586,7 @@ h2{
 	line-height: 1.25rem;
 }
 #lessons-videos{
-	background: rgba(203, 84, 254, 0.2);
+	background: var(--pale-violet);
 }
 #lessons-videos h2{
 	padding: 2rem 0rem;

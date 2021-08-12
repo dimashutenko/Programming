@@ -9,16 +9,14 @@ $(document).ready( function() {
     });
 
     all_courses_z_index_1 = () => { 
-        var list = $(".course_");
+        var list = $(".course");
         for (let i=0; i<list.length; i++){
-            list[i].classList.add('z-index-1');
-            list[i].classList.remove('z-index-99999');
+            list[i].parentElement.parentElement.classList.add('z-index-1');
+            list[i].parentElement.parentElement.classList.remove('z-index-99999');
         }
     }
         
     $(".zoom").hover(function(){ 
-
-        
         all_courses_z_index_1();
         
         $(this).addClass('transition');
@@ -44,14 +42,6 @@ $(document).ready( function() {
 
 
 
-
-
-
-
-
-
-
-   // zteacher 1.0
 
 
 /* -------Animate On Scroll Library------- */
@@ -208,7 +198,7 @@ $(document).ready( function() {
                         show($('.approach__right')[0]);
                         $('.approach__right')[0].classList.add('opacity-to-one');
                     }, 500);
-            }, false);
+            });
             // ----------------------------------------------------------------------------------
             $('.school-advantage-writing')[0].addEventListener("click", function() {
                 clear_opacity_effects( $('.approach__right')[0]);
@@ -219,7 +209,7 @@ $(document).ready( function() {
                         show($('.approach__writing')[0]);
                         $('.approach__writing')[0].classList.add('opacity-to-one');
                 }, 500);
-            }, false);
+            });
 
             $('.approach__right__close')[1].addEventListener("click", function() {
                 clear_opacity_effects( $('.approach__right')[0]);
@@ -230,7 +220,7 @@ $(document).ready( function() {
                         show($('.approach__right')[0]);
                         $('.approach__right')[0].classList.add('opacity-to-one');
                     }, 500);
-            }, false);
+            });
             // ----------------------------------------------------------------------------------
             $('.school-advantage-interest')[0].addEventListener("click", function() { 
                 clear_opacity_effects( $('.approach__right')[0]);
@@ -241,7 +231,7 @@ $(document).ready( function() {
                         show($('.approach__interest')[0]);
                         $('.approach__interest')[0].classList.add('opacity-to-one');
                 }, 500);
-            }, false);
+            });
 
             $('.approach__right__close')[2].addEventListener("click", function() {
                 clear_opacity_effects( $('.approach__right')[0]);
@@ -252,7 +242,7 @@ $(document).ready( function() {
                         show($('.approach__right')[0]);
                         $('.approach__right')[0].classList.add('opacity-to-one');
                     }, 500);
-            }, false);
+            });
         } catch (error){
             console.log(error);
         }
