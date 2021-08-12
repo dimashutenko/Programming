@@ -50,29 +50,27 @@
           </div>
         </div>
         <div class="approach__right approach__speaking d-none justify-content-center">
-          <h2 class="approach__title mb-3">
+          <div class="approach__right__close"></div>
+          <h2 class="approach__title">
             Ви будете розмовляти!
           </h2>
-          <div class="school-advantage mb-5">
+          <div class="school-advantage">
             <div class="circle"><span class="percentage">90 %</span></div>
             <h3 class="school-advantage__title">Говоріння</h3>
           </div>
-          <h3 class="approach__text mt-5 mb-5">
-            Ми хочемо, щоб кожна секунда уроку була вичерпно корисно проведена.
-          </h3>
-          <h3 class="approach__text">
-            Тож урок призначений для говоріння, відпрацювання, запам’ятовування.
-          </h3>
+          <h3 class="approach__text">Ми хочемо, щоб кожна секунда уроку була вичерпно корисно проведена.</h3>
+          <h3 class="approach__text">Тож урок призначений для говоріння, відпрацювання, запам’ятовування.</h3>
         </div>
         <div class="approach__right approach__writing d-none justify-content-center">
-          <h2 class="approach__title mb-3">
+          <div class="approach__right__close"></div>
+          <h2 class="approach__title">
             Ви, звісно, будете писати!
           </h2>
-          <div class="school-advantage mb-5">
+          <div class="school-advantage">
             <div class="circle"><span class="percentage">10 %</span></div>
             <h3 class="school-advantage__title">Писання</h3>
           </div>
-          <h3 class="approach__text mt-5 mb-5">
+          <h3 class="approach__text">
             Ми розуміємо, що писати — це важливе уміння, особливо в теперішній час. Більшість спілкування між друзями, колегами, партнерами, клієнтами — це texting.
           </h3>
           <h3 class="approach__text">
@@ -80,18 +78,19 @@
           </h3>
         </div>
         <div class="approach__right approach__interest d-none justify-content-center">
-          <h2 class="approach__title mb-3 d-flex text-center">
+          <div class="approach__right__close"></div>
+          <h2 class="approach__title d-flex text-center">
             Цікавий матеріал, що підсилє бажання вчитися!
           </h2>
-          <div class="school-advantage mb-5" style="margin:20px 0;">
+          <div class="school-advantage" style="margin:2rem 0;">
             <div class="circle"><span class="percentage">100 %</span></div>
             <h3 class="school-advantage__title">Фокус на інтереси студента</h3>
           </div>
-          <h3 class="approach__text mt-5 mb-5">
+          <h3 class="approach__text">
             Любов до учнів! 
             Повага до учнів! Прийняття!
           </h3>
-          <h3 class="approach__text mb-5">
+          <h3 class="approach__text">
             Кожна людина, яка приймає рішення вчитися, незалежно від віку, заслуговує безмежної поваги. 
           </h3>
           <h3 class="approach__text">

@@ -21,11 +21,12 @@
 	--violet-20: #49E6FC;
 	--violet-10: #AFFDFD;
 	--pale-pink: #f8e7ff;
+	--white: #F5F5F5;
 }
 h1,h2,h3,h4,h5{
 	margin:0;
 	font-weight: 900;
-	color: #fff;
+	color: var(--white);
 }
 ul {
 	margin: 0;
@@ -218,7 +219,7 @@ nav .nav-link {
 	font-size: 1rem;
 	margin: 0 0.5rem;
 	padding: 0.5rem 1rem;
-	color: #F5F5F5 !important;
+	color: var(--violet-90) !important;
 }
 .navbar-nav .nav-link span{
 	transition: all 0.3s ease-in-out;
@@ -226,9 +227,8 @@ nav .nav-link {
 	border-bottom: 2px solid var(--violet-90);
 }
 .navbar-nav .nav-link:hover span{
-	color: var(--violet-90);
+	color: var(--white);
 	border-bottom: 2px solid #fff;
-	
 }
 .header-wrapper .row{
 	position: relative;
@@ -257,7 +257,7 @@ nav .nav-link {
 	height: 53px;
 	border: none;
 	border-radius: 11px;
-	background: #F5F5F5;
+	background: var(--white);
 	position: static;
 	font-weight: bold;
 	font-size: 24px;
@@ -307,6 +307,22 @@ section{
 	margin: 3rem 1rem;
 	-ms-flex-flow: row wrap;
 	    flex-flow: row wrap;
+	    position: relative;
+	min-height: 600px;
+}
+.approach__right__close{
+	content: "";
+	position: absolute;
+	right: -3rem;
+	top: -1rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	background: url(../img/lil-white-cross.png) no-repeat center /cover;
+	transition: all 0.3s ease-in-out;
+}
+.approach__right__close:hover{
+	cursor: pointer;
+	background: url(../img/lil-cross.png) no-repeat center /cover;
 }
 h2{
 	font-size: 2.25rem;
@@ -314,7 +330,7 @@ h2{
 }
 .school-advantage {
 	display: flex;
-	margin: 20px 10%;
+	margin: 3rem 10% 1rem 10%;
 	align-items: center;
 	width: 100%;
 	-ms-flex-flow: column nowrap;
@@ -338,7 +354,7 @@ h2{
 	text-align: center;
 	color: #000;
 }
-.school-advantage:last-child .circle span{
+.school-advantage:last-child .circle span, .approach__interest .school-advantage .circle span{
 	margin-left: -38px;
 }
 .school-advantage__title{
@@ -352,8 +368,10 @@ h2{
 	display: none;
 }
 .approach__text{
+	font-size: 1.5rem;
 	font-weight: 400;
 	text-align: center;
+	margin-bottom: 1.75rem;
 }
 @keyframes opacity-to-zero{
 	from{
@@ -504,11 +522,21 @@ h2{
 	top: 0; bottom: 0;
 	background: rgba(203, 84, 254, 0.2);
 }
+.mobile-course-img{
+	position: relative;
+}
 .course-left-business{
 	background: url(../img/statue.jpg) no-repeat center /cover;
 }
 .course-left-general{
 	background: url(../img/general-english.jpg) no-repeat center right /cover;
+}
+.course-left-general:after{
+	content: "";
+	position: absolute;
+	left: 0; right: 0;
+	top: 0; bottom: 0;
+	background: rgba(203, 84, 254, 0.2);
 }
 .course-left-schoolers{
 	background: url(../img/schoolers-english.jpg) no-repeat center /cover;
