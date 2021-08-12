@@ -304,6 +304,7 @@ section{
 	width: 57%;
 }
 .approach__right{
+	justify-content: center;
 	margin: 3rem 1rem;
 	-ms-flex-flow: row wrap;
 	    flex-flow: row wrap;
@@ -328,13 +329,16 @@ h2{
 	font-size: 2.25rem;
 	font-weight: 600;
 }
-.school-advantage {
+.school-advantage{
 	display: flex;
-	margin: 3rem 10% 1rem 10%;
+	margin: 2rem 10% 1rem 10%;
 	align-items: center;
 	width: 100%;
 	-ms-flex-flow: column nowrap;
 	    flex-flow: column nowrap;
+}
+.school-advantage-speaking:hover, .school-advantage-writing:hover, .school-advantage-interest:hover{
+	cursor: pointer;
 }
 .school-advantage .circle{
 	height: 100px;

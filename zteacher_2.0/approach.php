@@ -5,13 +5,9 @@
         <div class="approach__left h-100 d-none d-md-block"></div>
       </div>
       <div class="col-12 col-md-6">
-        <div class="approach__right justify-content-center d-flex">
-          <h2 class="section-headline d-none d-md-block">
-            Наш підхід - це цікавий контент
-          </h2>
-          <h2 class="section-headline headline_700 d-block d-md-none">
-            Підхід
-          </h2>
+        <div class="approach__right d-flex">
+          <h2 class="section-headline d-none d-md-block">Наш підхід - це цікавий контент</h2>
+          <h2 class="section-headline headline_700 d-block d-md-none">Підхід</h2>
           <div class="school-advantage school-advantage-speaking">
             <div class="circle"><span class="percentage">90 %</span></div>
             <h3 class="school-advantage__title">Говоріння</h3>
@@ -49,7 +45,7 @@
             </div>
           </div>
         </div>
-        <div class="approach__right approach__speaking d-none justify-content-center">
+        <div class="approach__right approach__speaking d-none">
           <div class="approach__right__close"></div>
           <h2 class="approach__title">
             Ви будете розмовляти!
