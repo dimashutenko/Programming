@@ -338,7 +338,17 @@
 		display: block;
 		height: 170px;
 		width: 100%;
-		margin-bottom: 1rem
+		margin-bottom: 1rem;
+		position: relative;
+	}
+	.mobile-course-img:after{
+		content: "";
+		position: absolute;
+		left: 0; right: 0;
+		top: 0; bottom: 0;
+		width: 100%;
+		height: 100%;
+		background: var(--pale-violet);
 	}
 	.course-left-babies{
 		background: url(../img/baby-angels.png) no-repeat 0 -50px /cover;

@@ -32,7 +32,7 @@
                   <?php include ('free-lesson.php'); ?>
                 </div>
               </div>
-              <div class="col-12 col-md-6">
+              <div class="col-md-6">
                 <div class="course-left course-left-exams d-none d-md-flex">
                   
                 </div>

@@ -587,6 +587,7 @@ h2{
 }
 #lessons-videos{
 	background: var(--pale-violet);
+	margin-top: 4rem;
 }
 #lessons-videos h2{
 	padding: 2rem 0rem;
