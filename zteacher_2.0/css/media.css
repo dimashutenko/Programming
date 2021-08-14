@@ -350,6 +350,12 @@
 		height: 100%;
 		background: var(--pale-violet);
 	}
+	.to-courses-btn-container{
+		margin-top: 2rem;
+	}
+	.to-courses-btn{
+		width: auto;
+	}
 	.course-left-babies{
 		background: url(../img/baby-angels.png) no-repeat 0 -50px /cover;
 	}

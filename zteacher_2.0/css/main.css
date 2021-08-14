@@ -589,6 +589,58 @@ h2{
 	font-size: 0.9rem;
 	line-height: 1.25rem;
 }
+.to-courses-btn-container{
+	margin-top: 4rem;
+}
+.to-courses-btn{
+	/*width: auto;*/
+}
+/*-------------------------------back arrow--------https://codemyui.com/back-forward-arrow-animation-using-svg/--------*/
+svg {
+	 width: 2rem;
+	 height: auto;
+	 margin-left: 1rem;
+	 cursor: pointer;
+	 overflow: visible;
+	 fill: var(--blue-100);
+}
+svg polygon, svg path {
+	 transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+}
+.to-courses-btn:hover polygon, .to-courses-btn:hover path {
+	 transition: all 1s cubic-bezier(0.2, 1, 0.3, 1);
+}
+.to-courses-btn:hover .arrow {
+	 animation: arrow-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+.to-courses-btn:hover .arrow-fixed {
+	 animation: arrow-fixed-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+@keyframes arrow-anim {
+	 0% {
+		 opacity: 1;
+		 transform: translateX(0);
+	}
+	 5% {
+		 transform: translateX(-0.1rem);
+	}
+	 100% {
+		 transform: translateX(1rem);
+		 opacity: 0;
+	}
+}
+@keyframes arrow-fixed-anim {
+	 5% {
+		 opacity: 0;
+	}
+	 20% {
+		 opacity: 0.4;
+	}
+	 100% {
+		 opacity: 1;
+	}
+}
+/*-------------------------------back arrow----------------*/
 #lessons-videos{
 	background: var(--pale-violet);
 	margin-top: 4rem;
