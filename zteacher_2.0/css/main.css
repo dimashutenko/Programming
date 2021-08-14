@@ -560,6 +560,10 @@ h2{
 .course-left-travel{
 	background: url(../img/travel.jpg) no-repeat center /cover;
 }
+.course-left-it{
+	background: url(../img/course-it-english) no-repeat center /cover;
+}
+
 .mobile-course-img{
 	display: none;
 }
