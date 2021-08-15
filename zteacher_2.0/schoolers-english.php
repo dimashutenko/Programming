@@ -45,7 +45,10 @@
                     Індивідуально - 250 гривень/година <br>
                     В групі - 1.15 год/1200гривень/місяць <br>
                     В групі - 1.5 год/1500 гривень/місяць
-                  <?php include ('free-lesson.php'); ?>
+                  <?php 
+                    include ('free-lesson.php');
+                    include ('to-courses-btn.php');
+                  ?>
                 </div>
               </div>
               <div class="col-12 col-md-6">

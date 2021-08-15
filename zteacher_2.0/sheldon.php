@@ -48,7 +48,10 @@
                     Вартість - 3000 гривень/10 занять <br>
                     Є можливість проходити в парі або в групі, ціна, в такому випадку, буде узгоджуватися.
                   </p>
-                  <?php include ('free-lesson.php'); ?>
+                  <?php 
+                    include ('free-lesson.php');
+                    include ('to-courses-btn.php');
+                  ?>
                 </div>
               </div>
               <div class="col-12 col-md-6">

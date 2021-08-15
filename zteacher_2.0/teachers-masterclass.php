@@ -30,7 +30,10 @@
                   <p class="course-description">Розробки до 10 серій Young Sheldon <br> 300 гривень</p>
                   <p class="course-description">Розробки до 8 серій Dash and Lily <br> 300 гривень</p>
                   <p class="course-description">Закрита група у Facebook для обміну досвідом та обговорення актуальних тем.</p>
-                  <?php include ('free-lesson.php'); ?>
+                  <?php 
+                    include ('free-lesson.php');
+                    include ('to-courses-btn.php');
+                  ?>
                 </div>
               </div>
               <div class="col-12 col-md-6">

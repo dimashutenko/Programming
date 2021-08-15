@@ -356,6 +356,10 @@
 	.to-courses-btn{
 		width: auto;
 	}
+	.to-courses-btn i {
+		transform: rotate(90deg);
+		margin-right: 0.5rem;
+	}
 	.course-left-babies{
 		background: url(../img/baby-angels.png) no-repeat 0 -50px /cover;
 	}

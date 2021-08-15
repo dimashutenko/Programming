@@ -665,6 +665,7 @@ svg polygon, svg path {
 	background-size: cover;
 	background-position: center center;
 	height: 100%;
+	width: 100%;
 	position: relative;
 }
 .children-videos-gallery a:nth-child(1) .gallery-video{
@@ -674,7 +675,7 @@ svg polygon, svg path {
 	background-image: url(../img/mona_lisa_lesson.png);
 }
 .children-videos-gallery a:nth-child(3) .gallery-video{
-	
+	background-image: url(../img/maradona.png);
 }
 .children-videos-gallery a:nth-child(4) .gallery-video{
 	background-image: url(../img/how_do_you_feel.png);
@@ -687,10 +688,14 @@ svg polygon, svg path {
 	background-image: url(../img/exercises.png);
 }
 .children-videos-gallery a:nth-child(7) .gallery-video{
-	
+	background: url(../img/talk.png) no-repeat center;
+	background-size: contain;
 }
 .children-videos-gallery a:nth-child(8) .gallery-video{
-	
+	background-image: url(../img/crocodile.png);
+}
+.children-videos-gallery a:nth-child(9) .gallery-video{
+	background-image: url(../img/furniture.png);
 }
 .older-videos-gallery a:nth-child(1) .gallery-video{
 	
