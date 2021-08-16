@@ -676,6 +676,9 @@ svg polygon, svg path {
 }
 .children-videos-gallery a:nth-child(3) .gallery-video{
 	background-image: url(../img/maradona.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .children-videos-gallery a:nth-child(4) .gallery-video{
 	background-image: url(../img/how_do_you_feel.png);
@@ -698,22 +701,22 @@ svg polygon, svg path {
 	background-image: url(../img/furniture.png);
 }
 .older-videos-gallery a:nth-child(1) .gallery-video{
-	
+	background-image: url(../img/hitler.png);
 }
 .older-videos-gallery a:nth-child(2) .gallery-video{
-	
+	background-image: url(../img/sports.png);
 }
 .older-videos-gallery a:nth-child(3) .gallery-video{
 	background-image: url(../img/pisses-off-lesson.jpeg);
 }
 .older-videos-gallery a:nth-child(4) .gallery-video{
-	
+	background-image: url(../img/capitals.png);
 }
 .older-videos-gallery a:nth-child(5) .gallery-video{
-	
+	background-image: url(../img/lincoln.png);
 }
 .older-videos-gallery a:nth-child(6) .gallery-video{
-	
+	background-image: url(../img/seasons.png);
 }
 .older-videos-gallery a:nth-child(7) .gallery-video{
 	background-image: url(../img/eating_sounds.png);
