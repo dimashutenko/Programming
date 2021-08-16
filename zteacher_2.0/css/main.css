@@ -842,10 +842,23 @@ svg polygon, svg path {
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
-	min-height: 100vh;
+	min-height: 125vh;
 }
 
-
+#testimonials .carousel-inner{
+	width: 40vw;
+	margin: 0 auto 3rem auto;
+	padding-bottom: 8rem;
+}
+#testimonials .carousel-inner .carousel-item{
+	
+}
+.carousel-indicators{
+	position: absolute;
+    right: 0;
+    bottom: 4rem;
+    left: 0;
+}
 
 
 
