@@ -232,9 +232,12 @@ nav .nav-link {
 	color: var(--white);
 	border-bottom: 2px solid #fff;
 }
+.index-page-header .row{
+	height: 750px;
+	position: relative;
+}
 .header-wrapper .row{
 	position: relative;
-	height: 750px;
 }
 .offer-left{
 	margin-top: 25%;

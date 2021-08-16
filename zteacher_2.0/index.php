@@ -19,7 +19,7 @@
 
       <?php include ('navigation.php'); ?>
       <header class="header header-index" id="header" data-aos="fade-in">
-        <div class="header-wrapper d-flex">
+        <div class="header-wrapper d-flex index-page-header">
           <div class="container">
             <div class="row">
               <div class="col-12 col-md-6">
