@@ -763,8 +763,8 @@ svg polygon, svg path {
 }
 /*__________________________________testimonials______+js____________________________*/
 
-.testimonials-wrapper{
-	overflow-x: hidden; /*or overflow-x:scroll */
+/*.testimonials-wrapper{
+	overflow-x: hidden; 
   	display: flex;
   	flex-flow: row nowrap;
   	margin-bottom: 2rem;
@@ -834,10 +834,16 @@ svg polygon, svg path {
 	height: 4px;
 	top: 2rem;
 	left: 0;
+}*/
+
+#testimonials{
+	background-image: url(../img/testimonials-paralax.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
 }
-
-
-
 
 
 
