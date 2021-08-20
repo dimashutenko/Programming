@@ -694,7 +694,7 @@ svg polygon, svg path {
 	background-image: url(../img/exercises.png);
 }
 .children-videos-gallery a:nth-child(7) .gallery-video{
-	background: url(../img/talk.png) no-repeat center;
+	background: url(../img/travelling-with-children.jpg) no-repeat center;
 	background-size: contain;
 }
 .children-videos-gallery a:nth-child(8) .gallery-video{
@@ -761,80 +761,7 @@ svg polygon, svg path {
 .bi-youtube:hover{
 	color:#C31A1E;
 }
-/*__________________________________testimonials______+js____________________________*/
-
-/*.testimonials-wrapper{
-	overflow-x: hidden; 
-  	display: flex;
-  	flex-flow: row nowrap;
-  	margin-bottom: 2rem;
-}
-.testimonials_bg{
-	min-height: 500px;
-	min-width: 50vw;
-	background: url(../img/testimonials.png) no-repeat left center /contain;
-	position: relative;
-	margin-right: 5rem;
-}
-.testimonials_bg:after{
-	position: absolute;
-	display: flex;
-	content: "";
-	bottom: 7%;
-	left: 3%;
-	width: 175px;
-	height: 4px;
-	background: #ff32b9;
-}
-.testimonial{
-	min-width: 45vw;
-	margin-left: -10vw;
-	margin-right: 20vw;
-	position: relative;
-	display: flex;
-	flex-flow: column nowrap;
-	align-self: center;
-}
-.testimonial:before{
-	position: absolute;
-	display: flex;
-	content: "";
-	top: 25%;
-	left: -12%;
-	width: 4px;
-	height: 75px;
-	background: #ff32b9;
-}
-.testimonial:after{
-	position: absolute;
-	display: flex;
-	content: "";
-	top: 15%;
-	left: -10%;
-	width: 4px;
-	height: 150px;
-	background: #ff32b9;
-}
-.testimonial__text{
-	font-size: 0.75rem;
-}
-.testimonial__author{
-	position: relative;
-	margin-top: 2rem;
-	font-size: 1rem;
-	font-weight: 700;
-	display: inline-flex;
-}
-.testimonial__author:after{
-	position: absolute;
-	content: "";
-	display: flex;
-	background: #FF32B9;
-	width: 175px;
-	height: 4px;
-	top: 2rem;
-	left: 0;
-}*/
+/*__________________________________testimonials______+____________________________*/
 
 #testimonials{
 	background-image: url(../img/testimonials-paralax.jpg);
@@ -843,6 +770,7 @@ svg polygon, svg path {
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 125vh;
+	margin-bottom: -7rem;
 }
 
 #testimonials .carousel-inner{
@@ -851,16 +779,42 @@ svg polygon, svg path {
 	padding-bottom: 8rem;
 }
 #testimonials .carousel-inner .carousel-item{
-	
+	position: relative;
+}
+#testimonials .carousel-inner .carousel-item:nth-child(2n):before{
+	position: absolute;
+	content: "";
+	display: block;
+	background: var(--pale-violet);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
 }
 .carousel-indicators{
 	position: absolute;
     right: 0;
     bottom: 4rem;
     left: 0;
+    
 }
-
-
+.carousel-indicators [data-bs-target]{
+	width: 0.5rem;
+    height: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+}
+.carousel-indicators .active{
+	background-color: #000;
+}
+.carousel-control-prev, .carousel-control-next{
+	transition: all .3s ease-in-out;
+	margin-bottom: 8rem;
+}
+.carousel-control-prev:hover, .carousel-control-next:hover{
+	background: rgba(255,255,255,0.075)
+}
 
 
 /*-------carousel-----------*/
