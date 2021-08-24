@@ -1,5 +1,5 @@
 <section class="section" id="testimonials">
-	<h2 class="section-headline" data-aos="fade-down">
+	<h2 class="section-headline" data-aos="fade-in">
 		Відгуки
 	</h2>
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">

@@ -1,5 +1,5 @@
 
-<footer class="footer bg-dark" id="footer">
+<footer class="footer bg-dark" id="footer" data-aos="fade-in">
   <div class="container">
     <div class="row">
       <div class="col-lg-5 footer-logo d-flex align-items-center">
