@@ -43,17 +43,17 @@
             </div>
           </div>
           <div class="form-group">
-            <div>
+            <div id="peculiar-div">
               <label for="form-input-user-messanger" class="special-label">Зв’язатись через ?</label>
-              <div class="">
+              <div class="communication-method">
                 <input class="" type="radio" name="form-check-input-messanger" id="user-viber" name="user_viber">
                 <label class="" for="user-viber" style="margin-right: 1rem;">Viber</label>
               </div>
-              <div class="">
+              <div class="communication-method">
                 <input class="" type="radio" name="form-check-input-messanger" id="user-telegram" name="user_telegram">
                 <label class="" for="user-telegram" style="margin-right: 1rem;">Telegram</label>
               </div>
-              <div class="">
+              <div class="communication-method">
                 <input class="" type="radio" name="form-check-input-messanger" id="user-whatsapp" name="user_whatsapp">
                 <label class="" for="user-whatsapp" style="margin-right: 1rem;">WhatsApp</label>
               </div>

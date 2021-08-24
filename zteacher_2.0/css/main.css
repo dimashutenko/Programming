@@ -126,7 +126,7 @@ body{
 	background: var(--pale-pink);
 }
 #trial-lesson-modal .form-group{
-	margin-bottom: 1rem;
+	margin-bottom: 1.25rem;
 }
 #trial-lesson-modal .form-group>div{
 	display: flex;
