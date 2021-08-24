@@ -1,47 +1,47 @@
-<div class="section" id="lessons-videos">
-    <h2 class="section-headline headline_700 body-bg d-none d-md-block">
+<div class="section" id="lessons-videos" data-aos="fade-in">
+    <h2 class="section-headline headline_700 body-bg d-none d-md-block" data-aos="fade-down">
           ЯК ПРОХОДЯТЬ УРОКИ <span class="js-line-breaker"></span> З ДІТЬМИ
     </h2>
-    <h2 class="section-headline headline_700 body-bg d-block d-md-none">
+    <h2 class="section-headline headline_700 body-bg d-block d-md-none" data-aos="fade-down">
           Як проходять уроки <span class="js-line-breaker"></span> з дітьми
     </h2>
     <div class="container">
         <div class="row">
             <div class="videos-gallery children-videos-gallery">
-                <a class="venobox" data-autoplay="true" data-vbtype="video" data-gall="desktopVideoGallery" href="https://youtu.be/U8iV7-ryWTM">
+                <a class="venobox" data-autoplay="true" data-vbtype="video" data-gall="desktopVideoGallery" href="https://youtu.be/U8iV7-ryWTM" data-aos="fade-right">
                   <div class="gallery-video"><i class="bi bi-youtube"></i></div> <!-- 1 -->
                 </a>
-                <a class="venobox" data-autoplay="true" data-vbtype="video" data-gall="desktopVideoGallery" href="https://youtu.be/EPrfAAcATpo">
+                <a class="venobox" data-autoplay="true" data-vbtype="video" data-gall="desktopVideoGallery" href="https://youtu.be/EPrfAAcATpo" data-aos="fade-in">
                   <div class="gallery-video"><i class="bi bi-youtube"></i></div> <!-- 2 -->
                 </a>
-                <a class="venobox" data-autoplay="true" data-vbtype="video" data-gall="desktopVideoGallery" href="https://youtu.be/msAtl-US3-o">
+                <a class="venobox" data-autoplay="true" data-vbtype="video" data-gall="desktopVideoGallery" href="https://youtu.be/msAtl-US3-o" data-aos="fade-left">
                   <div class="gallery-video"><i class="bi bi-youtube"></i></div> <!-- 3 -->
                 </a>
-                <a class="venobox d-none d-lg-flex" data-autoplay="true" data-vbtype="video" data-gall="desktopVideoGallery" href="https://youtu.be/Q1HJWz0ZPzA">
+                <a class="venobox d-none d-lg-flex" data-autoplay="true" data-vbtype="video" data-gall="desktopVideoGallery" href="https://youtu.be/Q1HJWz0ZPzA" data-aos="fade-right">
                   <div class="gallery-video"><i class="bi bi-youtube"></i></div> <!-- 4 -->
                 </a>
-                <a class="venobox d-none d-lg-flex" data-autoplay="true" data-vbtype="video" data-gall="desktopVideoGallery" href="https://youtu.be/jxHRecQDBU0">
+                <a class="venobox d-none d-lg-flex" data-autoplay="true" data-vbtype="video" data-gall="desktopVideoGallery" href="https://youtu.be/jxHRecQDBU0" data-aos="fade-in">
                   <div class="gallery-video"><i class="bi bi-youtube"></i></div> <!-- 5 -->
                 </a>
-                <a class="venobox d-none d-lg-flex" data-autoplay="true" data-vbtype="video" data-gall="desktopVideoGallery" href="https://youtu.be/VEAnSCka81c">
+                <a class="venobox d-none d-lg-flex" data-autoplay="true" data-vbtype="video" data-gall="desktopVideoGallery" href="https://youtu.be/VEAnSCka81c" data-aos="fade-left">
                   <div class="gallery-video"><i class="bi bi-youtube"></i></div> <!-- 6 -->
                 </a>
-                <a class="venobox d-none d-lg-flex" data-autoplay="true" data-vbtype="video" data-gall="desktopVideoGallery" href="https://youtu.be/L6yniXjf3x8">
+                <a class="venobox d-none d-lg-flex" data-autoplay="true" data-vbtype="video" data-gall="desktopVideoGallery" href="https://youtu.be/L6yniXjf3x8" data-aos="fade-right">
                   <div class="gallery-video"><i class="bi bi-youtube"></i></div> <!-- 7 -->
                 </a>
-                <a class="venobox d-none d-lg-flex" data-autoplay="true" data-vbtype="video" data-gall="desktopVideoGallery" href="https://youtu.be/tiiRHGLJgAg">
+                <a class="venobox d-none d-lg-flex" data-autoplay="true" data-vbtype="video" data-gall="desktopVideoGallery" href="https://youtu.be/tiiRHGLJgAg" data-aos="fade-in">
                   <div class="gallery-video"><i class="bi bi-youtube"></i></div> <!-- 8 -->
                 </a>
-                <a class="venobox d-none d-lg-flex" data-autoplay="true" data-vbtype="video" data-gall="desktopVideoGallery" href="https://youtu.be/Ojy-tXk_fYs">
+                <a class="venobox d-none d-lg-flex" data-autoplay="true" data-vbtype="video" data-gall="desktopVideoGallery" href="https://youtu.be/Ojy-tXk_fYs" data-aos="fade-left">
                   <div class="gallery-video"><i class="bi bi-youtube"></i></div> <!-- 9 -->
                 </a>
             </div>
         </div>
     </div>
-    <h2 class="section-headline headline_700 body-bg d-none d-md-block">
+    <h2 class="section-headline headline_700 body-bg d-none d-md-block" data-aos="fade-down">
           ЯК ПРОХОДЯТЬ УРОКИ <span class="js-line-breaker"></span>З ПІДЛІТКАМИ І ДОРОСЛИМИ
     </h2>
-    <h2 class="section-headline headline_700 body-bg d-block d-md-none">
+    <h2 class="section-headline headline_700 body-bg d-block d-md-none" data-aos="fade-down">
           Як проходять уроки <span class="js-line-breaker"></span> з підлітками і дорослими
     </h2>
     <div class="container">
@@ -70,6 +70,9 @@
                 </a>
                 <a class="venobox d-none d-lg-flex" data-autoplay="true" data-vbtype="video" data-gall="VideoGallery-older" href="">
                   <div class="gallery-video"><i class="bi bi-youtube"></i></div> <!-- 8 -->
+                </a>
+                <a class="venobox d-none d-lg-flex" data-autoplay="true" data-vbtype="video" data-gall="VideoGallery-older" href="">
+                  <div class="gallery-video"><i class="bi bi-youtube"></i></div> <!-- 9 -->
                 </a>
             </div>
         </div>
