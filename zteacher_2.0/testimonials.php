@@ -1,5 +1,5 @@
 <section class="section" id="testimonials">
-	<h2 class="section-headline">
+	<h2 class="section-headline" data-aos="fade-down">
 		Відгуки
 	</h2>
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -38,8 +38,8 @@
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="31" aria-label="Slide 32"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="32" aria-label="Slide 33"></button>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="30000">
+    <div class="carousel-inner" data-aos="fade-in">
+      <div class="carousel-item active" data-bs-interval="50000">
         <img src="img/testimonial.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item" data-bs-interval="10000">
