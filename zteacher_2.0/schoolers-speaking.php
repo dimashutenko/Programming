@@ -12,7 +12,7 @@
     <meta property="og:type" content="article">
     <meta property="og:image" content="img/favicon.png">
     <meta property="og:site_name" content="Zteacher Language School">
-    <title>Travel English - Zteacher Language School</title>
+    <title>Speaking - Zteacher Language School</title>
     <body>
 
       <?php include ('trial_lesson_modal.php'); // запись на пробный modal ?>
@@ -25,14 +25,20 @@
               <div class="col-md-6">
                 <div class="course-right d-flex">
                   <h2 class="course-page-title">
-                    Курс Подорожі З Легкістю
+                    Speaking для школярів
                   </h2>
                   <div class="mobile-course-img course-left-business"></div>
-                  <p class="course-description">Позбавимо вас від страху непорозумінь під час подорожей за 10 занять. Розбираємо та тренуємо найбільш важливі теми та знайомимосьз визначними місцями.</p>
-                  <p class="course-description">Судячи з інстаграм, перші ластівки полетіли до вже приймаючих готелів, в межах України. Невдовзі найсміливіші відправляться і в закордонні поїздки. У нас, для плануючих відпочивати із задоволенням, та отримати максимум від подорожей, нереально цікава пропозиція.</p>
-                  <p class="course-description">10 уроків, тривалістю 1.15 год. <br>Найцікавіші факти, про місця 10ти міст світу</p>
-                  <p class="course-description">10 тем, якими найважливіше оволодіти для вільного, впевненого спілкування під час подорожей пропрацювання лексики, конструкцій, сталих виразів. Незважаючи на курс, індивідуальний підхід до кожного студента зберігається (адаптуємо урок відповідно до інтересів та здібностей студента)</p>
-                  <p class="course-description">Можливість пройти курс з другом, та навіть групою друзів</p>
+                  <p class="course-description">Наші неймовірно цікаві, динамічні недільні спікінг-зустрічі.</p>
+                  <p class="course-description" style="padding-left: 1rem";><i class="far fa-circle" style="padding-right: 0.5rem"></i> початок зустрічі щонеділі о 10:30</p>
+                  <p class="course-description" style="padding-left: 1rem";><i class="far fa-circle" style="padding-right: 0.5rem"></i> тривалість - 1.5 години</p>
+                  <p class="course-description" style="padding-left: 1rem";><i class="far fa-circle" style="padding-right: 0.5rem"></i> рівень - нижче середнього та середній</p>
+                  <p class="course-description" style="padding-left: 1rem";><i class="far fa-circle" style="padding-right: 0.5rem"></i> вартість - 50 гривень</p>
+                  <p class="course-description d-flex mt-3">Найактуальніші теми!</p>
+                  <p class="course-description">Цікаві ігри!</p>
+                  <p class="course-description">Тепле спілкування!</p>
+                  <p class="course-description">Добрі, відкриті, щирі викладачі!</p>
+                  <p class="course-description d-flex mt-3">Запрошуємо долучатися!</p>
+                  
                   <?php 
                     include ('free-lesson.php');
                     include ('to-courses-btn.php');

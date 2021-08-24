@@ -670,6 +670,9 @@ svg polygon, svg path {
 	height: 100%;
 	width: 100%;
 	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
 }
 .children-videos-gallery a:nth-child(1) .gallery-video{
 	background-image: url(../img/chip.png);
@@ -679,23 +682,18 @@ svg polygon, svg path {
 }
 .children-videos-gallery a:nth-child(3) .gallery-video{
 	background-image: url(../img/maradona.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
 }
 .children-videos-gallery a:nth-child(4) .gallery-video{
 	background-image: url(../img/how_do_you_feel.png);
 }
 .children-videos-gallery a:nth-child(5) .gallery-video{
-	background: url(../img/talk.png) no-repeat center;
-	background-size: contain;
+	background-image: url(../img/like-dislike.jpg);
 }
 .children-videos-gallery a:nth-child(6) .gallery-video{
 	background-image: url(../img/exercises.png);
 }
 .children-videos-gallery a:nth-child(7) .gallery-video{
-	background: url(../img/travelling-with-children.jpg) no-repeat center;
-	background-size: contain;
+	background-image: url(../img/travelling-with-children.jpg);
 }
 .children-videos-gallery a:nth-child(8) .gallery-video{
 	background-image: url(../img/crocodile.png);
