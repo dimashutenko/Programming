@@ -1,5 +1,5 @@
 <div class="modal fade bg-dark" tabindex="-1" role="dialog" id="trial-lesson-modal">
-  <div class="modal-dialog"> <!-- role="document" -->
+  <div class="modal-dialog modal-fullscreen"> <!-- role="document" -->
     <div class="modal-content">
       <div class="modal-header">
         <h4 class="modal-title">Запис на пробне заняття</h4>

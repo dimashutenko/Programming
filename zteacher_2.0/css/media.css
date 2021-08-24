@@ -1,4 +1,10 @@
 @media (max-width: 1200px) {
+	#trial-lesson-modal .modal-content:before{
+		left: -20%;
+	}
+	#trial-lesson-modal .modal-content:after{
+		right: -20%;
+	}
 	.container{
 		max-width: 990px;
 	}
@@ -35,6 +41,12 @@
 	}
 }
 @media (max-width: 992px) {
+	#trial-lesson-modal .modal-content:before, #trial-lesson-modal .modal-content:after{
+		display: none
+	}
+	#trial-lesson-modal input.special-input {
+	    width: 50%;
+	}
 	.container{
 		max-width: 760px;
 	}
