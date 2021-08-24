@@ -44,7 +44,7 @@
           </div>
           <div class="form-group">
             <div id="peculiar-div">
-              <label for="form-input-user-messanger" class="special-label">Зв’язатись через ?</label>
+              <label for="form-input-user-messanger" class="special-label">Месенджер</label>
               <div class="communication-method">
                 <input class="" type="radio" name="form-check-input-messanger" id="user-viber" name="user_viber">
                 <label class="" for="user-viber" style="margin-right: 1rem;">Viber</label>
@@ -60,7 +60,7 @@
             </div>
           </div>
           <div class="form-group">
-            <div class="justify-content-center align-items-center flex-wrap">
+            <div class="justify-content-center align-items-center flex-wrap user_agreement_section">
               <input type="checkbox" class="input" id="user_agreement" checked="true" required="true" name="user_write">
               <label class="label" for="user_agreement" style="margin-left: 0.5rem;">Згода на обробку персональних даних *</label>
               <div class="invalid-feedback w-100 justify-content-center"> Ви маєте поговдитись, щоб ми обробили вашу заявку </div>

@@ -155,7 +155,7 @@
 }
 
 @media (max-width: 576px) {
-	#peculiar-div{
+	/*#peculiar-div{
 		flex-flow: row wrap !important;
 	}
 	#peculiar-div label.special-label{
@@ -165,6 +165,9 @@
 	}
 	#peculiar-div .communication-method{
 		width: 33%;
+	}*/
+	#peculiar-div *, .user_agreement_section{
+		font-size: 0.75rem;
 	}
 	.nav-wrapper{
 		margin:0;
