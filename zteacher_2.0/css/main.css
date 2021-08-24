@@ -689,6 +689,7 @@ svg polygon, svg path {
   	grid-gap: 2rem;
   	grid-auto-rows: minmax(210px, auto);
   	margin: 2rem 0;
+  	overflow: hidden;
 }
 .videos-gallery .gallery-video{
 	background-size: cover;
