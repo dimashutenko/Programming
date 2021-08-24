@@ -27,7 +27,7 @@
                   <h2 class="course-page-title">
                     Speaking для школярів
                   </h2>
-                  <div class="mobile-course-img course-left-business"></div>
+                  <div class="mobile-course-img course-left-schoolers-speaking"></div>
                   <p class="course-description">Наші неймовірно цікаві, динамічні недільні спікінг-зустрічі.</p>
                   <p class="course-description" style="padding-left: 1rem";><i class="far fa-circle" style="padding-right: 0.5rem"></i> початок зустрічі щонеділі о 10:30</p>
                   <p class="course-description" style="padding-left: 1rem";><i class="far fa-circle" style="padding-right: 0.5rem"></i> тривалість - 1.5 години</p>
@@ -46,7 +46,7 @@
                 </div>
               </div>
               <div class="col-12 col-md-6">
-                <div class="course-left course-left-travel d-none d-md-flex">
+                <div class="course-left course-left-schoolers-speaking d-none d-md-flex">
                   
                 </div>
               </div>

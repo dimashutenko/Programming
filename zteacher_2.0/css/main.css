@@ -515,6 +515,9 @@ h2{
 .course-left{
 	position: relative;
 	min-height: 700px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .course-left:after{
 	content: "";
@@ -527,10 +530,11 @@ h2{
 	position: relative;
 }
 .course-left-business{
-	background: url(../img/statue.jpg) no-repeat center /cover;
+	background-image: url(../img/statue.jpg);
 }
 .course-left-general{
-	background: url(../img/general-english.jpg) no-repeat center right /cover;
+	background-image: url(../img/general-english.jpg);
+	background-position: center right;
 }
 .course-left-general:after{
 	content: "";
@@ -540,35 +544,42 @@ h2{
 	background: var(--pale-violet);
 }
 .course-left-schoolers{
-	background: url(../img/schoolers-english.jpg) no-repeat center /cover;
+	background-image: url(../img/schoolers-english.jpg);
 }
 .course-left-sheldon{
-	background: url(../img/series.jpg) no-repeat center /cover;
+	background-image: url(../img/series.jpg);
 }
 .course-left-sheldon{
-	background: url(../img/series.jpg) no-repeat center center /cover;
+	background-image: url(../img/series.jpg);
 }
 .course-left-dash-lily{
-	background: url(../img/light-projector.jpg) no-repeat center right /cover;
+	background-image: url(../img/light-projector.jpg);
 }
 .course-left-babies{
-	background: url(../img/baby-angels.png) no-repeat center /cover;
+	background-image: url(../img/baby-angels.png);
 }
 .course-left-teachers{
-	background: url(../img/teachers.jpg) no-repeat center /cover;
+	background-image: url(../img/teachers.jpg);
 }
 .course-left-exams{
-	background: url(../img/exams.jpg) no-repeat center /cover;
+	background-image: url(../img/exams.jpg);
 }
 .course-left-travel{
-	background: url(../img/travel.jpg) no-repeat center /cover;
+	background-image: url(../img/travel.jpg);
 }
 .course-left-it{
-	background: url(../img/course-it-english) no-repeat center /cover;
+	background-image: url(../img/course-it-english.png);
+}
+.course-left-schoolers-speaking{
+	background-image: url(../img/course-schoolers-speaking.png);
+	background-position: center left;
 }
 
 .mobile-course-img{
 	display: none;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .course-right{
 	margin: 3rem 3rem 3rem 3rem;
