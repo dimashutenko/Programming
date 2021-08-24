@@ -1,4 +1,4 @@
-<div class="d-none d-md-block justify-content-center">
+<div class="d-none d-md-block justify-content-center" data-aos="fade-in">
   <p class="free-lesson">
     Безкоштовный урок
   </p>

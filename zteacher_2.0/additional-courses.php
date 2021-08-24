@@ -1,27 +1,27 @@
 <section class="section" id="additional-courses">
     <div class="container">
-        <h2 class="section-headline headline_700 d-none d-md-block">
+        <h2 class="section-headline headline_700 d-none d-md-block" data-aos="fade-down">
           ДОДАТКОВІ КУРСИ ЗА ЗАПИТОМ
         </h2>
-        <h2 class="section-headline headline_700 d-block d-md-none">
+        <h2 class="section-headline headline_700 d-block d-md-none" data-aos="fade-down">
           Додаткові курси за запитом
         </h2>
         <div class="row">
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in">
                 <a href="schoolers-speaking.php" class="fancybox" rel="ligthbox">
                     <div class="course course-schoolers-speaking zoom">
                         <h3 class="course-title">Speaking для школярів</h3>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in">
                 <a href="it-english.php" class="fancybox" rel="ligthbox">
                     <div class="course course-it-english zoom">
                         <h3 class="course-title">Для Юних <br>IT-шників</h3>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in">
                 <a href="dash-lily-marathon.php" class="fancybox" rel="ligthbox">
                     <div class="course course-dash-lily-marathon zoom">
                         <h3 class="course-title">Марафон Dash&Lily</h3>
