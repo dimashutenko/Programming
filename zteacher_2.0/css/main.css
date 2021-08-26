@@ -292,7 +292,7 @@ nav .nav-link {
 	box-shadow: 7px 7px 4px 0px #9ACDF9;
 }
 .offer-right{
-	background: url(../img/pic1.png) no-repeat left center / cover;
+	background: url(../img/statue-head.jpg) no-repeat center /cover;
 	position: absolute;
 	left: 50%;
 	top: 0;
@@ -319,7 +319,7 @@ section{
 	position: relative;
 }
 .approach__left{
-	background: url(../img/pic2.png) no-repeat center top / cover;
+	background: url(../img/statue-head-blue) no-repeat center top /cover;
 	min-height: 710px;
 	position: absolute;
 	top: 0;
