@@ -297,7 +297,7 @@ nav .nav-link {
 	left: 50%;
 	top: 0;
 	height: 750px;
-	width: 55%;
+	width: 57%;
 }
 h1{
 	font-size: 3rem;
@@ -319,7 +319,7 @@ section{
 	position: relative;
 }
 .approach__left{
-	background: url(../img/statue-head-blue) no-repeat center top /cover;
+	background: url(../img/statue-head-blue.jpg) no-repeat center top /cover;
 	min-height: 710px;
 	position: absolute;
 	top: 0;

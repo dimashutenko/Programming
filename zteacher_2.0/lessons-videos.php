@@ -1,8 +1,8 @@
 <div class="section" id="lessons-videos" data-aos="fade-in">
-    <h2 class="section-headline headline_700 body-bg d-none d-md-block" data-aos="fade-down">
+    <h2 class="section-headline headline_700 body-bg d-none d-md-block" data-aos="fade-in">
           ЯК ПРОХОДЯТЬ УРОКИ <span class="js-line-breaker"></span> З ДІТЬМИ
     </h2>
-    <h2 class="section-headline headline_700 body-bg d-block d-md-none" data-aos="fade-down">
+    <h2 class="section-headline headline_700 body-bg d-block d-md-none" data-aos="fade-in">
           Як проходять уроки <span class="js-line-breaker"></span> з дітьми
     </h2>
     <div class="container">
@@ -38,10 +38,10 @@
             </div>
         </div>
     </div>
-    <h2 class="section-headline headline_700 body-bg d-none d-md-block" data-aos="fade-down">
+    <h2 class="section-headline headline_700 body-bg d-none d-md-block" data-aos="fade-in">
           ЯК ПРОХОДЯТЬ УРОКИ <span class="js-line-breaker"></span>З ПІДЛІТКАМИ І ДОРОСЛИМИ
     </h2>
-    <h2 class="section-headline headline_700 body-bg d-block d-md-none" data-aos="fade-down">
+    <h2 class="section-headline headline_700 body-bg d-block d-md-none" data-aos="fade-in">
           Як проходять уроки <span class="js-line-breaker"></span> з підлітками і дорослими
     </h2>
     <div class="container">
