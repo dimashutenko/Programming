@@ -702,8 +702,6 @@ svg polygon, svg path {
 	width: 100%;
 	position: relative;
 	background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;
 }
 .children-videos-gallery a:nth-child(1) .gallery-video{
 	background-image: url(../img/chip.png);
@@ -968,6 +966,7 @@ footer a:hover span{
 }
 footer p{
 	font-size: 1rem;
+	margin-bottom: 1rem;
 	display: flex;
 }
 footer .black-slogan:first-child{
