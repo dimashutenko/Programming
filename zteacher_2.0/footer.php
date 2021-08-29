@@ -23,8 +23,10 @@
     </div>
     <div class="row">
       <div class="col-lg-7">
-        <span class="black-slogan">Get Your password to the world,</span>
-        <span class="black-slogan">Study English with us!</span>
+        <div class="black-slogan-total">
+          <span class="black-slogan">Get Your password to the world,</span>
+          <span class="black-slogan"> Study English with us!</span>
+        </div>
       </div>
       <div class="offset-lg-1 col-lg-4 credits">
         <p class="ml-auto">&copy; Zteacher Language School 2021</p>
