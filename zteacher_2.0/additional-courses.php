@@ -1,9 +1,9 @@
 <section class="section" id="additional-courses">
     <div class="container">
-        <h2 class="section-headline headline_700 d-none d-md-block" data-aos="fade-down">
+        <h2 class="section-headline headline_700 d-none d-md-block" data-aos="fade-up">
           ДОДАТКОВІ КУРСИ ЗА ЗАПИТОМ
         </h2>
-        <h2 class="section-headline headline_700 d-block d-md-none" data-aos="fade-down">
+        <h2 class="section-headline headline_700 d-block d-md-none" data-aos="fade-up">
           Додаткові курси за запитом
         </h2>
         <div class="row">
