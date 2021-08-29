@@ -1,9 +1,9 @@
 <section class="section" id="courses">
     <div class="container">
-        <h2 class="section-headline headline_700 d-none d-md-block" data-aos="fade-down">
+        <h2 class="section-headline headline_700 d-none d-md-block" data-aos="fade-up">
           ГАЛЕРЕЯ КУРСІВ
         </h2>
-        <h2 class="section-headline headline_700 d-block d-md-none" data-aos="fade-down">
+        <h2 class="section-headline headline_700 d-block d-md-none" data-aos="fade-up">
           Галерея курсів
         </h2>
         <div class="row">
@@ -58,10 +58,9 @@
             </div>
             <div class="col-lg-4 col-md-6" data-aos="zoom-in">
                 <a href="exams.php" class="fancybox" rel="ligthbox">
-                    <div class="course course-exams zoom">
-                        <div class="course-title">Підготовка До Іспитів
-                            <h5 class="course-title course-title-small">ДПА, ЗНО, IEITS, TOEFL</h5>
-                        </div>
+                    <div class="course course-exams zoom flex-column">
+                        <h3 class="course-title">Підготовка До Іспитів</h3>
+                        <h5 class="course-title course-title-small">ДПА, ЗНО, IEITS, TOEFL</h5>
                     </div>
                 </a>
             </div>
