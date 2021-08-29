@@ -51,6 +51,7 @@ body{
 	color: #fff;
 	background: var(--grey-100);
 	padding-top: 10vh;
+	position: relative;
 }
 /*----------------------modal----------------------*/
 #trial-lesson-modal{
@@ -207,6 +208,9 @@ body{
 header{
 	margin-top: 1rem;
 }
+.header-bg{
+	display: none;
+}
 .navbar{
 	transition: all .5s ease-in-out;
 	width: 100%;
@@ -297,7 +301,7 @@ nav .nav-link {
 	left: 50%;
 	top: 0;
 	height: 750px;
-	width: 55%;
+	width: 54%;
 }
 h1{
 	font-size: 3rem;
@@ -319,7 +323,7 @@ section{
 	position: relative;
 }
 .approach__left{
-	background: url(../img/statue-head-blue) no-repeat center top /cover;
+	background: url(../img/statue-head-blue.jpg) no-repeat center top /cover;
 	min-height: 710px;
 	position: absolute;
 	top: 0;
