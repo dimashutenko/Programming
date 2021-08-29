@@ -30,6 +30,9 @@ h1,h2,h3,h4,h5{
 	font-weight: 900;
 	color: var(--white);
 }
+p{
+	margin-bottom: 1rem;
+}
 ul {
 	margin: 0;
 	padding: 0;
@@ -960,7 +963,6 @@ footer a:hover span{
 }
 footer p{
 	font-size: 1rem;
-	margin-bottom: 1rem;
 	display: flex;
 }
 footer .black-slogan-total{
