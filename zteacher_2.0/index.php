@@ -10,7 +10,7 @@
     <meta property="og:title" content="Get your password to the world. Study with us!">
     <meta property="og:description" content=""> <!-- bottom-->
     <meta property="og:type" content="article">
-    <meta property="og:image" content="img/favicon.png">
+    <meta property="og:image" content="img/favicon.ico">
     <meta property="og:site_name" content="Zteacher Language School">
     <title>Zteacher Language School</title>
     <body>
