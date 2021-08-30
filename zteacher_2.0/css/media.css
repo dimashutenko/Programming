@@ -17,8 +17,6 @@
 	    grid-auto-rows: minmax(250px, auto);
 	}
 	
-
-	
 	.carousel-indicators [data-bs-target]{
 		width: 0.5rem;
 	    height: 0.5rem;
@@ -155,6 +153,13 @@
 }
 
 @media (max-width: 576px) {
+	.header-bg{
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100vh !important;
+	}
 	/*#peculiar-div{
 		flex-flow: row wrap !important;
 	}

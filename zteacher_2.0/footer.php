@@ -23,8 +23,10 @@
     </div>
     <div class="row">
       <div class="col-lg-7">
-        <span class="black-slogan">Get Your password to the world,</span>
-        <span class="black-slogan">Study English with us!</span>
+        <div class="black-slogan-total">
+          <span class="black-slogan">Get Your password to the world,</span>
+          <span class="black-slogan"> Study English with us!</span>
+        </div>
       </div>
       <div class="offset-lg-1 col-lg-4 credits">
         <p class="ml-auto">&copy; Zteacher Language School 2021</p>
@@ -40,8 +42,10 @@
   <script src="js/jQuery_v3.5.1.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script> <!-- popper.js + Bootstrap 5 -->
   <script src="https://res.cloudinary.com/dxfq3iotg/raw/upload/v1569006273/BBBootstrap/choices.min.js?version=7.0.0"></script>
-  <script src="js/venobox.min.js" type="text/javascript"></script> <!-- videos gallery -->
-  <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>  <!-- courses gallery -->
+  <script src="js/venobox.min.js" type="text/javascript"></script><!-- videos gallery -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script><!-- courses gallery -->
   <script src="js/aos.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/particles-app.js"></script>
   <script src="js/main.js"></script>
 </footer>
