@@ -1,7 +1,6 @@
 $(document).ready( function() {
 
 
-
 // --------------------------------- courses gallery start------------------------------------------------
     $(".fancybox").fancybox({
         openEffect: "none",
@@ -69,10 +68,32 @@ $(document).ready( function() {
      maxItemCount: number_of_courses,
      searchResultLimit: number_of_courses,
      renderChoiceLimit: number_of_courses
-    });
+    }); 
 
-    let stop_form_validation = true;
-    
+    const firebaseConfig = {
+        apiKey: "AIzaSyA-bqO18o0SXEGGEUTf1yBp1SJbIzkaKlY",
+        authDomain: "zteacher-contact-form.firebaseapp.com",
+        projectId: "zteacher-contact-form",
+        storageBucket: "zteacher-contact-form.appspot.com",
+        messagingSenderId: "759647460630",
+        appId: "1:759647460630:web:1dab7a3d47509dd4ba8437"
+      };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+
+    // Reference messages collection
+    var messagesRef = firebase.database().ref('messages');
+
+    // Save message to firebase
+    function saveMessage(name, phone, courses){
+      var newMessageRef = messagesRef.push();
+      newMessageRef.set({
+        name: name,
+        phone:phone,
+        courses:courses
+      });
+    }
     
     (function() { 
       'use strict';
@@ -82,29 +103,40 @@ $(document).ready( function() {
         // Loop over them and prevent submission
         var validation = Array.prototype.filter.call(forms, function(form) {
           form.addEventListener('submit', function(event) { 
-            if(stop_form_validation == true){
-                event.preventDefault();
-                event.stopPropagation();
-            }
-            if (form.checkValidity() === false  || stop_form_validation == true) {
+            if (form.checkValidity() === false ) { 
               event.preventDefault();
               event.stopPropagation(); // stops submission ?
               console.log('validation prevented');
               form.classList.add('was-validated');
             } else{
                 event.preventDefault();
-                $.ajax({
-                    type: "POST",
-                    url: "php/mail.php",
-                    data: $(this).serialize()
-                }).done(function(){
-                    $(this).find("input").val("");
+                
+                // Submit form -- https://www.youtube.com/watch?v=PP4Tr0l08NE
 
-                    // alert("message sent");
-
-                    form.reset();
-                    form.classList.remove('was-validated');
+                var name = document.getElementById('form-input-user-name').value;
+                var phone = document.getElementById('form-input-user-phone').value;
+                var courses='';
+                $('#choices-multiple-remove-button option').each(function(){
+                    courses= courses+$(this).val()+" | ";
                 });
+                
+                
+                saveMessage(name, phone, courses);
+
+                // Show alert
+                // document.querySelector('.alert').style.display = 'block';
+
+                // Hide alert after 3 seconds
+                // setTimeout(function(){
+                //   document.querySelector('.alert').style.display = 'none';
+                // },3000);
+
+                // Clear form
+                form.reset();
+
+
+                
+                form.classList.remove('was-validated');
                 $('#trial-lesson-modal').modal('toggle');
             };
             
@@ -112,20 +144,6 @@ $(document).ready( function() {
         });
       }, false);
     })();
-
-    // $('#trial-lesson-form').submit(function(event){
-    //     event.preventDefault();
-    //     $.ajax({
-    //         type: "POST",
-    //         url: "php/mail.php",
-    //         data: $(this).serialize()
-    //     }).done(function(){
-    //         $(this).find("input").val("");
-    //         alert("message sent");
-    //         $('#trial-lesson-form')[0].reset();
-    //     })
-    // });
-
 
 
 /* ----------------------------modal end-------------------------------------------*/

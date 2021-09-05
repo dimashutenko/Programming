@@ -8,7 +8,7 @@
         </button>
       </div>
       <div class="modal-body modal-body-lg">
-        <form role="form" class="needs-validation" novalidate method="POST" action="./php/mail.php" id="trial-lesson-form">
+        <form role="form" class="needs-validation" novalidate id="trial-lesson-form">
           <input type="hidden" name="_token" value="">
           <div class="form-group">
             <div>
