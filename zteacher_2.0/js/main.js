@@ -47,6 +47,7 @@ $(document).ready( function() {
 /* -------Animate On Scroll Library------- */
     AOS.init({
         duration: 1000,
+        once: true,
     });
 /* -------Animate On Scroll Library end------- */
 
