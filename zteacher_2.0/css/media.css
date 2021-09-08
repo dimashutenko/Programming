@@ -402,6 +402,9 @@
 		font-size: 0.9rem;
 		padding: 1rem 0;
 	}
+	.footer-navigation li:nth-child(2n){
+		padding-left: 2rem;
+	}
 	footer p{
 		font-size: 0.75rem
 	}
