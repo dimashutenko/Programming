@@ -1,3 +1,5 @@
+
+
 $(document).ready( function() {
 
 
@@ -61,92 +63,7 @@ $(document).ready( function() {
     });
 /* -------videos gallery end------- */
 
-/* ----------------------------modal-------------------------------------------*/
-    const number_of_courses = $('#products .course').length;
-    var multipleCancelButton = new Choices('#choices-multiple-remove-button', {
-     removeItemButton: true,
-     maxItemCount: number_of_courses,
-     searchResultLimit: number_of_courses,
-     renderChoiceLimit: number_of_courses
-    }); 
 
-    const firebaseConfig = {
-        apiKey: "AIzaSyA-bqO18o0SXEGGEUTf1yBp1SJbIzkaKlY",
-        authDomain: "zteacher-contact-form.firebaseapp.com",
-        projectId: "zteacher-contact-form",
-        storageBucket: "zteacher-contact-form.appspot.com",
-        messagingSenderId: "759647460630",
-        appId: "1:759647460630:web:1dab7a3d47509dd4ba8437"
-      };
-
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-
-    // Reference messages collection
-    var messagesRef = firebase.database().ref('messages');
-
-    // Save message to firebase
-    function saveMessage(name, phone, courses){
-      var newMessageRef = messagesRef.push();
-      newMessageRef.set({
-        name: name,
-        phone:phone,
-        courses:courses
-      });
-    }
-    
-    (function() { 
-      'use strict';
-      window.addEventListener('load', function() {
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        var forms = document.getElementsByClassName('needs-validation');
-        // Loop over them and prevent submission
-        var validation = Array.prototype.filter.call(forms, function(form) {
-          form.addEventListener('submit', function(event) { 
-            if (form.checkValidity() === false ) { 
-              event.preventDefault();
-              event.stopPropagation(); // stops submission ?
-              console.log('validation prevented');
-              form.classList.add('was-validated');
-            } else{
-                event.preventDefault();
-                
-                // Submit form -- https://www.youtube.com/watch?v=PP4Tr0l08NE
-
-                var name = document.getElementById('form-input-user-name').value;
-                var phone = document.getElementById('form-input-user-phone').value;
-                var courses='';
-                $('#choices-multiple-remove-button option').each(function(){
-                    courses= courses+$(this).val()+" | ";
-                });
-                
-                
-                saveMessage(name, phone, courses);
-
-                // Show alert
-                // document.querySelector('.alert').style.display = 'block';
-
-                // Hide alert after 3 seconds
-                // setTimeout(function(){
-                //   document.querySelector('.alert').style.display = 'none';
-                // },3000);
-
-                // Clear form
-                form.reset();
-
-
-                
-                form.classList.remove('was-validated');
-                $('#trial-lesson-modal').modal('toggle');
-            };
-            
-          }, false);
-        });
-      }, false);
-    })();
-
-
-/* ----------------------------modal end-------------------------------------------*/
 
 
    
