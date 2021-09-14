@@ -48,7 +48,7 @@
   <script src="js/particles.js"></script>
   <script src="js/particles-app.js"></script>
   <script type="module">
-    // Import the functions you need from the SDKs you need
+
     import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.0.1/firebase-app.js';
     import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/9.0.1/firebase-database.js"
     import { getAuth, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/9.0.1/firebase-auth.js';
@@ -65,9 +65,7 @@
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
 
-
     // Reference messages collection
-    
 
     var now = new Date();
     // var date_and_time_now = now.getDate()+'-'+(now.getMonth()+1)+'-'+now.getFullYear() + "  " + now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
@@ -113,17 +111,20 @@
                 event.preventDefault();
                 
                 // Submit form -- https://www.youtube.com/watch?v=PP4Tr0l08NE
-
+                
                 var name = document.getElementById('form-input-user-name').value;
                 var phone = document.getElementById('form-input-user-phone').value;
-                var messanger = document.querySelector('input[name="form-check-input-messanger"]:checked').value;
+                if (document.querySelector('input[name="form-check-input-messanger"]:checked') == null){
+                  var messanger = "не обрано"
+                } else{
+                  var messanger = document.querySelector('input[name="form-check-input-messanger"]:checked').value;
+                }
                 var courses = '';
                 $('#choices-multiple-remove-button option').each(function(){
                     courses= courses+$(this).val()+" | ";
                 });
-                courses=courses.substr(0, courses.length-3);
-                
-                
+                courses=courses.substr(0, courses.length-3);                
+              
                 saveMessage(name, phone, messanger, courses);
 
                 // Show alert

@@ -132,7 +132,14 @@ body{
 #trial-lesson-modal .form-group{
 	margin-bottom: 1.25rem;
 }
+#trial-lesson-modal #peculiar-div{
+	margin-bottom: 1.25rem;
+}
 #trial-lesson-modal .form-group>div{
+	display: flex;
+	flex-flow: row nowrap;
+}
+#trial-lesson-modal #peculiar-div{
 	display: flex;
 	flex-flow: row nowrap;
 }

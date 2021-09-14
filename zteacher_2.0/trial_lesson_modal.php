@@ -42,7 +42,7 @@
               </select>
             </div>
           </div>
-          <div class="form-group">
+          <div class="">
             <div id="peculiar-div">
               <label for="form-input-user-messanger" class="special-label">Месенджер</label>
               <div class="communication-method">
@@ -50,7 +50,7 @@
                 <label class="" for="user-viber" style="margin-right: 1rem;">Viber</label>
               </div>
               <div class="communication-method">
-                <input class="" type="radio" name="form-check-input-messanger" id="user-telegram"value="Telegram">
+                <input class="" type="radio" name="form-check-input-messanger" id="user-telegram" value="Telegram">
                 <label class="" for="user-telegram" style="margin-right: 1rem;">Telegram</label>
               </div>
               <div class="communication-method">
