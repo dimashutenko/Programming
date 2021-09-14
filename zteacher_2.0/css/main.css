@@ -57,10 +57,10 @@ body{
 	position: relative;
 }
 /*----------------------modal----------------------*/
-#trial-lesson-modal{
+.zteacher-modal{
 	font-weight: 400;	
 }
-#trial-lesson-modal .modal-header{
+.zteacher-modal .modal-header{
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -69,23 +69,23 @@ body{
 .modal-title{
 	color: var(--blue-100);
 }
-#trial-lesson-modal .modal-title{
+.zteacher-modal .modal-title{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
 	height: 100%;
 }
-#trial-lesson-modal .modal-dialog {
+.zteacher-modal .modal-dialog {
     max-width: 800px;
     margin: 0 auto;
     color: var(--blue-100);
     position: static;
 } 
-#trial-lesson-modal .modal-content{
+.zteacher-modal .modal-content{
 	position: static;
 }
-#trial-lesson-modal .modal-content:before{
+.zteacher-modal .modal-content:before{
 	position: absolute;
 	display: flex;
 	content: "Your password to the world: #Zteacher";
@@ -98,7 +98,7 @@ body{
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
 }
-#trial-lesson-modal .modal-content:after{
+.zteacher-modal .modal-content:after{
 	position: absolute;
 	display: flex;
 	content: "Your password to the world: #Zteacher";
@@ -111,46 +111,47 @@ body{
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
 }
-#trial-lesson-modal .modal-content{
+.zteacher-modal .modal-content{
 	background: var(--pale-pink);
 }
-#trial-lesson-modal .modal-header{
+.zteacher-modal .modal-header{
 	padding-top: 7rem;
 	border: none;
 	text-transform: uppercase;
 }
-#trial-lesson-modal .modal-header h4{
+.zteacher-modal .modal-header h4{
 	font-weight: 600;
 	margin-top: 2rem;
+	font-size: 1.25rem;
 }
-#trial-lesson-modal .modal-header button {
+.zteacher-modal .modal-header button {
 	border: none;
 	font-size: 3rem;
 	color: var(--blue-100);
 	background: var(--pale-pink);
 }
-#trial-lesson-modal .form-group{
+.zteacher-modal .form-group{
 	margin-bottom: 1.25rem;
 }
-#trial-lesson-modal #peculiar-div{
+.zteacher-modal #peculiar-div{
 	margin-bottom: 1.25rem;
 }
-#trial-lesson-modal .form-group>div{
+.zteacher-modal .form-group>div{
 	display: flex;
 	flex-flow: row nowrap;
 }
-#trial-lesson-modal #peculiar-div{
+.zteacher-modal #peculiar-div{
 	display: flex;
 	flex-flow: row nowrap;
 }
-#trial-lesson-modal label.special-label{
+.zteacher-modal label.special-label{
 	display: flex;
 	width: 30%;
 	justify-content: flex-end;
 	align-items: center;
 	padding-right: 1rem;
 }
-#trial-lesson-modal input.special-input{
+.zteacher-modal input.special-input{
 	display: flex;
 	width: 35%;
 	background: var(--pale-pink);
@@ -163,46 +164,46 @@ body{
 	align-items: center;
 	color: #dc3545;
 }
-#trial-lesson-modal .invalid-feedback{
+.zteacher-modal .invalid-feedback{
 	width: 35%;
 	padding-left: 1rem;
 }
 .form-control{
 	border: 1px solid var(--blue-100);
 }
-#trial-lesson-modal .choices{
+.zteacher-modal .choices{
 	margin-bottom: 0;
 	min-width: 35%;
 }
-#trial-lesson-modal .choices .choices__inner{
+.zteacher-modal .choices .choices__inner{
 	border: 1px solid var(--blue-100);
 	background: var(--pale-pink);
 }
-#trial-lesson-modal .choices .choices__input{
+.zteacher-modal .choices .choices__input{
 	background: var(--pale-pink);
 }
-#trial-lesson-modal .choices[data-type*=select-multiple] .choices__button, .choices[data-type*=text] .choices__button{
+.zteacher-modal .choices[data-type*=select-multiple] .choices__button, .choices[data-type*=text] .choices__button{
 	border-left: 1px solid var(--blue-100);
 	background-image:  url(../img/lil-cross.png);
 }
-#trial-lesson-modal .choices .choices__list--multiple .choices__item{
+.zteacher-modal .choices .choices__list--multiple .choices__item{
 	color: var(--blue-100);
 	border: 0.75px solid var(--blue-100);
 }
-#trial-lesson-modal .choices .choices__list--dropdown{
+.zteacher-modal .choices .choices__list--dropdown{
 	word-break: normal;
 }
-#trial-lesson-modal .choices .choices__item{
+.zteacher-modal .choices .choices__item{
 	font-size: 0.75rem;
 	background: var(--pale-pink);
 }
-#trial-lesson-modal .form-check-label{
+.zteacher-modal .form-check-label{
 	padding-right: 1rem;
 }
 .form-check-input:checked{
 	background-color:  var(--blue-100);
 }
-#trial-lesson-modal button[type="submit"]{
+.zteacher-modal button[type="submit"]{
 	margin-top: 3rem;
 }
 /*----------------------modal----------------------*/

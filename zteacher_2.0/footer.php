@@ -127,21 +127,15 @@
               
                 saveMessage(name, phone, messanger, courses);
 
-                // Show alert
-                // document.querySelector('.alert').style.display = 'block';
-
-                // Hide alert after 3 seconds
-                // setTimeout(function(){
-                //   document.querySelector('.alert').style.display = 'none';
-                // },3000);
-
                 // Clear form
                 form.reset();
-
-
                 
                 form.classList.remove('was-validated');
                 $('#trial-lesson-modal').modal('toggle');
+
+                // Show success
+                $('#trial-lesson-modal-success').modal('toggle');
+                
             };
             
           }, false);
