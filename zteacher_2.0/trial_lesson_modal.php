@@ -78,23 +78,27 @@
 </div>
 
 
-<div class="modal fade bg-dark zteacher-modal show" tabindex="-1" role="dialog" id="trial-lesson-modal-success">
+<div class="modal fade bg-dark zteacher-modal" tabindex="-1" role="dialog" id="trial-lesson-modal-success">
   <div class="modal-dialog modal-fullscreen"> <!-- role="document" -->
     <div class="modal-content">
       <div class="modal-header">
         <h4 class="modal-title">
-          <img class="w-25 d-flex" src="img/zteacher.png" alt="Zteacher logo">
+          <img class="w-25 d-none d-md-flex" src="img/zteacher.png" alt="Zteacher logo">
         </h4>
         <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body modal-body-lg">
-        <p class="modal-text">Вітаємо!</p>
+        <p class="modal-text mb-5">Вітаємо!</p>
         <p class="modal-text">Ви успішно зареєстровані на безкоштовний урок.</p>
         <p class="modal-text">Пароль від сучасного світу майже ваш)</p>
         <p class="modal-text">Zteacher Languaguage School допоможе зробити твої мрії реальністю.</p>
         <p class="modal-text">До зустрічі!</p>
+        <div class="centered d-flex justify-content-center flex-column">
+          <div class="mb-3 mt-5 text-center">Подарунок за реєстрацію</div>
+          <a href="docs/document.docx" class="close btn btn-primary btn-general" type="button" data-bs-dismiss="modal" aria-label="Close"><span>Daily Planner+Resources.pdf</span></a>
+        </div>
       </div>
     </div>
   </div>

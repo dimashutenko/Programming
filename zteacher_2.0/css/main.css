@@ -206,6 +206,19 @@ body{
 .zteacher-modal button[type="submit"]{
 	margin-top: 3rem;
 }
+#trial-lesson-modal-success .modal-body{
+	margin: 1rem 8rem;
+}
+#trial-lesson-modal-success .modal-header{
+	padding-top: 4rem;
+}
+#trial-lesson-modal-success .modal-text{
+	font-weight: 600;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	line-height: 2rem;
+	letter-spacing: 0.1rem;
+}
 /*----------------------modal----------------------*/
 header{
 	margin-top: 1rem;
@@ -289,10 +302,27 @@ header{
 	background: var(--white);
 	position: static;
 	font-weight: bold;
-	font-size: 24px;
-	line-height: 33px;
+	font-size: 1.5rem;
+	line-height: 2rem;
 	transition: all 0.3s ease-in-out;
 	color: var(--blue-100);
+}
+.btn-general {
+    padding: 10px 20px;
+    height: 53px;
+    border: none;
+    border-radius: 11px;
+    background: var(--white);
+    position: static;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    transition: all 0.3s ease-in-out;
+    color: var(--blue-100);
+}
+.btn-general:hover{
+    background: #4D56D9;
+    color: #F5F5F5;
 }
 .btn-register{
 	width: 188px;

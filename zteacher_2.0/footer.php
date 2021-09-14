@@ -54,12 +54,12 @@
     import { getAuth, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/9.0.1/firebase-auth.js';
 
     const firebaseConfig = {
-      apiKey: "AIzaSyBVZLBwNbvAwMBRGxYkA9NEya31K4hIKEo",
-      authDomain: "zteacher.firebaseapp.com",
-      projectId: "zteacher",
-      storageBucket: "zteacher.appspot.com",
-      messagingSenderId: "627166474817",
-      appId: "1:627166474817:web:393d7de96c0db990f94cc0"
+      apiKey: "AIzaSyDgqUVOQj5bkjMz26Mpc4nbEOtHcLO7RS8",
+    authDomain: "zteacher-free-lesson-form.firebaseapp.com",
+    projectId: "zteacher-free-lesson-form",
+    storageBucket: "zteacher-free-lesson-form.appspot.com",
+    messagingSenderId: "1001610082838",
+    appId: "1:1001610082838:web:70456b118492017dbe1337"
     };
 
     // Initialize Firebase

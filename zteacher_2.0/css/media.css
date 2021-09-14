@@ -153,6 +153,19 @@
 }
 
 @media (max-width: 576px) {
+	#trial-lesson-modal-success .modal-body{
+		margin: 1rem;
+	}
+	#trial-lesson-modal-success .modal-header{
+		padding-top: 3rem;
+	}
+	#trial-lesson-modal-success .modal-text{
+		line-height: 1.5rem;
+	}
+	.btn-general {
+	    height: auto;
+	    font-size: 1rem;
+	}
 	.header-bg{
 		display: block;
 		position: absolute;
