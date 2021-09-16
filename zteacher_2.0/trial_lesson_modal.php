@@ -97,7 +97,7 @@
         <p class="modal-text">До зустрічі!</p>
         <div class="centered d-flex justify-content-center flex-column">
           <div class="mb-3 mt-5 text-center">Подарунок за реєстрацію</div>
-          <a href="docs/document.docx" class="close btn btn-primary btn-general" type="button" data-bs-dismiss="modal" aria-label="Close"><span>Daily Planner+Resources.pdf</span></a>
+          <a href="docs/Daily_Planner+Resources_ZTLS.pdf" class="close btn btn-primary btn-general" type="button" data-bs-dismiss="modal" aria-label="Close"><span>Daily Planner+Resources.pdf</span></a>
         </div>
       </div>
     </div>
