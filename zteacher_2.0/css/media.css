@@ -162,14 +162,25 @@
 	#trial-lesson-modal-success .modal-text{
 		line-height: 1.5rem;
 	}
-	.header-bg:after{
-		content: "";
-		position: absolute;
-		left: 0; right: 0;
-		top: 0; bottom: 0;
-		width: 100%;
-		height: 100%;
-		background: var(--pale-violet);
+	.offer__title{
+		background: -webkit-linear-gradient( 0deg, rgb(45,64,203), rgb(37,217,241), #1591d8);
+	    -webkit-background-clip: text;
+	    -webkit-text-fill-color: transparent;
+	}
+	.btn-general{
+	    height: auto;
+	    font-size: 1rem;
+	    border: 2px solid #25D9F1;
+	    color: #25D9F1;
+	    background: none;
+	}
+	.btn-general:hover{
+	    background: none;
+	    color: #25D9F1;
+	}
+	.btn-general:active{
+	    transform: scale(0.9);
+	    box-shadow: none;
 	}
 	.header-bg{
 		display: block;
