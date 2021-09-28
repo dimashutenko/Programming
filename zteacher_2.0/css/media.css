@@ -268,7 +268,7 @@
 		color: var(--white);
 	}
 	.header-index{
-		height: 80vh;
+		height: 85vh;
 	}
 	.offer-left{
 		margin: 0;
@@ -296,26 +296,27 @@
 	.school-advantage .circle{
 		height: 75px;
 		width: 75px;
-		background: #22ADE4;
+		background: none;
+		border: 2px solid #25D9F1;
 	}
 	.school-advantage .circle span{
 		font-size: 1.25rem;
-		color: #fff;
 		margin-left: -22px;
 		margin-top: -10px;
-		font-weight: 700;
+		color: #25D9F1;
 	}
 	.school-advantage:last-child .circle span, .approach__interest .school-advantage .circle span{
-		margin-left: -30px;
+		margin-left: -28px;
 	}
 	.school-advantage__title{
 		font-size: 1.25rem;
 		line-height: 1.75rem;
 		font-weight: 700;
-		margin-top: 0.5rem
+		margin-top: 0.5rem;
 	}
 	.approach__text{
-		font-size: 1rem;
+		font-size: 0.9rem;
+		line-height: 1.25rem;
 		font-weight: 400;
 		color: #DEDEDE;
 	}
@@ -323,13 +324,19 @@
     	font-size: 1.2rem;
 	}
 	.school-advantage, .school-advantage:last-child{
-		margin: 0px 0 50px 0;
+		margin: 0 0 1.5rem 0;
+	}
+	.approach__more__text{
+		font-size: 0.85rem;
+		font-weight: 400;
+		margin-top: 0.5rem;
+		color: #25d9f1;
 	}
 	.school-advantage-mobile-description{
 		display: block;
 	}
 	.school-advantage-mobile-description *{
-		text-align: left;
+		/*text-align: left;*/
 	}
 	.approach__text:first-child {
 		margin: 1rem 0;

@@ -1,7 +1,7 @@
 <section class="section" id="testimonials">
-	<h2 class="section-headline" data-aos="fade-in">
+	<!-- <h2 class="section-headline" data-aos="fade-in" style="color: rgba(0, 0, 0, 1.0);">
 		Відгуки
-	</h2>
+	</h2> -->
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

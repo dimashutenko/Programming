@@ -410,6 +410,9 @@ h2{
 	position: relative;
 	display: flex;
 }
+.school-advantage .circle:hover{
+	cursor: pointer;
+}
 .school-advantage .circle span{
 	font-size: 1.5rem;
 	position: absolute;
@@ -419,6 +422,7 @@ h2{
 	margin-top: -10px;
 	text-align: center;
 	color: #000;
+	font-weight: 700;
 }
 .school-advantage:last-child .circle span, .approach__interest .school-advantage .circle span{
 	margin-left: -35px;
@@ -829,7 +833,7 @@ svg polygon, svg path {
 /*__________________________________testimonials______+____________________________*/
 
 #testimonials{
-	background-image: url(../img/testimonials-paralax.jpg);
+	background-image: url(../img/statue-head-blue.jpg);
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;

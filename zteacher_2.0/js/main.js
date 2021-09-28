@@ -2,6 +2,65 @@
 
 $(document).ready( function() {
 
+/*/ --------------------------------- Animating Number Counters start------------------------------------------------
+function execOnce(fn, context) {
+  var result;
+  return function () {
+    if (fn) {
+      result = fn.apply(context || this, arguments);
+      fn = null;
+    }
+    return result;
+  };
+}
+
+function animateValue(obj, start, end, duration) {
+    let startTimestamp = null;
+    const step = (timestamp) => {
+      if (!startTimestamp) startTimestamp = timestamp;
+      const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+      obj.innerHTML = Math.floor(progress * (end - start) + start);
+      if (progress < 1) {
+        window.requestAnimationFrame(step);
+      }
+    };
+    window.requestAnimationFrame(step);
+}
+
+
+// let obj = document.getElementById("percentage_value_90"); 
+
+let animate_percentage_90 = function(){
+    document.getElementById("percentage_value_90").innerHTML=0;
+    execOnce(animateValue( document.getElementById("percentage_value_90"), 0, 90, 2000));
+};
+let animate_percentage_10 = execOnce(animateValue( document.getElementById("percentage_value_10"), 0, 10, 1000));
+let animate_percentage_100 = execOnce(animateValue( document.getElementById("percentage_value_100"), 0, 100, 2500));
+console.log(document.getElementById("percentage_value_90").innerHTML);
+
+$(window).scroll(function() {
+    $('#percentage_value_90').each(function(){ 
+        if ($(this).offset().top < $(window).scrollTop()+750) { 
+            animate_percentage_90();
+        }
+    });
+    $('#percentage_value_10').each(function(){
+        var elem_position = $(this).offset().top;
+        var from_top_height = $(window).scrollTop();
+        if ( elem_position < from_top_height +700) { 
+            document.getElementById("percentage_value_90").innerHTML=0;
+            animate_percentage_10();
+        }
+    });
+    $('#percentage_value_100').each(function(){
+        if ($(this).offset().top < $(window).scrollTop()+100) { 
+            animate_percentage_100();
+        }
+    });
+});
+
+// --------------------------------- Animating Number Counters end------------------------------------------------*/
+
 
 // --------------------------------- courses gallery start------------------------------------------------
     $(".fancybox").fancybox({
@@ -136,7 +195,7 @@ $(document).ready( function() {
                     }, 500);
             });
             // ----------------------------------------------------------------------------------
-            $('.school-advantage-writing')[0].addEventListener("click", function() {
+            $('.school-advantage-writing')[0].addEventListener("click", function() { 
                 clear_opacity_effects( $('.approach__right')[0]);
                 clear_opacity_effects( $('.approach__writing')[0]);
                 $('.approach__right')[0].classList.add('opacity-to-zero');  
