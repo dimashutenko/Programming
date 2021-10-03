@@ -996,6 +996,7 @@ footer .contacts__socials i{
 	display: flex;
 	width: 50%;
 	padding: 2rem;
+	background: none;
 }
 .footer-navigation li:last-child, .footer-navigation li:nth-child(n-1){
 	padding-bottom: 0rem;
