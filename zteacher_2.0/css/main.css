@@ -838,7 +838,7 @@ svg polygon, svg path {
 /*__________________________________testimonials______+____________________________*/
 
 #testimonials{
-	background-image: url(../img/statue-head-blue.jpg);
+	background-image: url(../img/testimonials-pic.jpg);
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
@@ -1086,6 +1086,8 @@ footer .credits{
 	background-color: var(--pale-pink);
 	box-shadow: -4px 4px 5px 0px rgba(212, 54, 212, 0.5);
 	transform: translate(4px, -4px);
+	color: var(--blue-100);
+    border: 2px solid var(--blue-100);
 }
 #contacts .btn-general:hover, .btn-general[type="submit"]:hover{
 	box-shadow: none;
