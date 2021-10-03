@@ -111,22 +111,6 @@ $(window).scroll(function() {
     });
 /* -------Animate On Scroll Library end------- */
 
-
-
-
-/* -------videos gallery------- */
-    $('.venobox').venobox({
-        bgcolor: '#000',
-        spinColor: '#000',
-        spinner: 'three-bounce'
-    });
-/* -------videos gallery end------- */
-
-
-
-
-   
-
     
 
 

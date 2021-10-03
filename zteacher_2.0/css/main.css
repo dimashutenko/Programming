@@ -5,6 +5,7 @@
 	/*--grey-60: #191919; 
 	--grey-40: #191919;
 	--grey-20: #191919;*/
+	--blue: #25D9F1;
 	--blue-100: #3540D4;
 	--blue-90: #2B5DD0;
 	--blue-80: #2960C6;
@@ -295,19 +296,6 @@ header{
 	align-items: center;
 }
 .btn-general{
-	padding: 10px 20px;
-	height: 53px;
-	border: none;
-	border-radius: 11px;
-	background: var(--white);
-	position: static;
-	font-weight: bold;
-	font-size: 1.5rem;
-	line-height: 2rem;
-	transition: all 0.3s ease-in-out;
-	color: var(--blue-100);
-}
-.btn-general {
     padding: 10px 20px;
     height: 53px;
     border: none;
@@ -387,6 +375,9 @@ section{
 	cursor: pointer;
 	background: url(../img/lil-cross.png) no-repeat center /cover;
 }
+.blue{
+	color: var(--blue);;
+}
 h2{
 	font-size: 2.25rem;
 	font-weight: 600;
@@ -399,19 +390,22 @@ h2{
 	-ms-flex-flow: column nowrap;
 	    flex-flow: column nowrap;
 }
-.school-advantage-speaking:hover, .school-advantage-writing:hover, .school-advantage-interest:hover{
+/*.school-advantage-speaking:hover, .school-advantage-writing:hover, .school-advantage-interest:hover{
 	cursor: pointer;
-}
+}*/
 .school-advantage .circle{
 	height: 100px;
 	width: 100px;
 	border-radius: 50%;
-	background: #AFFDFD;
+	background: none;
 	position: relative;
 	display: flex;
+	border: 2px solid var(--blue);
+	transition: 0.3s all ease-in-out;
 }
 .school-advantage .circle:hover{
 	cursor: pointer;
+	background: var(--blue);
 }
 .school-advantage .circle span{
 	font-size: 1.5rem;
@@ -421,11 +415,14 @@ h2{
 	margin-left: -25px;
 	margin-top: -10px;
 	text-align: center;
-	color: #000;
+	color: var(--blue);
 	font-weight: 700;
 }
 .school-advantage:last-child .circle span, .approach__interest .school-advantage .circle span{
 	margin-left: -35px;
+}
+.school-advantage .circle:hover span{
+	color: #000;
 }
 .school-advantage__title{
 	display: flex;
@@ -436,6 +433,9 @@ h2{
 }
 .school-advantage-mobile-description{
 	display: none;
+}
+.approach__title{
+	color: var(--blue);
 }
 .approach__text{
 	font-size: 1.5rem;
@@ -850,7 +850,7 @@ svg polygon, svg path {
 #testimonials .carousel-inner .carousel-item{
 	position: relative;
 }
-#testimonials .carousel-inner .carousel-item:nth-child(2n):before{
+#testimonials .carousel-inner .carousel-item:before{
 	position: absolute;
 	content: "";
 	display: block;

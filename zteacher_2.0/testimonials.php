@@ -39,7 +39,7 @@
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="32" aria-label="Slide 33"></button>
     </div>
     <div class="carousel-inner" data-aos="fade-in">
-      <div class="carousel-item active" data-bs-interval="50000">
+      <div class="carousel-item active" data-bs-interval="9000000">
         <img src="img/testimonial.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item" data-bs-interval="10000">
