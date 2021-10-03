@@ -255,7 +255,7 @@ header{
 	cursor: pointer;
 }
 nav .nav-link {
-	font-size: 1rem;
+	font-size: 1.1rem;
 	margin: 0 0.5rem;
 	padding: 0.5rem 1rem;
 	color: var(--violet-90) !important;
@@ -306,6 +306,9 @@ header{
     font-weight: bold;
     font-size: 1.5rem;
     transition: all 0.3s ease-in-out;
+    color: var(--blue-100);
+    border: 2px solid var(--blue-100);
+    line-height: 1;
 }
 .btn-register{
 	width: 188px;
@@ -1081,15 +1084,16 @@ footer .credits{
 }
 #contacts .btn-general, .btn-general[type="submit"]{
 	background-color: var(--pale-pink);
-	box-shadow: 7px 7px 4px 0px #9ACDF9;
+	box-shadow: -4px 4px 5px 0px rgba(212, 54, 212, 0.5);
+	transform: translate(4px, -4px);
 }
 #contacts .btn-general:hover, .btn-general[type="submit"]:hover{
-	box-shadow: 1px 1px 1px 1px #9ACDF9;
-	transform: translateY(4px);
+	box-shadow: none;
+	transform: translate(0px, 0px);
 	color: var(--blue-100);
 }
-#contacts .btn-general:active, .btn-general[type="submit"]:active{
+/*#contacts .btn-general:active, .btn-general[type="submit"]:active{
 	transform: translateY(5px);
 	border: 1px solid #9ACDF9;
-}
+}*/
 /*__________________________________contacts end__________________________________*/
