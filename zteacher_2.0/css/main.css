@@ -14,6 +14,8 @@
 	--blue-20: #2EAAE1;
 	--blue-10: #2AADD8;
 	--blue-0: #24DAEF;
+	--violet: #8525bd;
+	--violet-picture-top: #551bbb;
 	--violet-100: #CB54FE;
 	--violet-90: #9A80FE;
 	--violet-80: #7DA3FD;
@@ -298,25 +300,24 @@ header{
 .btn-general{
     padding: 10px 20px;
     height: 53px;
-    border: none;
     border-radius: 11px;
-    background: var(--white);
+    background: none;
     position: static;
     font-weight: bold;
     font-size: 1.5rem;
-    line-height: 2rem;
     transition: all 0.3s ease-in-out;
-    color: var(--blue-100);
-}
-.btn-general:hover{
-    background: #4D56D9;
-    color: #F5F5F5;
 }
 .btn-register{
 	width: 188px;
+	font-weight: 700;
+	border: 2px solid var(--blue);
+	color: var(--blue);
+	box-shadow: -4px 4px 4px 0px rgba(37, 217, 241, 0.5);
+	transform: translate(4px, -4px);
 }
 .btn-register:hover{
-	box-shadow: 7px 7px 4px 0px #9ACDF9;
+    transform: translate(0px, 0px);
+    box-shadow: none;
 }
 .offer-right{
 	background: url(../img/statue-head.jpg) no-repeat center /cover;
@@ -329,6 +330,7 @@ header{
 h1{
 	font-size: 3rem;
 	line-height: 4rem;
+	color: var(--violet-90);
 }
 section{
 	padding-top: 100px;
@@ -359,7 +361,7 @@ section{
 	-ms-flex-flow: row wrap;
 	    flex-flow: row wrap;
 	    position: relative;
-	min-height: 600px;
+	min-height: 750px;
 }
 .approach__right__close{
 	content: "";
@@ -419,7 +421,7 @@ h2{
 	font-weight: 700;
 }
 .school-advantage:last-child .circle span, .approach__interest .school-advantage .circle span{
-	margin-left: -35px;
+	margin-left: -32px;
 }
 .school-advantage .circle:hover span{
 	color: #000;
