@@ -11,7 +11,7 @@
           <li class="footer-navigation-link"><a href="./index.php#courses"><span>Курси</span></a></li>
           <li class="footer-navigation-link"><a href="./index.php#testimonials"><span>Відгуки</span></a></li>
           <li class="footer-navigation-link"><a href="./contacts.php"><span>Контакти</span></a></li>
-          <li class="footer-navigation-link"><a type="button" data-bs-toggle="modal" data-bs-target="#trial-lesson-modal"><span>Безкоштовний урок</span></a></li>
+          <li class="footer-navigation-link"><a data-bs-toggle="modal" data-bs-target="#trial-lesson-modal"><span>Безкоштовний урок</span></a></li>
           <li class="footer-navigation-link"><a href="docs/document.docx"><span>Договір оферти</span></a></li>
         </ul>
       </div>
@@ -45,8 +45,6 @@
   <script src="js/venobox.min.js" type="text/javascript"></script><!-- videos gallery -->
   <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script><!-- courses gallery -->
   <script src="js/aos.js"></script>
-  <script src="js/particles.js"></script>
-  <script src="js/particles-app.js"></script>
   <script type="module">
 
     import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.0.1/firebase-app.js';
