@@ -338,7 +338,7 @@ header{
 h1{
 	font-size: 3rem;
 	line-height: 4rem;
-	color: var(--violet-90);
+	font-weight: 800;
 }
 section{
 	padding-top: 100px;

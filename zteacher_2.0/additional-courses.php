@@ -17,7 +17,7 @@
             <div class="col-lg-4 col-md-6" data-aos="zoom-in">
                 <a href="it-english.php" class="fancybox" rel="ligthbox">
                     <div class="course course-it-english zoom">
-                        <h3 class="course-title">Для Юних <br>IT-шників</h3>
+                        <h3 class="course-title">Для юних <br>IT-шників</h3>
                     </div>
                 </a>
             </div>
