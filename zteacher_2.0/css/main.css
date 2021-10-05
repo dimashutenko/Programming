@@ -26,7 +26,7 @@
 	--pale-violet: rgba(203, 84, 254, 0.2);
 	--pale-pink: #f8e7ff;
 	--white: #F5F5F5;
-
+	--first-picture-height: 600px;
 }
 h1,h2,h3,h4,h5{
 	margin:0;
@@ -123,7 +123,7 @@ body{
 	background: var(--pale-pink);
 }
 .zteacher-modal .modal-header{
-	padding-top: 7rem;
+	padding-top: 6rem;
 	border: none;
 	text-transform: uppercase;
 }
@@ -275,7 +275,7 @@ nav .nav-link {
 	border-bottom: 2px solid #fff;
 }
 .index-page-header .row{
-	height: 750px;
+	height: 575px;
 	position: relative;
 }
 header{
@@ -285,7 +285,7 @@ header{
 	position: relative;
 }
 .offer-left{
-	margin-top: 25%;
+	margin-top: 20%;
 	    -ms-flex-flow: column nowrap;
 	        flex-flow: column nowrap;
 }
@@ -332,8 +332,8 @@ header{
 	position: absolute;
 	left: 50%;
 	top: 0;
-	height: 750px;
-	width: 57%;
+	height: 575px;
+	width: 62%;
 }
 h1{
 	font-size: 3rem;

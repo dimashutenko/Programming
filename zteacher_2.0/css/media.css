@@ -389,6 +389,10 @@
 	.course-right{
 		margin: 0rem;
 	}
+	.zoom {
+	    width: 100%;
+	    height: 175px;
+	}
 	.mobile-course-img{
 		display: block;
 		height: 180px;
