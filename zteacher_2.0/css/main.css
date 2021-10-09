@@ -31,7 +31,6 @@
 h1,h2,h3,h4,h5{
 	margin:0;
 	font-weight: 900;
-	color: #DEDEDE;
 }
 p{
 	margin-bottom: 1.25rem;
@@ -56,6 +55,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	color: #fff;
 	background: var(--grey-100);
+	color: #DEDEDE;
 	padding-top: 8vh;
 	position: relative;
 }
@@ -316,7 +316,6 @@ header{
     line-height: 1;
 }
 .btn-register{
-	width: 188px;
 	font-weight: 700;
 	border: 2px solid var(--blue);
 	color: var(--blue);
@@ -357,11 +356,11 @@ section{
 }
 .approach__left{
 	background: url(../img/statue-head-blue.jpg) no-repeat center top /cover;
-	min-height: 710px;
+	min-height: 800px;
 	position: absolute;
 	top: 0;
-	left: -7%;
-	width: 57%;
+	left: -8%;
+	width: 58%;
 }
 .approach__right{
 	justify-content: center;
@@ -369,7 +368,7 @@ section{
 	-ms-flex-flow: row wrap;
 	    flex-flow: row wrap;
 	    position: relative;
-	min-height: 750px;
+	min-height: 800px;
 }
 .approach__right__close{
 	content: "";
@@ -438,7 +437,7 @@ h2{
 	display: flex;
 	font-weight: normal;
 	font-size: 1.75rem;
-	line-height: 3rem;
+	line-height: 2.5rem;
 	font-weight: 700;
 	text-align: center;
 }
@@ -852,14 +851,13 @@ svg polygon, svg path {
 
 #testimonials{
 	background-image: url(../img/testimonials-pic.jpg);
-	background-position: center;
+	background-position: bottom;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
-	min-height: 125vh;
+	min-height: 100vh;
 	margin-bottom: -7rem;
 }
-
 #testimonials .carousel-inner{
 	width: 40vw;
 	margin: 0 auto 3rem auto;
@@ -902,88 +900,8 @@ svg polygon, svg path {
 .carousel-control-prev:hover, .carousel-control-next:hover{
 	background: rgba(255,255,255,0.075)
 }
+/*--------------------------------testimonials end-----------*/
 
-
-/*-------carousel-----------*/
-
-#author1{
-	background: url(../img/julia.jpg) center center no-repeat;
-	background-size: cover;
-}
-#author13{
-	background: url(../img/incognito.jpg) center center no-repeat;
-	background-size: cover;
-}
-
-.emoji{
-	height: 26px;
-	width: 26px;
-	margin-bottom: -4px;
-	display: inline-block;
-}
-.smile{
-	background: url(../img/smile.png) center center no-repeat;
-	background-size: cover;
-}
-.star-struck{
-	background: url(../img/star-struck.png) center center no-repeat;
-	background-size: cover;
-}
-.thumbs-up{
-	background: url(../img/thumbs-up.png) center center no-repeat;
-	background-size: cover;
-}
-.heart-eyes{
-	background: url(../img/heart-eyes.png) center center no-repeat;
-	background-size: cover;
-}
-.heart{
-	background: url(../img/heart.png) center center no-repeat;
-	background-size: cover;
-}
-.kiss{
-	background: url(../img/kiss.png) center center no-repeat;
-	background-size: cover;
-	margin-left: 2px;
-}
-.kissing-heart{
-	background: url(../img/kissing-heart.png) center center no-repeat;
-	background-size: cover;
-	margin-left: 3px;
-}
-.one-hundred{
-	background: url(../img/100.png) center center no-repeat;
-	background-size: cover;
-	margin-bottom: -6px;
-}
-.thinking-face{
-	background: url(../img/thinking-face.png) center center no-repeat;
-	background-size: cover;
-}
-.eyebrow{
-	background: url(../img/eyebrow.png) center center no-repeat;
-	background-size: cover;
-}
-.wink{
-	background: url(../img/winking-face.png) center center no-repeat;
-	background-size: cover;
-	margin-bottom: -6px;
-}
-.fire{
-	background: url(../img/fire.gif) no-repeat;
-	background-size: cover;
-	background-size: 20px 26px;
-	width: 20px;
-}
-.party-popper{
-	background: url(../img/party-popper.png) no-repeat;
-	background-size: cover;
-}
-.flower{
-	background: url(../img/flower.png) no-repeat;
-	background-size: cover;
-}
-/*-----------------------------*/
 footer{
 	margin-top: 7rem;
 	padding: 3rem 1rem 2rem 1rem;
@@ -1108,8 +1026,4 @@ footer .credits{
 	transform: translate(0px, 0px);
 	color: var(--blue-100);
 }
-/*#contacts .btn-general:active, .btn-general[type="submit"]:active{
-	transform: translateY(5px);
-	border: 1px solid #9ACDF9;
-}*/
 /*__________________________________contacts end__________________________________*/

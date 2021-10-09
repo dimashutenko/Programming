@@ -21,7 +21,7 @@
               </p>
             </div>
           </div>
-          <div class="school-advantage school-advantage-writing" data-aos="zoom-in-up">
+          <div class="school-advantage school-advantage-writing" data-aos="zoom-in-up" data-aos-offset="50">
             <div class="circle"><span class="percentage">10%</span></div>
             <h3 class="school-advantage__title">Писання</h3>
             <a href="javascript:;" class="approach__more__text d-flex" onclick="approach__more__text(this, '.approach__writing')">Детальніше</a>
@@ -34,7 +34,7 @@
               </p>
             </div>
           </div>
-          <div class="school-advantage school-advantage-interest" data-aos="zoom-in-up">
+          <div class="school-advantage school-advantage-interest" data-aos="zoom-in-up" data-aos-offset="10">
             <div class="circle"><span class="percentage">100%</span></div>
             <h3 class="school-advantage__title">Фокус на інтереси студента</h3>
             <a href="javascript:;" class="approach__more__text d-flex" onclick="approach__more__text(this, '.approach__interest')">Детальніше</a>

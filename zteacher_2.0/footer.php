@@ -1,5 +1,4 @@
-
-<footer class="footer bg-dark" id="footer" data-aos="fade-in">
+<footer class="footer bg-dark" id="footer" data-aos="fade-in" data-aos-offset="100">
   <div class="container">
     <div class="row">
       <div class="col-lg-5 footer-logo d-flex align-items-center">

@@ -69,8 +69,6 @@
 	    margin: 0rem 0 2rem 0;
 	}
 	
-
-
 	#contacts{
 		margin: 6rem 0;
 	}
@@ -95,16 +93,6 @@
 		font-size: 1rem;
 		line-height: 1.25rem;
 	}
-
-	.emoji{
-		height: 22px;
-		width: 22px;
-	}
-	.fire{
-		background-size: 18px 23px;
-		width: 18px;
-	}
-
 	
 	.developer__link:hover{
 		color: #fff;
@@ -141,14 +129,6 @@
 		display: none;
 	}
 	
-	.emoji{
-		height: 20px;
-		width: 20px;
-	}
-	.fire{
-		background-size: 17px 22px;
-		width: 17px;
-	}
 
 }
 
@@ -425,12 +405,16 @@
 
 
 	#testimonials{
-		min-height: 90vh;
+		min-height: 400px;
+		background: #ead2f4;
+		position: relative;
+		padding: 3rem 0;
+		margin-bottom: 0rem;
 	}
 	#testimonials .carousel-inner{
 		width: 100vw;
-		margin: 0 auto 3rem auto;
-		padding-bottom: 1rem;
+		margin: 0 auto;
+		padding-bottom: 0;
 	}
 	.carousel-control-prev, .carousel-control-next{
 		margin: auto 0;
@@ -446,7 +430,7 @@
 	}
 
 	footer{
-		margin-top: 5rem;
+		margin-top: 0rem;
 		padding: 2rem 0.5rem;
 	}
 	.footer-logo{
@@ -508,19 +492,6 @@
 		height: auto;
 		font-size: 1rem;
 		line-height: 1.25rem;
-	}
-
-
-
-	
-	.emoji{
-		height: 18px;
-		width: 18px;
-		margin-bottom: -3px;
-	}
-	.fire{
-		background-size: 14px 18px;
-		width: 14px;
 	}
 
 	
