@@ -56,7 +56,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	color: #fff;
 	background: var(--grey-100);
-	padding-top: 10vh;
+	padding-top: 8vh;
 	position: relative;
 }
 .preloader{
@@ -336,7 +336,7 @@ header{
 	width: 62%;
 }
 h1{
-	font-size: 3rem;
+	font-size: 2.75rem;
 	line-height: 4rem;
 	font-weight: 800;
 }
