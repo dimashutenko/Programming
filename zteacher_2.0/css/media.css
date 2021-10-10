@@ -391,6 +391,7 @@
 	}
 	.to-courses-btn-container{
 		margin-top: 2rem;
+		margin-bottom: 2rem;
 	}
 	.to-courses-btn{
 		width: auto;
@@ -402,7 +403,6 @@
 	.course-left-babies{
 		background: url(../img/baby-angels.png) no-repeat 0 -50px /cover;
 	}
-
 
 	#testimonials{
 		min-height: 400px;

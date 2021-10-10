@@ -681,8 +681,8 @@ h2{
 .to-courses-btn-container{
 	margin-top: 4rem;
 }
-.to-courses-btn{
-	/*width: auto;*/
+.to-courses-btn:hover{
+	color: var(--blue);
 }
 /*-------------------------------back arrow--------https://codemyui.com/back-forward-arrow-animation-using-svg/--------*/
 svg {
@@ -691,7 +691,7 @@ svg {
 	 margin-left: 1rem;
 	 cursor: pointer;
 	 overflow: visible;
-	 fill: var(--blue-100);
+	 fill: var(--blue);
 }
 svg polygon, svg path {
 	 transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
@@ -741,7 +741,6 @@ svg polygon, svg path {
 	background: var(--grey-100);
 	padding-bottom: 2rem;
 }
-
 .videos-gallery{
 	width: 100%;
 	display: grid;
@@ -901,7 +900,6 @@ svg polygon, svg path {
 	background: rgba(255,255,255,0.075)
 }
 /*--------------------------------testimonials end-----------*/
-
 footer{
 	margin-top: 7rem;
 	padding: 3rem 1rem 2rem 1rem;
@@ -937,7 +935,7 @@ footer a span{
 	transition: all .3s ease-in-out;
 }
 footer a:hover span{
-	color: var(--violet-90);
+	color: var(--blue);
 	text-decoration: none;
 }
 footer p{
@@ -964,7 +962,7 @@ footer .credits{
 	transition: all 0.3s ease-in-out;
 }
 .developer__link:hover{
-	color: var(--blue-60);
+	color: var(--blue);
 	text-decoration:none;
 }
 .developer__link i{
