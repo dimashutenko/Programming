@@ -1,4 +1,4 @@
-<div class="to-courses-btn-container"> 
+<div class="to-courses-btn-container" data-aos="fade-in"> 
   <div class="d-none d-md-block justify-content-center">
     <a class="btn-general btn-register to-courses-btn" type="button" href="./index.php#courses">
       <svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">

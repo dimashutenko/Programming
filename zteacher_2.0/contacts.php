@@ -19,7 +19,7 @@
 
       <?php include ('navigation.php'); ?>
       
-      <section class="section" id="contacts">
+      <section class="section" id="contacts" data-aos="fade-in">
         <div class="container">
           <?php include ('socials.php'); ?>
           <a href="https://www.instagram.com/zteacher_language_school/" class="instagram-link">
@@ -32,8 +32,6 @@
       </section>
 
       <?php include ('footer.php'); ?>
-
-
       
     </body>
   </head>
