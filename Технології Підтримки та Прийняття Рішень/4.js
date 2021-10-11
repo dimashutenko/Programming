@@ -5,21 +5,26 @@ console.log('\n f = C*a2\n');
 console.log('\n X = R*sin(f)*0.1\n');
 console.log(' де Х – випадкова величини з нормальним законом розподілу, що приймає значення у межах 0 ÷ 1.');
  
-var C = 2; // коефіцієнт  ----- k->C
+var C = 2; // коефіцієнт 
 var results = {
-    'total' : [],
+    'R' : [],
+    'f' : [],
     'X' : []
 }; // масив результатів
  
-for(var i = 0; i < 20; i++){
+for(var i = 0; i < 10; i++){
     workLinePreview(C); // отримання результату при рандомному значені
 }
  
 console.table(results); // відображення результатів
  
 function workLinePreview(k){
-    var X = Math.round(Math.random()) // random() генерує значення від 0 до 1, а round заокруглює в ту чи іншу сторону
-    var res = 25 + 3 * Math.pow(k, 2) + X;
-    results.total.push(res);
+    var a1 = Math.round(Math.random()); // random() генерує значення від 0 до 1, а round заокруглює в ту чи іншу сторону
+    var a2 = Math.round(Math.random());
+    var R = Math.sqrt(-2*Math.log(a1));
+    results.R.push(R);
+    var f = C*a2;
+    results.f.push(f);
+    var X = R*Math.sin(f)*0.1;
     results.X.push(X);
 }
