@@ -1,0 +1,56 @@
+.header-wrapper {
+    background: url(../img/boys-coding.jpg) center top  no-repeat;
+    background-size: cover;
+}
+.teachers-img{
+	width: 50px;
+	border-radius: 50%;
+	margin-left: 30px;
+}
+
+
+.it-list__item:last-child{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-flow: row wrap;
+	        flex-flow: row wrap;
+}
+.specialist{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	position: relative;
+	margin-right: 10px;
+	color: rgba(42,170,221,1);
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.specialist:after{
+	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	content: '';
+	height: 20px;
+	width: 20px;
+	right: -17px;
+	top: -5px;
+	background: url(../img/in.png) no-repeat;
+	background-size: 20px 20px;
+}
+.it-list__item span{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 0 0 0 10px;
+}
+.specialist:hover{
+	color: #390e6a;
+}
+#course-main{
+	margin-bottom: 100px;
+}

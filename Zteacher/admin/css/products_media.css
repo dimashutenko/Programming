@@ -1,0 +1,21 @@
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+	
+}
+@media (max-width: 768px) {
+	.course-teachers {
+		margin-top: -40px;
+	}
+}
+@media (max-width: 576px) {
+	
+	.course-main-info p {
+		font-size: 1.25rem;
+	}
+	.course-info p ,.course-details ul, .course-info details{
+		font-size: 1.1rem;
+	}
+	
+}
