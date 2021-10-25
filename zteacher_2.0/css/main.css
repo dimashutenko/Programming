@@ -581,7 +581,7 @@ h2{
 	z-index: 1;
 }
 .z-index-99999{
-	z-index: 99999;
+	z-index: 999;
 }
 /*courses*/
 .course-left{
@@ -807,10 +807,10 @@ svg polygon, svg path {
 	background-image: url(../img/eating_sounds.png);
 }
 .older-videos-gallery a:nth-child(8) .gallery-video{
-	
+	background-image: url(../img/horror.jpg);
 }
 .older-videos-gallery a:nth-child(9) .gallery-video{
-	
+	background-image: url(../img/open-a-window.png);
 }
 .videos-gallery .gallery-video i{
 	position: absolute;

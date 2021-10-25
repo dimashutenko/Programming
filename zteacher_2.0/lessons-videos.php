@@ -68,10 +68,10 @@
                 <a class="venobox d-none d-lg-flex" data-autoplay="true" data-vbtype="video" data-gall="VideoGallery-older" href="https://youtu.be/vFX2Ynnff38" data-aos="zoom-in">
                   <div class="gallery-video"><i class="bi bi-youtube"></i></div> <!-- 7 -->
                 </a>
-                <a class="venobox d-none d-lg-flex" data-autoplay="true" data-vbtype="video" data-gall="VideoGallery-older" href="" data-aos="zoom-in">
+                <a class="venobox d-none d-lg-flex" data-autoplay="true" data-vbtype="video" data-gall="VideoGallery-older" href="https://youtu.be/vSL3-0nwwnk" data-aos="zoom-in">
                   <div class="gallery-video"><i class="bi bi-youtube"></i></div> <!-- 8 -->
                 </a>
-                <a class="venobox d-none d-lg-flex" data-autoplay="true" data-vbtype="video" data-gall="VideoGallery-older" href="" data-aos="zoom-in">
+                <a class="venobox d-none d-lg-flex" data-autoplay="true" data-vbtype="video" data-gall="VideoGallery-older" href="https://youtu.be/yD026ibQ9jE" data-aos="zoom-in">
                   <div class="gallery-video"><i class="bi bi-youtube"></i></div> <!-- 9 -->
                 </a>
             </div>
