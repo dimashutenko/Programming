@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-5 footer-logo d-flex align-items-center">
-        <img class="w-50 d-flex" src="img/zteacher.png" alt="Zteacher logo">
+        <img class="w-50 d-flex" src="img/theteacher.png" alt="Zteacher logo">
       </div>
       <div class="col-lg-7 col-xl-7 d-flex align-items-center justify-content-center">
         <ul class="footer-navigation">
@@ -28,7 +28,7 @@
         </div>
       </div>
       <div class="offset-lg-1 col-lg-4 credits">
-        <p class="ml-auto">&copy; Zteacher Language School 2021</p>
+        <p class="ml-auto">&copy; TheTeacher Language School <?php echo date("Y"); ?></p>
         <p class="developer">Web-design: 
           <a class="developer__link d-flex" href="https://www.facebook.com/yulia.kharchenko.18/" target="_blank">Yuliya Kharchenko</a>
         </p>

@@ -96,7 +96,7 @@ body{
 .zteacher-modal .modal-content:before{
 	position: absolute;
 	display: flex;
-	content: "Your password to the world: #Zteacher";
+	content: "Your password to the world: #TheTeacher";
 	top: 45%;
 	left: -10%;
 	font-size: 2rem;
@@ -109,7 +109,7 @@ body{
 .zteacher-modal .modal-content:after{
 	position: absolute;
 	display: flex;
-	content: "Your password to the world: #Zteacher";
+	content: "Your password to the world: #TheTeacher";
 	top: 45%;
 	right: -10%;
 	font-size: 2rem;
@@ -327,7 +327,7 @@ header{
     box-shadow: none;
 }
 .offer-right{
-	background: url(../img/statue-head.jpg) no-repeat center /cover;
+	background: url(../img/theteacher1.jpg) no-repeat center /cover;
 	position: absolute;
 	left: 50%;
 	top: 0;
@@ -355,7 +355,7 @@ section{
 	position: relative;
 }
 .approach__left{
-	background: url(../img/statue-head-blue.jpg) no-repeat center top /cover;
+	background: url(../img/theteacher2.jpg) no-repeat center top /cover;
 	min-height: 800px;
 	position: absolute;
 	top: 0;
@@ -849,7 +849,7 @@ svg polygon, svg path {
 /*__________________________________testimonials______+____________________________*/
 
 #testimonials{
-	background-image: url(../img/testimonials-pic.jpg);
+	background-image: url(../img/theteacher2.jpg);
 	background-position: bottom;
 	background-attachment: fixed;
 	background-size: cover;

@@ -4,15 +4,15 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <?php include ('head.php'); ?>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/the.ico" type="image/x-icon">
     <meta name="description" content="Zteacher Language School"> <!-- Whats app description-->
     <meta name="keywords" content="zteacher, English, learning">
     <meta property="og:title" content="Get your password to the world. Study with us!">
     <meta property="og:description" content=""> <!-- bottom-->
     <meta property="og:type" content="article">
-    <meta property="og:image" content="img/favicon.ico">
+    <meta property="og:image" content="img/the.ico">
     <meta property="og:site_name" content="Zteacher Language School">
-    <title>Zteacher Language School</title>
+    <title>TheTeacher Language School</title>
     <body>
 
       <div class="preloader"><div class="dot-carousel"></div></div>

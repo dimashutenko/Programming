@@ -1,0 +1,53 @@
+body{
+	background: none;
+}
+header{
+	background: none;
+	height: auto;
+}
+#contacts{
+	background-image: url(../img/pattern.png);
+	padding: 0;
+	color: #2c3038;
+	margin-bottom:100px;
+}
+.contacts__title{
+	margin: 0 0 25px 0;
+}
+.contacts__description{
+	margin: 0 auto;
+	text-align: center;
+}
+#contacts h3{
+	font-size: 1.5rem;
+}
+.networks-title{
+	margin: 75px 0 30px 0;
+	text-align: center;
+	font-size: 2.5rem;
+}
+#contacts .row:nth-child(5) a{
+	width: 100%;
+	height: 100%;
+}
+.telegram-bg, .instagram-bg, .facebook-bg, .tiktok-bg{
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	background-color: #000;
+	-webkit-box-shadow: 0px 0px 8px 0.5px #000;
+	        box-shadow: 0px 0px 8px 0.5px #000;
+	-webkit-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+.telegram-bg i, .instagram-bg i, .facebook-bg i{
+	font-size: 32px;
+	color: #fff;
+}
+.tiktok-img{
+	background: url(../img/tiktok.png);
+	width: 50%;
+	height: 50%;
+	background-size: cover;
+}
