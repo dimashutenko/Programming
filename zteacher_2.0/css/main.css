@@ -327,7 +327,7 @@ header{
     box-shadow: none;
 }
 .offer-right{
-	background: url(../img/theteacher1.jpg) no-repeat center /cover;
+	background: url(../img/theteacher1.png) no-repeat center /cover;
 	position: absolute;
 	left: 50%;
 	top: 0;
@@ -355,7 +355,7 @@ section{
 	position: relative;
 }
 .approach__left{
-	background: url(../img/theteacher2.jpg) no-repeat center top /cover;
+	background: url(../img/theteacher2.png) no-repeat center top /cover;
 	min-height: 800px;
 	position: absolute;
 	top: 0;
@@ -492,9 +492,9 @@ h2{
 }
 .course-title{
 	color: #fff;
-	line-height: 2.5rem;
+	line-height: 2.25rem;
 	font-weight: 600;
-	font-size: 2rem;
+	font-size: 1.75rem;
 	text-align: center;
 	text-align: center;
 	display: flex;
@@ -849,7 +849,7 @@ svg polygon, svg path {
 /*__________________________________testimonials______+____________________________*/
 
 #testimonials{
-	background-image: url(../img/theteacher2.jpg);
+	background-image: url(../img/testimonials-pic.png);
 	background-position: bottom;
 	background-attachment: fixed;
 	background-size: cover;

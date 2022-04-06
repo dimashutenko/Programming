@@ -351,13 +351,13 @@
 	    height: 1rem;
 	}
 	.course-title{
-		line-height: 2rem;
-		font-size: 1.25rem;
+		line-height: 1.5rem;
+		font-size: 1.15rem;
 	}
 	.course-title-small{
 		font-size: 0.75rem;
-		line-height: 1.5rem;
-		margin-top: 2rem;
+		line-height: 1.25rem;
+		margin-top: 1.5rem;
 	}
 	.course-page-title{
 		font-size: 1.25rem;
