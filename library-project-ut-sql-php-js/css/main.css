@@ -1,0 +1,218 @@
+:root{
+	--grey-100: #191919;
+	--grey-90: #202020;
+	--grey-80: #2F2F2F;
+	--blue: #25D9F1;
+	--blue-100: #3540D4;
+	--blue-90: #2B5DD0;
+	--blue-80: #2960C6;
+	--blue-60: #2688CF; 
+	--blue-40: #2886CB;
+	--blue-20: #2EAAE1;
+	--blue-10: #2AADD8;
+	--blue-0: #24DAEF;
+	--violet: #8525bd;
+	--violet-picture-top: #551bbb;
+	--violet-100: #CB54FE;
+	--violet-90: #9A80FE;
+	--violet-80: #7DA3FD;
+	--violet-60: #5AD3FC;
+	--violet-40: #4EE6FD;
+	--violet-20: #49E6FC;
+	--violet-10: #AFFDFD;
+	--pale-violet: rgba(203, 84, 254, 0.2);
+	--white: #F5F5F5;
+
+}
+h1,h2,h3,h4,h5{
+	margin:0;
+	font-weight: 900;
+	color: var(--violet-90);
+}
+p{
+	margin-bottom: 1.25rem;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+a, a:hover, input, button, .button, .button:active, .button:focus, span, summary, details{
+	outline: none;
+	text-decoration: none;
+}
+.line-breaker{
+	display: inline-block;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+}
+
+header{
+	margin-top: 1rem;
+}
+.navbar{
+	transition: all .5s ease-in-out;
+	width: 100%;
+	z-index: 1;
+}
+.navbar .navbar-nav{
+	margin-top: 1rem;
+}
+.navbar a{
+	height: 100%;
+}
+.navbar-brand {
+    width: 225px;
+    position: relative;
+}
+.navbar-brand img{
+	height: 90px;
+	/*width: 225px;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.navbar .navbar-brand:hover, .navbar .nav-item{
+	cursor: pointer;
+}
+nav .nav-link {
+	font-size: 1.1rem;
+	margin: 0 0.5rem;
+	padding: 0.5rem 1rem;
+	color: var(--violet-90) !important;
+}
+.navbar-nav .nav-link span{
+	transition: all 0.3s ease-in-out;
+	padding-bottom: 0.5rem;
+	border-bottom: 2px solid var(--violet-90);
+}
+.navbar-nav .nav-link:hover span{
+	color: var(--white);
+	border-bottom: 2px solid #fff;
+}
+table th, table td{
+	border-width: 1px;
+}
+th, td {
+  padding: 0.25rem;
+}
+header{
+/*	overflow: hidden;*/
+}
+.header-wrapper .row{
+	position: relative;
+}
+
+h1{
+	font-size: 3rem;
+	line-height: 4rem;
+}
+section{
+	padding-top: 1rem;
+}
+.container{
+	max-width: 90%;
+	margin: 0 auto;
+}
+.zoom {
+    width: 100%;
+    height: 250px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    position: relative;
+}
+.transition {
+    -webkit-transform: scale(1.25); 
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+    position: relative;
+}
+.transition:after{
+	content: "";
+	position: absolute;
+	left: 0; right: 0;
+	top: 0; bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--pale-violet);
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+.z-index-1{
+	z-index: 1;
+}
+.z-index-99999{
+	z-index: 99999;
+}
+
+/*-----------------------------*/
+footer{
+	margin-top: 7rem;
+	padding: 3rem 1rem 2rem 1rem;
+	color: #fff;
+}
+.footer-navigation{
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: -2rem;
+}
+.footer-navigation li{
+	font-size: 1.25rem;
+	display: flex;
+	width: 50%;
+	padding: 2rem;
+	background: none;
+}
+.footer-navigation li:last-child, .footer-navigation li:nth-child(n-1){
+	padding-bottom: 0rem;
+}
+footer a span{
+	color: #fff;
+	transition: all .3s ease-in-out;
+}
+footer a:hover span{
+	color: var(--violet-90);
+	text-decoration: none;
+}
+footer p{
+	font-size: 1rem;
+	display: flex;
+}
+footer .black-slogan-total{
+	background: -webkit-linear-gradient(0deg, rgb(45,64,203), rgb(37,217,241));
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+footer .black-slogan:first-child{
+	margin-top: 3rem;
+	margin-right: 0.25rem;
+}
+footer .credits{
+	margin-top: 0.5rem;
+}
+.developer__link{                   
+	color: #fff;
+	margin-left: 0.5rem;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.developer__link:hover{
+	color: var(--blue-60);
+	text-decoration:none;
+}
+.developer__link i{
+	margin-left: 4px;
+	font-size: 0.75rem;
+}

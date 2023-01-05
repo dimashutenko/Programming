@@ -1,0 +1,12 @@
+sID,firstname,lastname,email,phone,postal_code,username,password,registered,rental_num
+1,Alexis,Hickle,alexis_hickle@gmail.com,38001001001,112,alex0,1001,1,0
+2,Clare,Durgan,clare_durgan@gmail.com,38001001002,134,clar1,1002,1,0
+3,Pierre,Greenholt,pierre_greenholt@gmail.com,38001001003,267,pi45,1003,1,0
+4,Tess,Beatty,tess_beatty@gmail.com,38001001004,234,tess998,1004,1,0
+5,Moses,Legros,moses_legros@gmail.com,38001001005,456,mos09,1005,1,0
+6,Danika,Kshlerin,danika_kshlerin@gmail.com,38001001006,345,dan_0,1006,1,0
+7,Rachel,Schulist,rachel_schulist@gmail.com,38001001007,321,ras_1,1007,1,0
+8,Alisha,Swift,alisha_swift@gmail.com,38001001008,576,alis_1,1008,1,0
+9,Micheal,Boyer,micheal_boyer@gmail.com,38001001009,786,micmic,1009,1,0
+10,Jermey,Nolan,jermey_nolan@gmail.com,38001001010,567,jeronimo,1010,1,0
+11,henz,Brown,henz_brown@gmail.com,38001001011,987,heinselman,1011,1,0

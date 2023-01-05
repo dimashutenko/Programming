@@ -1,0 +1,14 @@
+cbID,barcode,price,purchase_date,status,book_ISBN
+1,ABCD0001,23,2020-02-21,available,1
+2,ABCD0002,15,2020-02-28,unavailable,2
+3,ABCD0003,30,2020-02-28,unavailable,2
+4,ABCD0004,10,2020-02-28,available,3
+5,ABCD0005,12,2020-03-06,unavailable,7
+6,ABCD0006,11,2020-03-13,available,8
+7,ABCD0007,8,2020-03-20,unavailable,3
+8,ABCD0008,20,2020-03-20,unavailable,3
+9,ABCD0009,25,2020-03-20,available,7
+10,ABCD0010,16,2020-03-20,unavailable,9
+11,ABCD0011,19,2020-03-27,available,10
+12,ABCD0012,21,2020-04-03,unavailable,10
+13,ABCD0013,14,2020-04-10,available,10

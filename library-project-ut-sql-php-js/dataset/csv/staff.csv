@@ -1,0 +1,6 @@
+sID,s_username,password,role
+1,shutenko,password,admin
+2,librarian1,L3001,librarian
+3,admin2,A2002,admin
+4,librarian2,L3002,librarian
+5,librarian3,L3003,librarian
