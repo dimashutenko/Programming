@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: sorting of sorted list takes a lot less time than sorting of random list
+
+sort2 uses: Merge Sort
+
+How do you know?: equally fast sorts both radom and sorted lists
+
+sort3 uses: Selection Sort
+
+How do you know?: equally slow sorting of both radom and sorted lists

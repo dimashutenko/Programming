@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>Which of these is a terrorist coutry? </h3>
+                <button type = "submit" class="btn q1" id="q1_a1">
+                    Canada
+                </button>
+                <button type = "submit" class="btn q1" id="q1_a2">
+                    Russia
+                </button>
+                <button type = "submit" class="btn q1" id="q1_a3">
+                    France
+                </button>
+                <p class="message" id="q1_m1">Incorrent</p>
+                <p class="message" id="q1_m2">Corrent!</p>
+                <p class="message" id="q1_m3">Incorrent</p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>What coutry will defeat the terrorist? </h3>
+                <input type="text" id="q2_a1" placeholder="Country">
+                <button type="submit" class="btn" id="q2_btn" onclick="">Submit</button>
+                <p id="q2_m1"></p>
+            </div>
+        </div>
+    <script src="./main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+Since I receide the folliwing results:
+select avg(danceability) from songs; -> 0.71646
+select avg(energy) from songs; -> 0.65906
+select avg(valence) from songs; -> 0.484443
+I have to conclude the person may like dancing music which is more energetic than agerage but less cheerful.
+
+In my opinion it's not representative enough since it's not weighted. Solution - weight my number of times listened.
